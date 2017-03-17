@@ -1484,58 +1484,87 @@ fail: ;
 #define SWIGTYPE_p_ArgDef swig_types[0]
 #define SWIGTYPE_p_AttrDef swig_types[1]
 #define SWIGTYPE_p_Reflection swig_types[2]
-#define SWIGTYPE_p_char swig_types[3]
-#define SWIGTYPE_p_f_r_q_const__string__void swig_types[4]
-#define SWIGTYPE_p_google__protobuf__Arena swig_types[5]
-#define SWIGTYPE_p_google__protobuf__Descriptor swig_types[6]
-#define SWIGTYPE_p_google__protobuf__EnumValueDescriptor swig_types[7]
-#define SWIGTYPE_p_google__protobuf__FieldDescriptor swig_types[8]
-#define SWIGTYPE_p_google__protobuf__Message swig_types[9]
-#define SWIGTYPE_p_google__protobuf__MessageFactory swig_types[10]
-#define SWIGTYPE_p_google__protobuf__MessageLite swig_types[11]
-#define SWIGTYPE_p_google__protobuf__Metadata swig_types[12]
-#define SWIGTYPE_p_google__protobuf__OneofDescriptor swig_types[13]
-#define SWIGTYPE_p_google__protobuf__Reflection swig_types[14]
-#define SWIGTYPE_p_google__protobuf__RepeatedPtrFieldT_tensorflow__OpDef_ArgDef_t swig_types[15]
-#define SWIGTYPE_p_google__protobuf__RepeatedPtrFieldT_tensorflow__OpDef_AttrDef_t swig_types[16]
-#define SWIGTYPE_p_google__protobuf__RepeatedPtrFieldT_tensorflow__OpDef_t swig_types[17]
-#define SWIGTYPE_p_google__protobuf__UnknownFieldSet swig_types[18]
-#define SWIGTYPE_p_google__protobuf__internal__ExplicitlyConstructedT_tensorflow__OpDef_ArgDef_t swig_types[19]
-#define SWIGTYPE_p_google__protobuf__internal__ExplicitlyConstructedT_tensorflow__OpDef_AttrDef_t swig_types[20]
-#define SWIGTYPE_p_google__protobuf__internal__ExplicitlyConstructedT_tensorflow__OpDef_t swig_types[21]
-#define SWIGTYPE_p_google__protobuf__internal__ExplicitlyConstructedT_tensorflow__OpDeprecation_t swig_types[22]
-#define SWIGTYPE_p_google__protobuf__internal__ExplicitlyConstructedT_tensorflow__OpList_t swig_types[23]
-#define SWIGTYPE_p_google__protobuf__io__CodedInputStream swig_types[24]
-#define SWIGTYPE_p_google__protobuf__io__CodedOutputStream swig_types[25]
-#define SWIGTYPE_p_google__protobuf__io__ZeroCopyInputStream swig_types[26]
-#define SWIGTYPE_p_google__protobuf__io__ZeroCopyOutputStream swig_types[27]
-#define SWIGTYPE_p_int16_t swig_types[28]
-#define SWIGTYPE_p_int32_t swig_types[29]
-#define SWIGTYPE_p_int64_t swig_types[30]
-#define SWIGTYPE_p_int8_t swig_types[31]
-#define SWIGTYPE_p_size_type swig_types[32]
-#define SWIGTYPE_p_std__istream swig_types[33]
-#define SWIGTYPE_p_std__ostream swig_types[34]
-#define SWIGTYPE_p_std__string swig_types[35]
-#define SWIGTYPE_p_std__vectorT_google__protobuf__FieldDescriptor_const_p_t swig_types[36]
-#define SWIGTYPE_p_std__vectorT_string_t swig_types[37]
-#define SWIGTYPE_p_std__string swig_types[38]
-#define SWIGTYPE_p_tensorflow__AttrValue swig_types[39]
-#define SWIGTYPE_p_tensorflow__DataType swig_types[40]
-#define SWIGTYPE_p_tensorflow__OpDef swig_types[41]
-#define SWIGTYPE_p_tensorflow__OpDef_ArgDef swig_types[42]
-#define SWIGTYPE_p_tensorflow__OpDef_AttrDef swig_types[43]
-#define SWIGTYPE_p_tensorflow__OpDeprecation swig_types[44]
-#define SWIGTYPE_p_tensorflow__OpList swig_types[45]
-#define SWIGTYPE_p_tensorflow__StringPiece swig_types[46]
-#define SWIGTYPE_p_uint16_t swig_types[47]
-#define SWIGTYPE_p_uint32_t swig_types[48]
-#define SWIGTYPE_p_uint64_t swig_types[49]
-#define SWIGTYPE_p_uint8_t swig_types[50]
-#define SWIGTYPE_p_unsigned_int swig_types[51]
-#define SWIGTYPE_p_void swig_types[52]
-static swig_type_info *swig_types[54];
-static swig_module_info swig_module = {swig_types, 53, 0, 0, 0, 0};
+#define SWIGTYPE_p_TF_AttrMetadata swig_types[3]
+#define SWIGTYPE_p_TF_AttrType swig_types[4]
+#define SWIGTYPE_p_TF_Buffer swig_types[5]
+#define SWIGTYPE_p_TF_Code swig_types[6]
+#define SWIGTYPE_p_TF_DataType swig_types[7]
+#define SWIGTYPE_p_TF_DeprecatedSession swig_types[8]
+#define SWIGTYPE_p_TF_Graph swig_types[9]
+#define SWIGTYPE_p_TF_ImportGraphDefOptions swig_types[10]
+#define SWIGTYPE_p_TF_Input swig_types[11]
+#define SWIGTYPE_p_TF_Library swig_types[12]
+#define SWIGTYPE_p_TF_Operation swig_types[13]
+#define SWIGTYPE_p_TF_OperationDescription swig_types[14]
+#define SWIGTYPE_p_TF_Output swig_types[15]
+#define SWIGTYPE_p_TF_Session swig_types[16]
+#define SWIGTYPE_p_TF_SessionOptions swig_types[17]
+#define SWIGTYPE_p_TF_Status swig_types[18]
+#define SWIGTYPE_p_TF_Tensor swig_types[19]
+#define SWIGTYPE_p_char swig_types[20]
+#define SWIGTYPE_p_f_p_void_size_t__void swig_types[21]
+#define SWIGTYPE_p_f_p_void_size_t_p_void__void swig_types[22]
+#define SWIGTYPE_p_f_r_q_const__string__void swig_types[23]
+#define SWIGTYPE_p_float swig_types[24]
+#define SWIGTYPE_p_google__protobuf__Arena swig_types[25]
+#define SWIGTYPE_p_google__protobuf__Descriptor swig_types[26]
+#define SWIGTYPE_p_google__protobuf__EnumValueDescriptor swig_types[27]
+#define SWIGTYPE_p_google__protobuf__FieldDescriptor swig_types[28]
+#define SWIGTYPE_p_google__protobuf__Message swig_types[29]
+#define SWIGTYPE_p_google__protobuf__MessageFactory swig_types[30]
+#define SWIGTYPE_p_google__protobuf__MessageLite swig_types[31]
+#define SWIGTYPE_p_google__protobuf__Metadata swig_types[32]
+#define SWIGTYPE_p_google__protobuf__OneofDescriptor swig_types[33]
+#define SWIGTYPE_p_google__protobuf__Reflection swig_types[34]
+#define SWIGTYPE_p_google__protobuf__RepeatedPtrFieldT_tensorflow__OpDef_ArgDef_t swig_types[35]
+#define SWIGTYPE_p_google__protobuf__RepeatedPtrFieldT_tensorflow__OpDef_AttrDef_t swig_types[36]
+#define SWIGTYPE_p_google__protobuf__RepeatedPtrFieldT_tensorflow__OpDef_t swig_types[37]
+#define SWIGTYPE_p_google__protobuf__UnknownFieldSet swig_types[38]
+#define SWIGTYPE_p_google__protobuf__internal__ExplicitlyConstructedT_tensorflow__OpDef_ArgDef_t swig_types[39]
+#define SWIGTYPE_p_google__protobuf__internal__ExplicitlyConstructedT_tensorflow__OpDef_AttrDef_t swig_types[40]
+#define SWIGTYPE_p_google__protobuf__internal__ExplicitlyConstructedT_tensorflow__OpDef_t swig_types[41]
+#define SWIGTYPE_p_google__protobuf__internal__ExplicitlyConstructedT_tensorflow__OpDeprecation_t swig_types[42]
+#define SWIGTYPE_p_google__protobuf__internal__ExplicitlyConstructedT_tensorflow__OpList_t swig_types[43]
+#define SWIGTYPE_p_google__protobuf__io__CodedInputStream swig_types[44]
+#define SWIGTYPE_p_google__protobuf__io__CodedOutputStream swig_types[45]
+#define SWIGTYPE_p_google__protobuf__io__ZeroCopyInputStream swig_types[46]
+#define SWIGTYPE_p_google__protobuf__io__ZeroCopyOutputStream swig_types[47]
+#define SWIGTYPE_p_int swig_types[48]
+#define SWIGTYPE_p_int16_t swig_types[49]
+#define SWIGTYPE_p_int32_t swig_types[50]
+#define SWIGTYPE_p_int64_t swig_types[51]
+#define SWIGTYPE_p_int8_t swig_types[52]
+#define SWIGTYPE_p_p_TF_Buffer swig_types[53]
+#define SWIGTYPE_p_p_TF_Operation swig_types[54]
+#define SWIGTYPE_p_p_TF_Tensor swig_types[55]
+#define SWIGTYPE_p_p_char swig_types[56]
+#define SWIGTYPE_p_p_int64_t swig_types[57]
+#define SWIGTYPE_p_p_void swig_types[58]
+#define SWIGTYPE_p_size_t swig_types[59]
+#define SWIGTYPE_p_size_type swig_types[60]
+#define SWIGTYPE_p_std__istream swig_types[61]
+#define SWIGTYPE_p_std__ostream swig_types[62]
+#define SWIGTYPE_p_std__string swig_types[63]
+#define SWIGTYPE_p_std__vectorT_google__protobuf__FieldDescriptor_const_p_t swig_types[64]
+#define SWIGTYPE_p_std__vectorT_string_t swig_types[65]
+#define SWIGTYPE_p_std__string swig_types[66]
+#define SWIGTYPE_p_tensorflow__AttrValue swig_types[67]
+#define SWIGTYPE_p_tensorflow__DataType swig_types[68]
+#define SWIGTYPE_p_tensorflow__OpDef swig_types[69]
+#define SWIGTYPE_p_tensorflow__OpDef_ArgDef swig_types[70]
+#define SWIGTYPE_p_tensorflow__OpDef_AttrDef swig_types[71]
+#define SWIGTYPE_p_tensorflow__OpDeprecation swig_types[72]
+#define SWIGTYPE_p_tensorflow__OpList swig_types[73]
+#define SWIGTYPE_p_tensorflow__StringPiece swig_types[74]
+#define SWIGTYPE_p_uint16_t swig_types[75]
+#define SWIGTYPE_p_uint32_t swig_types[76]
+#define SWIGTYPE_p_uint64_t swig_types[77]
+#define SWIGTYPE_p_uint8_t swig_types[78]
+#define SWIGTYPE_p_unsigned_char swig_types[79]
+#define SWIGTYPE_p_unsigned_int swig_types[80]
+#define SWIGTYPE_p_void swig_types[81]
+static swig_type_info *swig_types[83];
+static swig_module_info swig_module = {swig_types, 82, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -1937,6 +1966,29 @@ SWIG_AsVal_size_t (v8::Handle<v8::Value> obj, size_t *val)
 
 
 SWIGINTERN int
+SWIG_AsVal_unsigned_SS_char (v8::Handle<v8::Value> obj, unsigned char *val)
+{
+  unsigned long v;
+  int res = SWIG_AsVal_unsigned_SS_long (obj, &v);
+  if (SWIG_IsOK(res)) {
+    if ((v > UCHAR_MAX)) {
+      return SWIG_OverflowError;
+    } else {
+      if (val) *val = (unsigned char)(v);
+    }
+  }  
+  return res;
+}
+
+
+SWIGINTERNINLINE v8::Handle<v8::Value>
+SWIG_From_unsigned_SS_char  (unsigned char value)
+{    
+  return SWIG_From_unsigned_SS_long  (value);
+}
+
+
+SWIGINTERN int
 SWIG_AsCharArray(v8::Handle<v8::Value> obj, char *val, size_t size)
 { 
   char* cptr = 0; size_t csize = 0; int alloc = SWIG_OLDOBJ;
@@ -1988,6 +2040,10 @@ SWIGV8_ClientData _exports_Metadata_clientData;
 SWIGV8_ClientData _exports_Message_clientData;
 SWIGV8_ClientData _exports_Reflection_clientData;
 SWIGV8_ClientData _exports_MessageFactory_clientData;
+SWIGV8_ClientData _exports_TF_Buffer_clientData;
+SWIGV8_ClientData _exports_TF_Input_clientData;
+SWIGV8_ClientData _exports_TF_Output_clientData;
+SWIGV8_ClientData _exports_TF_AttrMetadata_clientData;
 SWIGV8_ClientData _exports_OpDef_ArgDef_clientData;
 SWIGV8_ClientData _exports_OpDef_AttrDef_clientData;
 SWIGV8_ClientData _exports_OpDef_clientData;
@@ -9544,6 +9600,7149 @@ static SwigV8ReturnValue _wrap_new_veto_MessageFactory(const SwigV8Arguments &ar
   SWIGV8_HANDLESCOPE();
   
   SWIG_exception(SWIG_ERROR, "Class MessageFactory can not be instantiated");
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_Version(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  char *result = 0 ;
+  
+  if(args.Length() != 0) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_Version.");
+  
+  result = (char *)TF_Version();
+  jsresult = SWIG_FromCharPtr((const char *)result);
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_FLOAT(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_FLOAT));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_DOUBLE(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_DOUBLE));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_INT32(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_INT32));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_UINT8(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_UINT8));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_INT16(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_INT16));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_INT8(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_INT8));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_STRING(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_STRING));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_COMPLEX64(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_COMPLEX64));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_COMPLEX(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_COMPLEX));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_INT64(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_INT64));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_BOOL(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_BOOL));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_QINT8(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_QINT8));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_QUINT8(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_QUINT8));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_QINT32(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_QINT32));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_BFLOAT16(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_BFLOAT16));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_QINT16(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_QINT16));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_QUINT16(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_QUINT16));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_UINT16(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_UINT16));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_COMPLEX128(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_COMPLEX128));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_HALF(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_HALF));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_RESOURCE(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_RESOURCE));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_DataTypeSize(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_DataType arg1 ;
+  int val1 ;
+  int ecode1 = 0 ;
+  size_t result;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_DataTypeSize.");
+  
+  ecode1 = SWIG_AsVal_int(args[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "TF_DataTypeSize" "', argument " "1"" of type '" "TF_DataType""'");
+  } 
+  arg1 = (TF_DataType)(val1);
+  result = TF_DataTypeSize(arg1);
+  jsresult = SWIG_From_size_t((size_t)(result));
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OK(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_OK));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_CANCELLED(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_CANCELLED));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_UNKNOWN(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_UNKNOWN));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_INVALID_ARGUMENT(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_INVALID_ARGUMENT));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_DEADLINE_EXCEEDED(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_DEADLINE_EXCEEDED));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_NOT_FOUND(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_NOT_FOUND));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_ALREADY_EXISTS(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_ALREADY_EXISTS));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_PERMISSION_DENIED(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_PERMISSION_DENIED));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_UNAUTHENTICATED(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_UNAUTHENTICATED));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_RESOURCE_EXHAUSTED(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_RESOURCE_EXHAUSTED));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_FAILED_PRECONDITION(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_FAILED_PRECONDITION));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_ABORTED(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_ABORTED));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OUT_OF_RANGE(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_OUT_OF_RANGE));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_UNIMPLEMENTED(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_UNIMPLEMENTED));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_INTERNAL(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_INTERNAL));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_UNAVAILABLE(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_UNAVAILABLE));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_DATA_LOSS(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_DATA_LOSS));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_NewStatus(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Status *result = 0 ;
+  
+  if(args.Length() != 0) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_NewStatus.");
+  
+  result = (TF_Status *)TF_NewStatus();
+  jsresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_TF_Status, 0 |  0 );
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_DeleteStatus(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Status *arg1 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_DeleteStatus.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_DeleteStatus" "', argument " "1"" of type '" "TF_Status *""'"); 
+  }
+  arg1 = (TF_Status *)(argp1);
+  TF_DeleteStatus(arg1);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_SetStatus(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Status *arg1 = (TF_Status *) 0 ;
+  TF_Code arg2 ;
+  char *arg3 = (char *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int res3 ;
+  char *buf3 = 0 ;
+  int alloc3 = 0 ;
+  
+  if(args.Length() != 3) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_SetStatus.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_SetStatus" "', argument " "1"" of type '" "TF_Status *""'"); 
+  }
+  arg1 = (TF_Status *)(argp1);
+  ecode2 = SWIG_AsVal_int(args[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TF_SetStatus" "', argument " "2"" of type '" "TF_Code""'");
+  } 
+  arg2 = (TF_Code)(val2);
+  res3 = SWIG_AsCharPtrAndSize(args[2], &buf3, NULL, &alloc3);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_SetStatus" "', argument " "3"" of type '" "char const *""'");
+  }
+  arg3 = (char *)(buf3);
+  TF_SetStatus(arg1,arg2,(char const *)arg3);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_GetCode(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Status *arg1 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  TF_Code result;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_GetCode.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_GetCode" "', argument " "1"" of type '" "TF_Status const *""'"); 
+  }
+  arg1 = (TF_Status *)(argp1);
+  result = (TF_Code)TF_GetCode((TF_Status const *)arg1);
+  jsresult = SWIG_From_int((int)(result));
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_Message(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Status *arg1 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  char *result = 0 ;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_Message.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_Message" "', argument " "1"" of type '" "TF_Status const *""'"); 
+  }
+  arg1 = (TF_Status *)(argp1);
+  result = (char *)TF_Message((TF_Status const *)arg1);
+  jsresult = SWIG_FromCharPtr((const char *)result);
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static void _wrap_TF_Buffer_data_set(v8::Local<v8::String> property, v8::Local<v8::Value> value,
+  const SwigV8PropertyCallbackInfoVoid &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  TF_Buffer *arg1 = (TF_Buffer *) 0 ;
+  void *arg2 = (void *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  
+  res1 = SWIG_ConvertPtr(info.Holder(), &argp1,SWIGTYPE_p_TF_Buffer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_Buffer_data_set" "', argument " "1"" of type '" "TF_Buffer *""'"); 
+  }
+  arg1 = (TF_Buffer *)(argp1);
+  res2 = SWIG_ConvertPtr(value,SWIG_as_voidptrptr(&arg2), SWIGTYPE_p_void, SWIG_POINTER_DISOWN);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_Buffer_data_set" "', argument " "2"" of type '" "void const *""'"); 
+  }
+  if (arg1) (arg1)->data = (void const *)arg2;
+  
+  
+  
+  goto fail;
+fail:
+  return;
+}
+
+
+static SwigV8ReturnValue _wrap_TF_Buffer_data_get(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Buffer *arg1 = (TF_Buffer *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *result = 0 ;
+  
+  res1 = SWIG_ConvertPtr(info.Holder(), &argp1,SWIGTYPE_p_TF_Buffer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_Buffer_data_get" "', argument " "1"" of type '" "TF_Buffer *""'"); 
+  }
+  arg1 = (TF_Buffer *)(argp1);
+  result = (void *) ((arg1)->data);
+  jsresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_void, 0 |  0 );
+  
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static void _wrap_TF_Buffer_length_set(v8::Local<v8::String> property, v8::Local<v8::Value> value,
+  const SwigV8PropertyCallbackInfoVoid &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  TF_Buffer *arg1 = (TF_Buffer *) 0 ;
+  size_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  
+  res1 = SWIG_ConvertPtr(info.Holder(), &argp1,SWIGTYPE_p_TF_Buffer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_Buffer_length_set" "', argument " "1"" of type '" "TF_Buffer *""'"); 
+  }
+  arg1 = (TF_Buffer *)(argp1);
+  ecode2 = SWIG_AsVal_size_t(value, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TF_Buffer_length_set" "', argument " "2"" of type '" "size_t""'");
+  } 
+  arg2 = (size_t)(val2);
+  if (arg1) (arg1)->length = arg2;
+  
+  
+  
+  goto fail;
+fail:
+  return;
+}
+
+
+static SwigV8ReturnValue _wrap_TF_Buffer_length_get(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Buffer *arg1 = (TF_Buffer *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t result;
+  
+  res1 = SWIG_ConvertPtr(info.Holder(), &argp1,SWIGTYPE_p_TF_Buffer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_Buffer_length_get" "', argument " "1"" of type '" "TF_Buffer *""'"); 
+  }
+  arg1 = (TF_Buffer *)(argp1);
+  result =  ((arg1)->length);
+  jsresult = SWIG_From_size_t((size_t)(result));
+  
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static void _wrap_TF_Buffer_data_deallocator_set(v8::Local<v8::String> property, v8::Local<v8::Value> value,
+  const SwigV8PropertyCallbackInfoVoid &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  TF_Buffer *arg1 = (TF_Buffer *) 0 ;
+  void (*arg2)(void *,size_t) = (void (*)(void *,size_t)) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  res1 = SWIG_ConvertPtr(info.Holder(), &argp1,SWIGTYPE_p_TF_Buffer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_Buffer_data_deallocator_set" "', argument " "1"" of type '" "TF_Buffer *""'"); 
+  }
+  arg1 = (TF_Buffer *)(argp1);
+  {
+    int res = SWIG_ConvertFunctionPtr(value, (void**)(&arg2), SWIGTYPE_p_f_p_void_size_t__void);
+    if (!SWIG_IsOK(res)) {
+      SWIG_exception_fail(SWIG_ArgError(res), "in method '" "TF_Buffer_data_deallocator_set" "', argument " "2"" of type '" "void (*)(void *,size_t)""'"); 
+    }
+  }
+  if (arg1) (arg1)->data_deallocator = arg2;
+  
+  
+  
+  goto fail;
+fail:
+  return;
+}
+
+
+static SwigV8ReturnValue _wrap_TF_Buffer_data_deallocator_get(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Buffer *arg1 = (TF_Buffer *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void (*result)(void *,size_t) = 0 ;
+  
+  res1 = SWIG_ConvertPtr(info.Holder(), &argp1,SWIGTYPE_p_TF_Buffer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_Buffer_data_deallocator_get" "', argument " "1"" of type '" "TF_Buffer *""'"); 
+  }
+  arg1 = (TF_Buffer *)(argp1);
+  result = (void (*)(void *,size_t)) ((arg1)->data_deallocator);
+  jsresult = SWIG_NewFunctionPtrObj((void *)(result), SWIGTYPE_p_f_p_void_size_t__void);
+  
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_new_TF_Buffer(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Object> self = args.Holder();
+  TF_Buffer *result;
+  if(args.Length() != 0) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_new_TF_Buffer.");
+  result = (TF_Buffer *)new TF_Buffer();
+  
+  
+  
+  SWIGV8_SetPrivateData(self, result, SWIGTYPE_p_TF_Buffer, SWIG_POINTER_OWN);
+  SWIGV8_RETURN(self);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+#if (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < 0x031710)
+static void _wrap_delete_TF_Buffer(v8::Persistent<v8::Value> object, void *parameter) {
+  SWIGV8_Proxy *proxy = static_cast<SWIGV8_Proxy *>(parameter);
+#elif (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < 0x031900)
+  static void _wrap_delete_TF_Buffer(v8::Isolate *isolate, v8::Persistent<v8::Value> object, void *parameter) {
+    SWIGV8_Proxy *proxy = static_cast<SWIGV8_Proxy *>(parameter);
+#elif (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < SWIGV8_SETWEAK_VERSION)
+    static void _wrap_delete_TF_Buffer(v8::Isolate *isolate, v8::Persistent< v8::Object> *object, SWIGV8_Proxy *proxy) {
+#else
+      static void _wrap_delete_TF_Buffer(const v8::WeakCallbackData<v8::Object, SWIGV8_Proxy> &data) {
+        v8::Local<v8::Object> object = data.GetValue();
+        SWIGV8_Proxy *proxy = data.GetParameter();
+#endif
+        
+        if(proxy->swigCMemOwn && proxy->swigCObject) {
+          TF_Buffer * arg1 = (TF_Buffer *)proxy->swigCObject;
+          delete arg1;
+        }
+        delete proxy;
+        
+#if (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < 0x031710)
+        object.Dispose();
+#elif (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < 0x031900)
+        object.Dispose(isolate);
+#elif (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < 0x032100)
+        object->Dispose(isolate);
+#elif (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < SWIGV8_SETWEAK_VERSION)
+        object->Dispose();
+#else
+        object.Clear();
+#endif
+      }
+
+
+static SwigV8ReturnValue _wrap_TF_NewBufferFromString(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  void *arg1 = (void *) 0 ;
+  size_t arg2 ;
+  int res1 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  TF_Buffer *result = 0 ;
+  
+  if(args.Length() != 2) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_NewBufferFromString.");
+  
+  res1 = SWIG_ConvertPtr(args[0],SWIG_as_voidptrptr(&arg1), SWIGTYPE_p_void, 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_NewBufferFromString" "', argument " "1"" of type '" "void const *""'"); 
+  }
+  ecode2 = SWIG_AsVal_size_t(args[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TF_NewBufferFromString" "', argument " "2"" of type '" "size_t""'");
+  } 
+  arg2 = (size_t)(val2);
+  result = (TF_Buffer *)TF_NewBufferFromString((void const *)arg1,arg2);
+  jsresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_TF_Buffer, 0 |  0 );
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_NewBuffer(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Buffer *result = 0 ;
+  
+  if(args.Length() != 0) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_NewBuffer.");
+  
+  result = (TF_Buffer *)TF_NewBuffer();
+  jsresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_TF_Buffer, 0 |  0 );
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_DeleteBuffer(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Buffer *arg1 = (TF_Buffer *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_DeleteBuffer.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Buffer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_DeleteBuffer" "', argument " "1"" of type '" "TF_Buffer *""'"); 
+  }
+  arg1 = (TF_Buffer *)(argp1);
+  TF_DeleteBuffer(arg1);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_GetBuffer(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Buffer *arg1 = (TF_Buffer *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  TF_Buffer result;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_GetBuffer.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Buffer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_GetBuffer" "', argument " "1"" of type '" "TF_Buffer *""'"); 
+  }
+  arg1 = (TF_Buffer *)(argp1);
+  result = TF_GetBuffer(arg1);
+  jsresult = SWIG_NewPointerObj((new TF_Buffer((const TF_Buffer&)(result))), SWIGTYPE_p_TF_Buffer, SWIG_POINTER_OWN |  0 );
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_NewTensor(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_DataType arg1 ;
+  int64_t *arg2 = (int64_t *) 0 ;
+  int arg3 ;
+  void *arg4 = (void *) 0 ;
+  size_t arg5 ;
+  void (*arg6)(void *,size_t,void *) = (void (*)(void *,size_t,void *)) 0 ;
+  void *arg7 = (void *) 0 ;
+  int val1 ;
+  int ecode1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  int res4 ;
+  size_t val5 ;
+  int ecode5 = 0 ;
+  int res7 ;
+  TF_Tensor *result = 0 ;
+  
+  if(args.Length() != 7) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_NewTensor.");
+  
+  ecode1 = SWIG_AsVal_int(args[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "TF_NewTensor" "', argument " "1"" of type '" "TF_DataType""'");
+  } 
+  arg1 = (TF_DataType)(val1);
+  res2 = SWIG_ConvertPtr(args[1], &argp2,SWIGTYPE_p_int64_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_NewTensor" "', argument " "2"" of type '" "int64_t const *""'"); 
+  }
+  arg2 = (int64_t *)(argp2);
+  ecode3 = SWIG_AsVal_int(args[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "TF_NewTensor" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = (int)(val3);
+  res4 = SWIG_ConvertPtr(args[3],SWIG_as_voidptrptr(&arg4), SWIGTYPE_p_void, 0);
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TF_NewTensor" "', argument " "4"" of type '" "void *""'"); 
+  }
+  ecode5 = SWIG_AsVal_size_t(args[4], &val5);
+  if (!SWIG_IsOK(ecode5)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "TF_NewTensor" "', argument " "5"" of type '" "size_t""'");
+  } 
+  arg5 = (size_t)(val5);
+  {
+    int res = SWIG_ConvertFunctionPtr(args[5], (void**)(&arg6), SWIGTYPE_p_f_p_void_size_t_p_void__void);
+    if (!SWIG_IsOK(res)) {
+      SWIG_exception_fail(SWIG_ArgError(res), "in method '" "TF_NewTensor" "', argument " "6"" of type '" "void (*)(void *,size_t,void *)""'"); 
+    }
+  }
+  res7 = SWIG_ConvertPtr(args[6],SWIG_as_voidptrptr(&arg7), SWIGTYPE_p_void, 0);
+  if (!SWIG_IsOK(res7)) {
+    SWIG_exception_fail(SWIG_ArgError(res7), "in method '" "TF_NewTensor" "', argument " "7"" of type '" "void *""'"); 
+  }
+  result = (TF_Tensor *)TF_NewTensor(arg1,(int64_t const *)arg2,arg3,arg4,arg5,arg6,arg7);
+  jsresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_TF_Tensor, 0 |  0 );
+  
+  
+  
+  
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_AllocateTensor(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_DataType arg1 ;
+  int64_t *arg2 = (int64_t *) 0 ;
+  int arg3 ;
+  size_t arg4 ;
+  int val1 ;
+  int ecode1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  size_t val4 ;
+  int ecode4 = 0 ;
+  TF_Tensor *result = 0 ;
+  
+  if(args.Length() != 4) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_AllocateTensor.");
+  
+  ecode1 = SWIG_AsVal_int(args[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "TF_AllocateTensor" "', argument " "1"" of type '" "TF_DataType""'");
+  } 
+  arg1 = (TF_DataType)(val1);
+  res2 = SWIG_ConvertPtr(args[1], &argp2,SWIGTYPE_p_int64_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_AllocateTensor" "', argument " "2"" of type '" "int64_t const *""'"); 
+  }
+  arg2 = (int64_t *)(argp2);
+  ecode3 = SWIG_AsVal_int(args[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "TF_AllocateTensor" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = (int)(val3);
+  ecode4 = SWIG_AsVal_size_t(args[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TF_AllocateTensor" "', argument " "4"" of type '" "size_t""'");
+  } 
+  arg4 = (size_t)(val4);
+  result = (TF_Tensor *)TF_AllocateTensor(arg1,(int64_t const *)arg2,arg3,arg4);
+  jsresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_TF_Tensor, 0 |  0 );
+  
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_DeleteTensor(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Tensor *arg1 = (TF_Tensor *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_DeleteTensor.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Tensor, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_DeleteTensor" "', argument " "1"" of type '" "TF_Tensor *""'"); 
+  }
+  arg1 = (TF_Tensor *)(argp1);
+  TF_DeleteTensor(arg1);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_TensorType(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Tensor *arg1 = (TF_Tensor *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  TF_DataType result;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_TensorType.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Tensor, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_TensorType" "', argument " "1"" of type '" "TF_Tensor const *""'"); 
+  }
+  arg1 = (TF_Tensor *)(argp1);
+  result = (TF_DataType)TF_TensorType((TF_Tensor const *)arg1);
+  jsresult = SWIG_From_int((int)(result));
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_NumDims(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Tensor *arg1 = (TF_Tensor *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_NumDims.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Tensor, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_NumDims" "', argument " "1"" of type '" "TF_Tensor const *""'"); 
+  }
+  arg1 = (TF_Tensor *)(argp1);
+  result = (int)TF_NumDims((TF_Tensor const *)arg1);
+  jsresult = SWIG_From_int((int)(result));
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_Dim(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Tensor *arg1 = (TF_Tensor *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int64_t result;
+  
+  if(args.Length() != 2) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_Dim.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Tensor, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_Dim" "', argument " "1"" of type '" "TF_Tensor const *""'"); 
+  }
+  arg1 = (TF_Tensor *)(argp1);
+  ecode2 = SWIG_AsVal_int(args[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TF_Dim" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = (int)(val2);
+  result = TF_Dim((TF_Tensor const *)arg1,arg2);
+  jsresult = SWIG_NewPointerObj((new int64_t((const int64_t&)(result))), SWIGTYPE_p_int64_t, SWIG_POINTER_OWN |  0 );
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_TensorByteSize(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Tensor *arg1 = (TF_Tensor *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t result;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_TensorByteSize.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Tensor, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_TensorByteSize" "', argument " "1"" of type '" "TF_Tensor const *""'"); 
+  }
+  arg1 = (TF_Tensor *)(argp1);
+  result = TF_TensorByteSize((TF_Tensor const *)arg1);
+  jsresult = SWIG_From_size_t((size_t)(result));
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_TensorData(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Tensor *arg1 = (TF_Tensor *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *result = 0 ;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_TensorData.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Tensor, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_TensorData" "', argument " "1"" of type '" "TF_Tensor const *""'"); 
+  }
+  arg1 = (TF_Tensor *)(argp1);
+  result = (void *)TF_TensorData((TF_Tensor const *)arg1);
+  jsresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_void, 0 |  0 );
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_StringEncode(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  char *arg1 = (char *) 0 ;
+  size_t arg2 ;
+  char *arg3 = (char *) 0 ;
+  size_t arg4 ;
+  TF_Status *arg5 = (TF_Status *) 0 ;
+  int res1 ;
+  char *buf1 = 0 ;
+  int alloc1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  int res3 ;
+  char *buf3 = 0 ;
+  int alloc3 = 0 ;
+  size_t val4 ;
+  int ecode4 = 0 ;
+  void *argp5 = 0 ;
+  int res5 = 0 ;
+  size_t result;
+  
+  if(args.Length() != 5) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_StringEncode.");
+  
+  res1 = SWIG_AsCharPtrAndSize(args[0], &buf1, NULL, &alloc1);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_StringEncode" "', argument " "1"" of type '" "char const *""'");
+  }
+  arg1 = (char *)(buf1);
+  ecode2 = SWIG_AsVal_size_t(args[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TF_StringEncode" "', argument " "2"" of type '" "size_t""'");
+  } 
+  arg2 = (size_t)(val2);
+  res3 = SWIG_AsCharPtrAndSize(args[2], &buf3, NULL, &alloc3);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_StringEncode" "', argument " "3"" of type '" "char *""'");
+  }
+  arg3 = (char *)(buf3);
+  ecode4 = SWIG_AsVal_size_t(args[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TF_StringEncode" "', argument " "4"" of type '" "size_t""'");
+  } 
+  arg4 = (size_t)(val4);
+  res5 = SWIG_ConvertPtr(args[4], &argp5,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res5)) {
+    SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "TF_StringEncode" "', argument " "5"" of type '" "TF_Status *""'"); 
+  }
+  arg5 = (TF_Status *)(argp5);
+  result = TF_StringEncode((char const *)arg1,arg2,arg3,arg4,arg5);
+  jsresult = SWIG_From_size_t((size_t)(result));
+  if (alloc1 == SWIG_NEWOBJ) delete[] buf1;
+  
+  if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_StringDecode(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  char *arg1 = (char *) 0 ;
+  size_t arg2 ;
+  char **arg3 = (char **) 0 ;
+  size_t *arg4 = (size_t *) 0 ;
+  TF_Status *arg5 = (TF_Status *) 0 ;
+  int res1 ;
+  char *buf1 = 0 ;
+  int alloc1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  void *argp5 = 0 ;
+  int res5 = 0 ;
+  size_t result;
+  
+  if(args.Length() != 5) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_StringDecode.");
+  
+  res1 = SWIG_AsCharPtrAndSize(args[0], &buf1, NULL, &alloc1);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_StringDecode" "', argument " "1"" of type '" "char const *""'");
+  }
+  arg1 = (char *)(buf1);
+  ecode2 = SWIG_AsVal_size_t(args[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TF_StringDecode" "', argument " "2"" of type '" "size_t""'");
+  } 
+  arg2 = (size_t)(val2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_p_char, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_StringDecode" "', argument " "3"" of type '" "char const **""'"); 
+  }
+  arg3 = (char **)(argp3);
+  res4 = SWIG_ConvertPtr(args[3], &argp4,SWIGTYPE_p_size_t, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TF_StringDecode" "', argument " "4"" of type '" "size_t *""'"); 
+  }
+  arg4 = (size_t *)(argp4);
+  res5 = SWIG_ConvertPtr(args[4], &argp5,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res5)) {
+    SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "TF_StringDecode" "', argument " "5"" of type '" "TF_Status *""'"); 
+  }
+  arg5 = (TF_Status *)(argp5);
+  result = TF_StringDecode((char const *)arg1,arg2,(char const **)arg3,arg4,arg5);
+  jsresult = SWIG_From_size_t((size_t)(result));
+  if (alloc1 == SWIG_NEWOBJ) delete[] buf1;
+  
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_StringEncodedSize(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  size_t arg1 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  size_t result;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_StringEncodedSize.");
+  
+  ecode1 = SWIG_AsVal_size_t(args[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "TF_StringEncodedSize" "', argument " "1"" of type '" "size_t""'");
+  } 
+  arg1 = (size_t)(val1);
+  result = TF_StringEncodedSize(arg1);
+  jsresult = SWIG_From_size_t((size_t)(result));
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_NewSessionOptions(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_SessionOptions *result = 0 ;
+  
+  if(args.Length() != 0) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_NewSessionOptions.");
+  
+  result = (TF_SessionOptions *)TF_NewSessionOptions();
+  jsresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_TF_SessionOptions, 0 |  0 );
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_SetTarget(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_SessionOptions *arg1 = (TF_SessionOptions *) 0 ;
+  char *arg2 = (char *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  
+  if(args.Length() != 2) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_SetTarget.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_SessionOptions, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_SetTarget" "', argument " "1"" of type '" "TF_SessionOptions *""'"); 
+  }
+  arg1 = (TF_SessionOptions *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_SetTarget" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  TF_SetTarget(arg1,(char const *)arg2);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_SetConfig(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_SessionOptions *arg1 = (TF_SessionOptions *) 0 ;
+  void *arg2 = (void *) 0 ;
+  size_t arg3 ;
+  TF_Status *arg4 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  size_t val3 ;
+  int ecode3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  
+  if(args.Length() != 4) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_SetConfig.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_SessionOptions, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_SetConfig" "', argument " "1"" of type '" "TF_SessionOptions *""'"); 
+  }
+  arg1 = (TF_SessionOptions *)(argp1);
+  res2 = SWIG_ConvertPtr(args[1],SWIG_as_voidptrptr(&arg2), SWIGTYPE_p_void, 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_SetConfig" "', argument " "2"" of type '" "void const *""'"); 
+  }
+  ecode3 = SWIG_AsVal_size_t(args[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "TF_SetConfig" "', argument " "3"" of type '" "size_t""'");
+  } 
+  arg3 = (size_t)(val3);
+  res4 = SWIG_ConvertPtr(args[3], &argp4,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TF_SetConfig" "', argument " "4"" of type '" "TF_Status *""'"); 
+  }
+  arg4 = (TF_Status *)(argp4);
+  TF_SetConfig(arg1,(void const *)arg2,arg3,arg4);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_DeleteSessionOptions(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_SessionOptions *arg1 = (TF_SessionOptions *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_DeleteSessionOptions.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_SessionOptions, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_DeleteSessionOptions" "', argument " "1"" of type '" "TF_SessionOptions *""'"); 
+  }
+  arg1 = (TF_SessionOptions *)(argp1);
+  TF_DeleteSessionOptions(arg1);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_NewGraph(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Graph *result = 0 ;
+  
+  if(args.Length() != 0) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_NewGraph.");
+  
+  result = (TF_Graph *)TF_NewGraph();
+  jsresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_TF_Graph, 0 |  0 );
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_DeleteGraph(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Graph *arg1 = (TF_Graph *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_DeleteGraph.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Graph, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_DeleteGraph" "', argument " "1"" of type '" "TF_Graph *""'"); 
+  }
+  arg1 = (TF_Graph *)(argp1);
+  TF_DeleteGraph(arg1);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static void _wrap_TF_Input_oper_set(v8::Local<v8::String> property, v8::Local<v8::Value> value,
+  const SwigV8PropertyCallbackInfoVoid &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  TF_Input *arg1 = (TF_Input *) 0 ;
+  TF_Operation *arg2 = (TF_Operation *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  res1 = SWIG_ConvertPtr(info.Holder(), &argp1,SWIGTYPE_p_TF_Input, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_Input_oper_set" "', argument " "1"" of type '" "TF_Input *""'"); 
+  }
+  arg1 = (TF_Input *)(argp1);
+  res2 = SWIG_ConvertPtr(value, &argp2,SWIGTYPE_p_TF_Operation, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_Input_oper_set" "', argument " "2"" of type '" "TF_Operation *""'"); 
+  }
+  arg2 = (TF_Operation *)(argp2);
+  if (arg1) (arg1)->oper = arg2;
+  
+  
+  
+  goto fail;
+fail:
+  return;
+}
+
+
+static SwigV8ReturnValue _wrap_TF_Input_oper_get(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Input *arg1 = (TF_Input *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  TF_Operation *result = 0 ;
+  
+  res1 = SWIG_ConvertPtr(info.Holder(), &argp1,SWIGTYPE_p_TF_Input, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_Input_oper_get" "', argument " "1"" of type '" "TF_Input *""'"); 
+  }
+  arg1 = (TF_Input *)(argp1);
+  result = (TF_Operation *) ((arg1)->oper);
+  jsresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_TF_Operation, 0 |  0 );
+  
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static void _wrap_TF_Input_index_set(v8::Local<v8::String> property, v8::Local<v8::Value> value,
+  const SwigV8PropertyCallbackInfoVoid &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  TF_Input *arg1 = (TF_Input *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  
+  res1 = SWIG_ConvertPtr(info.Holder(), &argp1,SWIGTYPE_p_TF_Input, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_Input_index_set" "', argument " "1"" of type '" "TF_Input *""'"); 
+  }
+  arg1 = (TF_Input *)(argp1);
+  ecode2 = SWIG_AsVal_int(value, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TF_Input_index_set" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = (int)(val2);
+  if (arg1) (arg1)->index = arg2;
+  
+  
+  
+  goto fail;
+fail:
+  return;
+}
+
+
+static SwigV8ReturnValue _wrap_TF_Input_index_get(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Input *arg1 = (TF_Input *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  
+  res1 = SWIG_ConvertPtr(info.Holder(), &argp1,SWIGTYPE_p_TF_Input, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_Input_index_get" "', argument " "1"" of type '" "TF_Input *""'"); 
+  }
+  arg1 = (TF_Input *)(argp1);
+  result = (int) ((arg1)->index);
+  jsresult = SWIG_From_int((int)(result));
+  
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_new_TF_Input(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Object> self = args.Holder();
+  TF_Input *result;
+  if(args.Length() != 0) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_new_TF_Input.");
+  result = (TF_Input *)new TF_Input();
+  
+  
+  
+  SWIGV8_SetPrivateData(self, result, SWIGTYPE_p_TF_Input, SWIG_POINTER_OWN);
+  SWIGV8_RETURN(self);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+#if (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < 0x031710)
+static void _wrap_delete_TF_Input(v8::Persistent<v8::Value> object, void *parameter) {
+  SWIGV8_Proxy *proxy = static_cast<SWIGV8_Proxy *>(parameter);
+#elif (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < 0x031900)
+  static void _wrap_delete_TF_Input(v8::Isolate *isolate, v8::Persistent<v8::Value> object, void *parameter) {
+    SWIGV8_Proxy *proxy = static_cast<SWIGV8_Proxy *>(parameter);
+#elif (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < SWIGV8_SETWEAK_VERSION)
+    static void _wrap_delete_TF_Input(v8::Isolate *isolate, v8::Persistent< v8::Object> *object, SWIGV8_Proxy *proxy) {
+#else
+      static void _wrap_delete_TF_Input(const v8::WeakCallbackData<v8::Object, SWIGV8_Proxy> &data) {
+        v8::Local<v8::Object> object = data.GetValue();
+        SWIGV8_Proxy *proxy = data.GetParameter();
+#endif
+        
+        if(proxy->swigCMemOwn && proxy->swigCObject) {
+          TF_Input * arg1 = (TF_Input *)proxy->swigCObject;
+          delete arg1;
+        }
+        delete proxy;
+        
+#if (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < 0x031710)
+        object.Dispose();
+#elif (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < 0x031900)
+        object.Dispose(isolate);
+#elif (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < 0x032100)
+        object->Dispose(isolate);
+#elif (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < SWIGV8_SETWEAK_VERSION)
+        object->Dispose();
+#else
+        object.Clear();
+#endif
+      }
+
+
+static void _wrap_TF_Output_oper_set(v8::Local<v8::String> property, v8::Local<v8::Value> value,
+  const SwigV8PropertyCallbackInfoVoid &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  TF_Output *arg1 = (TF_Output *) 0 ;
+  TF_Operation *arg2 = (TF_Operation *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  res1 = SWIG_ConvertPtr(info.Holder(), &argp1,SWIGTYPE_p_TF_Output, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_Output_oper_set" "', argument " "1"" of type '" "TF_Output *""'"); 
+  }
+  arg1 = (TF_Output *)(argp1);
+  res2 = SWIG_ConvertPtr(value, &argp2,SWIGTYPE_p_TF_Operation, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_Output_oper_set" "', argument " "2"" of type '" "TF_Operation *""'"); 
+  }
+  arg2 = (TF_Operation *)(argp2);
+  if (arg1) (arg1)->oper = arg2;
+  
+  
+  
+  goto fail;
+fail:
+  return;
+}
+
+
+static SwigV8ReturnValue _wrap_TF_Output_oper_get(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Output *arg1 = (TF_Output *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  TF_Operation *result = 0 ;
+  
+  res1 = SWIG_ConvertPtr(info.Holder(), &argp1,SWIGTYPE_p_TF_Output, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_Output_oper_get" "', argument " "1"" of type '" "TF_Output *""'"); 
+  }
+  arg1 = (TF_Output *)(argp1);
+  result = (TF_Operation *) ((arg1)->oper);
+  jsresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_TF_Operation, 0 |  0 );
+  
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static void _wrap_TF_Output_index_set(v8::Local<v8::String> property, v8::Local<v8::Value> value,
+  const SwigV8PropertyCallbackInfoVoid &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  TF_Output *arg1 = (TF_Output *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  
+  res1 = SWIG_ConvertPtr(info.Holder(), &argp1,SWIGTYPE_p_TF_Output, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_Output_index_set" "', argument " "1"" of type '" "TF_Output *""'"); 
+  }
+  arg1 = (TF_Output *)(argp1);
+  ecode2 = SWIG_AsVal_int(value, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TF_Output_index_set" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = (int)(val2);
+  if (arg1) (arg1)->index = arg2;
+  
+  
+  
+  goto fail;
+fail:
+  return;
+}
+
+
+static SwigV8ReturnValue _wrap_TF_Output_index_get(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Output *arg1 = (TF_Output *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  
+  res1 = SWIG_ConvertPtr(info.Holder(), &argp1,SWIGTYPE_p_TF_Output, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_Output_index_get" "', argument " "1"" of type '" "TF_Output *""'"); 
+  }
+  arg1 = (TF_Output *)(argp1);
+  result = (int) ((arg1)->index);
+  jsresult = SWIG_From_int((int)(result));
+  
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_new_TF_Output(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Object> self = args.Holder();
+  TF_Output *result;
+  if(args.Length() != 0) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_new_TF_Output.");
+  result = (TF_Output *)new TF_Output();
+  
+  
+  
+  SWIGV8_SetPrivateData(self, result, SWIGTYPE_p_TF_Output, SWIG_POINTER_OWN);
+  SWIGV8_RETURN(self);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+#if (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < 0x031710)
+static void _wrap_delete_TF_Output(v8::Persistent<v8::Value> object, void *parameter) {
+  SWIGV8_Proxy *proxy = static_cast<SWIGV8_Proxy *>(parameter);
+#elif (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < 0x031900)
+  static void _wrap_delete_TF_Output(v8::Isolate *isolate, v8::Persistent<v8::Value> object, void *parameter) {
+    SWIGV8_Proxy *proxy = static_cast<SWIGV8_Proxy *>(parameter);
+#elif (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < SWIGV8_SETWEAK_VERSION)
+    static void _wrap_delete_TF_Output(v8::Isolate *isolate, v8::Persistent< v8::Object> *object, SWIGV8_Proxy *proxy) {
+#else
+      static void _wrap_delete_TF_Output(const v8::WeakCallbackData<v8::Object, SWIGV8_Proxy> &data) {
+        v8::Local<v8::Object> object = data.GetValue();
+        SWIGV8_Proxy *proxy = data.GetParameter();
+#endif
+        
+        if(proxy->swigCMemOwn && proxy->swigCObject) {
+          TF_Output * arg1 = (TF_Output *)proxy->swigCObject;
+          delete arg1;
+        }
+        delete proxy;
+        
+#if (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < 0x031710)
+        object.Dispose();
+#elif (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < 0x031900)
+        object.Dispose(isolate);
+#elif (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < 0x032100)
+        object->Dispose(isolate);
+#elif (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < SWIGV8_SETWEAK_VERSION)
+        object->Dispose();
+#else
+        object.Clear();
+#endif
+      }
+
+
+static SwigV8ReturnValue _wrap_TF_GraphSetTensorShape(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Graph *arg1 = (TF_Graph *) 0 ;
+  TF_Output arg2 ;
+  int64_t *arg3 = (int64_t *) 0 ;
+  int arg4 ;
+  TF_Status *arg5 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  void *argp5 = 0 ;
+  int res5 = 0 ;
+  
+  if(args.Length() != 5) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_GraphSetTensorShape.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Graph, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_GraphSetTensorShape" "', argument " "1"" of type '" "TF_Graph *""'"); 
+  }
+  arg1 = (TF_Graph *)(argp1);
+  {
+    res2 = SWIG_ConvertPtr(args[1], &argp2, SWIGTYPE_p_TF_Output,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_GraphSetTensorShape" "', argument " "2"" of type '" "TF_Output""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TF_GraphSetTensorShape" "', argument " "2"" of type '" "TF_Output""'");
+    } else {
+      arg2 = *((TF_Output *)(argp2));
+    }
+  }
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_int64_t, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_GraphSetTensorShape" "', argument " "3"" of type '" "int64_t const *""'"); 
+  }
+  arg3 = (int64_t *)(argp3);
+  ecode4 = SWIG_AsVal_int(args[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TF_GraphSetTensorShape" "', argument " "4"" of type '" "int""'");
+  } 
+  arg4 = (int)(val4);
+  res5 = SWIG_ConvertPtr(args[4], &argp5,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res5)) {
+    SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "TF_GraphSetTensorShape" "', argument " "5"" of type '" "TF_Status *""'"); 
+  }
+  arg5 = (TF_Status *)(argp5);
+  TF_GraphSetTensorShape(arg1,arg2,(int64_t const *)arg3,arg4,arg5);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_GraphGetTensorNumDims(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Graph *arg1 = (TF_Graph *) 0 ;
+  TF_Output arg2 ;
+  TF_Status *arg3 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  int result;
+  
+  if(args.Length() != 3) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_GraphGetTensorNumDims.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Graph, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_GraphGetTensorNumDims" "', argument " "1"" of type '" "TF_Graph *""'"); 
+  }
+  arg1 = (TF_Graph *)(argp1);
+  {
+    res2 = SWIG_ConvertPtr(args[1], &argp2, SWIGTYPE_p_TF_Output,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_GraphGetTensorNumDims" "', argument " "2"" of type '" "TF_Output""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TF_GraphGetTensorNumDims" "', argument " "2"" of type '" "TF_Output""'");
+    } else {
+      arg2 = *((TF_Output *)(argp2));
+    }
+  }
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_GraphGetTensorNumDims" "', argument " "3"" of type '" "TF_Status *""'"); 
+  }
+  arg3 = (TF_Status *)(argp3);
+  result = (int)TF_GraphGetTensorNumDims(arg1,arg2,arg3);
+  jsresult = SWIG_From_int((int)(result));
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_GraphGetTensorShape(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Graph *arg1 = (TF_Graph *) 0 ;
+  TF_Output arg2 ;
+  int64_t *arg3 = (int64_t *) 0 ;
+  int arg4 ;
+  TF_Status *arg5 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  void *argp5 = 0 ;
+  int res5 = 0 ;
+  
+  if(args.Length() != 5) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_GraphGetTensorShape.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Graph, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_GraphGetTensorShape" "', argument " "1"" of type '" "TF_Graph *""'"); 
+  }
+  arg1 = (TF_Graph *)(argp1);
+  {
+    res2 = SWIG_ConvertPtr(args[1], &argp2, SWIGTYPE_p_TF_Output,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_GraphGetTensorShape" "', argument " "2"" of type '" "TF_Output""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TF_GraphGetTensorShape" "', argument " "2"" of type '" "TF_Output""'");
+    } else {
+      arg2 = *((TF_Output *)(argp2));
+    }
+  }
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_int64_t, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_GraphGetTensorShape" "', argument " "3"" of type '" "int64_t *""'"); 
+  }
+  arg3 = (int64_t *)(argp3);
+  ecode4 = SWIG_AsVal_int(args[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TF_GraphGetTensorShape" "', argument " "4"" of type '" "int""'");
+  } 
+  arg4 = (int)(val4);
+  res5 = SWIG_ConvertPtr(args[4], &argp5,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res5)) {
+    SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "TF_GraphGetTensorShape" "', argument " "5"" of type '" "TF_Status *""'"); 
+  }
+  arg5 = (TF_Status *)(argp5);
+  TF_GraphGetTensorShape(arg1,arg2,arg3,arg4,arg5);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_NewOperation(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Graph *arg1 = (TF_Graph *) 0 ;
+  char *arg2 = (char *) 0 ;
+  char *arg3 = (char *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  int res3 ;
+  char *buf3 = 0 ;
+  int alloc3 = 0 ;
+  TF_OperationDescription *result = 0 ;
+  
+  if(args.Length() != 3) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_NewOperation.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Graph, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_NewOperation" "', argument " "1"" of type '" "TF_Graph *""'"); 
+  }
+  arg1 = (TF_Graph *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_NewOperation" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_AsCharPtrAndSize(args[2], &buf3, NULL, &alloc3);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_NewOperation" "', argument " "3"" of type '" "char const *""'");
+  }
+  arg3 = (char *)(buf3);
+  result = (TF_OperationDescription *)TF_NewOperation(arg1,(char const *)arg2,(char const *)arg3);
+  jsresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_TF_OperationDescription, 0 |  0 );
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_SetDevice(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_OperationDescription *arg1 = (TF_OperationDescription *) 0 ;
+  char *arg2 = (char *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  
+  if(args.Length() != 2) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_SetDevice.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_OperationDescription, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_SetDevice" "', argument " "1"" of type '" "TF_OperationDescription *""'"); 
+  }
+  arg1 = (TF_OperationDescription *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_SetDevice" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  TF_SetDevice(arg1,(char const *)arg2);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_AddInput(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_OperationDescription *arg1 = (TF_OperationDescription *) 0 ;
+  TF_Output arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  
+  if(args.Length() != 2) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_AddInput.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_OperationDescription, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_AddInput" "', argument " "1"" of type '" "TF_OperationDescription *""'"); 
+  }
+  arg1 = (TF_OperationDescription *)(argp1);
+  {
+    res2 = SWIG_ConvertPtr(args[1], &argp2, SWIGTYPE_p_TF_Output,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_AddInput" "', argument " "2"" of type '" "TF_Output""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TF_AddInput" "', argument " "2"" of type '" "TF_Output""'");
+    } else {
+      arg2 = *((TF_Output *)(argp2));
+    }
+  }
+  TF_AddInput(arg1,arg2);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_AddInputList(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_OperationDescription *arg1 = (TF_OperationDescription *) 0 ;
+  TF_Output *arg2 = (TF_Output *) 0 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  
+  if(args.Length() != 3) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_AddInputList.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_OperationDescription, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_AddInputList" "', argument " "1"" of type '" "TF_OperationDescription *""'"); 
+  }
+  arg1 = (TF_OperationDescription *)(argp1);
+  res2 = SWIG_ConvertPtr(args[1], &argp2,SWIGTYPE_p_TF_Output, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_AddInputList" "', argument " "2"" of type '" "TF_Output const *""'"); 
+  }
+  arg2 = (TF_Output *)(argp2);
+  ecode3 = SWIG_AsVal_int(args[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "TF_AddInputList" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = (int)(val3);
+  TF_AddInputList(arg1,(TF_Output const *)arg2,arg3);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_AddControlInput(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_OperationDescription *arg1 = (TF_OperationDescription *) 0 ;
+  TF_Operation *arg2 = (TF_Operation *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if(args.Length() != 2) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_AddControlInput.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_OperationDescription, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_AddControlInput" "', argument " "1"" of type '" "TF_OperationDescription *""'"); 
+  }
+  arg1 = (TF_OperationDescription *)(argp1);
+  res2 = SWIG_ConvertPtr(args[1], &argp2,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_AddControlInput" "', argument " "2"" of type '" "TF_Operation *""'"); 
+  }
+  arg2 = (TF_Operation *)(argp2);
+  TF_AddControlInput(arg1,arg2);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_ColocateWith(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_OperationDescription *arg1 = (TF_OperationDescription *) 0 ;
+  TF_Operation *arg2 = (TF_Operation *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if(args.Length() != 2) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_ColocateWith.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_OperationDescription, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_ColocateWith" "', argument " "1"" of type '" "TF_OperationDescription *""'"); 
+  }
+  arg1 = (TF_OperationDescription *)(argp1);
+  res2 = SWIG_ConvertPtr(args[1], &argp2,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_ColocateWith" "', argument " "2"" of type '" "TF_Operation *""'"); 
+  }
+  arg2 = (TF_Operation *)(argp2);
+  TF_ColocateWith(arg1,arg2);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_SetAttrString(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_OperationDescription *arg1 = (TF_OperationDescription *) 0 ;
+  char *arg2 = (char *) 0 ;
+  void *arg3 = (void *) 0 ;
+  size_t arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  int res3 ;
+  size_t val4 ;
+  int ecode4 = 0 ;
+  
+  if(args.Length() != 4) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_SetAttrString.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_OperationDescription, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_SetAttrString" "', argument " "1"" of type '" "TF_OperationDescription *""'"); 
+  }
+  arg1 = (TF_OperationDescription *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_SetAttrString" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2],SWIG_as_voidptrptr(&arg3), SWIGTYPE_p_void, 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_SetAttrString" "', argument " "3"" of type '" "void const *""'"); 
+  }
+  ecode4 = SWIG_AsVal_size_t(args[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TF_SetAttrString" "', argument " "4"" of type '" "size_t""'");
+  } 
+  arg4 = (size_t)(val4);
+  TF_SetAttrString(arg1,(char const *)arg2,(void const *)arg3,arg4);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_SetAttrStringList(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_OperationDescription *arg1 = (TF_OperationDescription *) 0 ;
+  char *arg2 = (char *) 0 ;
+  void **arg3 = (void **) 0 ;
+  size_t *arg4 = (size_t *) 0 ;
+  int arg5 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  int val5 ;
+  int ecode5 = 0 ;
+  
+  if(args.Length() != 5) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_SetAttrStringList.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_OperationDescription, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_SetAttrStringList" "', argument " "1"" of type '" "TF_OperationDescription *""'"); 
+  }
+  arg1 = (TF_OperationDescription *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_SetAttrStringList" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_p_void, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_SetAttrStringList" "', argument " "3"" of type '" "void const *const *""'"); 
+  }
+  arg3 = (void **)(argp3);
+  res4 = SWIG_ConvertPtr(args[3], &argp4,SWIGTYPE_p_size_t, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TF_SetAttrStringList" "', argument " "4"" of type '" "size_t const *""'"); 
+  }
+  arg4 = (size_t *)(argp4);
+  ecode5 = SWIG_AsVal_int(args[4], &val5);
+  if (!SWIG_IsOK(ecode5)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "TF_SetAttrStringList" "', argument " "5"" of type '" "int""'");
+  } 
+  arg5 = (int)(val5);
+  TF_SetAttrStringList(arg1,(char const *)arg2,(void const *const *)arg3,(size_t const *)arg4,arg5);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_SetAttrInt(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_OperationDescription *arg1 = (TF_OperationDescription *) 0 ;
+  char *arg2 = (char *) 0 ;
+  int64_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  
+  if(args.Length() != 3) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_SetAttrInt.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_OperationDescription, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_SetAttrInt" "', argument " "1"" of type '" "TF_OperationDescription *""'"); 
+  }
+  arg1 = (TF_OperationDescription *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_SetAttrInt" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  {
+    res3 = SWIG_ConvertPtr(args[2], &argp3, SWIGTYPE_p_int64_t,  0 );
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_SetAttrInt" "', argument " "3"" of type '" "int64_t""'"); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TF_SetAttrInt" "', argument " "3"" of type '" "int64_t""'");
+    } else {
+      arg3 = *((int64_t *)(argp3));
+    }
+  }
+  TF_SetAttrInt(arg1,(char const *)arg2,arg3);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_SetAttrIntList(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_OperationDescription *arg1 = (TF_OperationDescription *) 0 ;
+  char *arg2 = (char *) 0 ;
+  int64_t *arg3 = (int64_t *) 0 ;
+  int arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  
+  if(args.Length() != 4) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_SetAttrIntList.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_OperationDescription, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_SetAttrIntList" "', argument " "1"" of type '" "TF_OperationDescription *""'"); 
+  }
+  arg1 = (TF_OperationDescription *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_SetAttrIntList" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_int64_t, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_SetAttrIntList" "', argument " "3"" of type '" "int64_t const *""'"); 
+  }
+  arg3 = (int64_t *)(argp3);
+  ecode4 = SWIG_AsVal_int(args[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TF_SetAttrIntList" "', argument " "4"" of type '" "int""'");
+  } 
+  arg4 = (int)(val4);
+  TF_SetAttrIntList(arg1,(char const *)arg2,(int64_t const *)arg3,arg4);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_SetAttrFloat(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_OperationDescription *arg1 = (TF_OperationDescription *) 0 ;
+  char *arg2 = (char *) 0 ;
+  float arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  float val3 ;
+  int ecode3 = 0 ;
+  
+  if(args.Length() != 3) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_SetAttrFloat.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_OperationDescription, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_SetAttrFloat" "', argument " "1"" of type '" "TF_OperationDescription *""'"); 
+  }
+  arg1 = (TF_OperationDescription *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_SetAttrFloat" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  ecode3 = SWIG_AsVal_float(args[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "TF_SetAttrFloat" "', argument " "3"" of type '" "float""'");
+  } 
+  arg3 = (float)(val3);
+  TF_SetAttrFloat(arg1,(char const *)arg2,arg3);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_SetAttrFloatList(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_OperationDescription *arg1 = (TF_OperationDescription *) 0 ;
+  char *arg2 = (char *) 0 ;
+  float *arg3 = (float *) 0 ;
+  int arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  
+  if(args.Length() != 4) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_SetAttrFloatList.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_OperationDescription, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_SetAttrFloatList" "', argument " "1"" of type '" "TF_OperationDescription *""'"); 
+  }
+  arg1 = (TF_OperationDescription *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_SetAttrFloatList" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_float, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_SetAttrFloatList" "', argument " "3"" of type '" "float const *""'"); 
+  }
+  arg3 = (float *)(argp3);
+  ecode4 = SWIG_AsVal_int(args[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TF_SetAttrFloatList" "', argument " "4"" of type '" "int""'");
+  } 
+  arg4 = (int)(val4);
+  TF_SetAttrFloatList(arg1,(char const *)arg2,(float const *)arg3,arg4);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_SetAttrBool(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_OperationDescription *arg1 = (TF_OperationDescription *) 0 ;
+  char *arg2 = (char *) 0 ;
+  unsigned char arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  unsigned char val3 ;
+  int ecode3 = 0 ;
+  
+  if(args.Length() != 3) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_SetAttrBool.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_OperationDescription, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_SetAttrBool" "', argument " "1"" of type '" "TF_OperationDescription *""'"); 
+  }
+  arg1 = (TF_OperationDescription *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_SetAttrBool" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  ecode3 = SWIG_AsVal_unsigned_SS_char(args[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "TF_SetAttrBool" "', argument " "3"" of type '" "unsigned char""'");
+  } 
+  arg3 = (unsigned char)(val3);
+  TF_SetAttrBool(arg1,(char const *)arg2,arg3);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_SetAttrBoolList(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_OperationDescription *arg1 = (TF_OperationDescription *) 0 ;
+  char *arg2 = (char *) 0 ;
+  unsigned char *arg3 = (unsigned char *) 0 ;
+  int arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  
+  if(args.Length() != 4) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_SetAttrBoolList.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_OperationDescription, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_SetAttrBoolList" "', argument " "1"" of type '" "TF_OperationDescription *""'"); 
+  }
+  arg1 = (TF_OperationDescription *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_SetAttrBoolList" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_unsigned_char, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_SetAttrBoolList" "', argument " "3"" of type '" "unsigned char const *""'"); 
+  }
+  arg3 = (unsigned char *)(argp3);
+  ecode4 = SWIG_AsVal_int(args[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TF_SetAttrBoolList" "', argument " "4"" of type '" "int""'");
+  } 
+  arg4 = (int)(val4);
+  TF_SetAttrBoolList(arg1,(char const *)arg2,(unsigned char const *)arg3,arg4);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_SetAttrType(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_OperationDescription *arg1 = (TF_OperationDescription *) 0 ;
+  char *arg2 = (char *) 0 ;
+  TF_DataType arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  
+  if(args.Length() != 3) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_SetAttrType.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_OperationDescription, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_SetAttrType" "', argument " "1"" of type '" "TF_OperationDescription *""'"); 
+  }
+  arg1 = (TF_OperationDescription *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_SetAttrType" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  ecode3 = SWIG_AsVal_int(args[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "TF_SetAttrType" "', argument " "3"" of type '" "TF_DataType""'");
+  } 
+  arg3 = (TF_DataType)(val3);
+  TF_SetAttrType(arg1,(char const *)arg2,arg3);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_SetAttrTypeList(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_OperationDescription *arg1 = (TF_OperationDescription *) 0 ;
+  char *arg2 = (char *) 0 ;
+  TF_DataType *arg3 = (TF_DataType *) 0 ;
+  int arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  
+  if(args.Length() != 4) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_SetAttrTypeList.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_OperationDescription, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_SetAttrTypeList" "', argument " "1"" of type '" "TF_OperationDescription *""'"); 
+  }
+  arg1 = (TF_OperationDescription *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_SetAttrTypeList" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_TF_DataType, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_SetAttrTypeList" "', argument " "3"" of type '" "TF_DataType const *""'"); 
+  }
+  arg3 = (TF_DataType *)(argp3);
+  ecode4 = SWIG_AsVal_int(args[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TF_SetAttrTypeList" "', argument " "4"" of type '" "int""'");
+  } 
+  arg4 = (int)(val4);
+  TF_SetAttrTypeList(arg1,(char const *)arg2,(TF_DataType const *)arg3,arg4);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_SetAttrShape(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_OperationDescription *arg1 = (TF_OperationDescription *) 0 ;
+  char *arg2 = (char *) 0 ;
+  int64_t *arg3 = (int64_t *) 0 ;
+  int arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  
+  if(args.Length() != 4) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_SetAttrShape.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_OperationDescription, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_SetAttrShape" "', argument " "1"" of type '" "TF_OperationDescription *""'"); 
+  }
+  arg1 = (TF_OperationDescription *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_SetAttrShape" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_int64_t, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_SetAttrShape" "', argument " "3"" of type '" "int64_t const *""'"); 
+  }
+  arg3 = (int64_t *)(argp3);
+  ecode4 = SWIG_AsVal_int(args[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TF_SetAttrShape" "', argument " "4"" of type '" "int""'");
+  } 
+  arg4 = (int)(val4);
+  TF_SetAttrShape(arg1,(char const *)arg2,(int64_t const *)arg3,arg4);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_SetAttrShapeList(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_OperationDescription *arg1 = (TF_OperationDescription *) 0 ;
+  char *arg2 = (char *) 0 ;
+  int64_t **arg3 = (int64_t **) 0 ;
+  int *arg4 = (int *) 0 ;
+  int arg5 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  int val5 ;
+  int ecode5 = 0 ;
+  
+  if(args.Length() != 5) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_SetAttrShapeList.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_OperationDescription, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_SetAttrShapeList" "', argument " "1"" of type '" "TF_OperationDescription *""'"); 
+  }
+  arg1 = (TF_OperationDescription *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_SetAttrShapeList" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_p_int64_t, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_SetAttrShapeList" "', argument " "3"" of type '" "int64_t const *const *""'"); 
+  }
+  arg3 = (int64_t **)(argp3);
+  res4 = SWIG_ConvertPtr(args[3], &argp4,SWIGTYPE_p_int, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TF_SetAttrShapeList" "', argument " "4"" of type '" "int const *""'"); 
+  }
+  arg4 = (int *)(argp4);
+  ecode5 = SWIG_AsVal_int(args[4], &val5);
+  if (!SWIG_IsOK(ecode5)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "TF_SetAttrShapeList" "', argument " "5"" of type '" "int""'");
+  } 
+  arg5 = (int)(val5);
+  TF_SetAttrShapeList(arg1,(char const *)arg2,(int64_t const *const *)arg3,(int const *)arg4,arg5);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_SetAttrTensorShapeProto(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_OperationDescription *arg1 = (TF_OperationDescription *) 0 ;
+  char *arg2 = (char *) 0 ;
+  void *arg3 = (void *) 0 ;
+  size_t arg4 ;
+  TF_Status *arg5 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  int res3 ;
+  size_t val4 ;
+  int ecode4 = 0 ;
+  void *argp5 = 0 ;
+  int res5 = 0 ;
+  
+  if(args.Length() != 5) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_SetAttrTensorShapeProto.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_OperationDescription, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_SetAttrTensorShapeProto" "', argument " "1"" of type '" "TF_OperationDescription *""'"); 
+  }
+  arg1 = (TF_OperationDescription *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_SetAttrTensorShapeProto" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2],SWIG_as_voidptrptr(&arg3), SWIGTYPE_p_void, 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_SetAttrTensorShapeProto" "', argument " "3"" of type '" "void const *""'"); 
+  }
+  ecode4 = SWIG_AsVal_size_t(args[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TF_SetAttrTensorShapeProto" "', argument " "4"" of type '" "size_t""'");
+  } 
+  arg4 = (size_t)(val4);
+  res5 = SWIG_ConvertPtr(args[4], &argp5,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res5)) {
+    SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "TF_SetAttrTensorShapeProto" "', argument " "5"" of type '" "TF_Status *""'"); 
+  }
+  arg5 = (TF_Status *)(argp5);
+  TF_SetAttrTensorShapeProto(arg1,(char const *)arg2,(void const *)arg3,arg4,arg5);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_SetAttrTensorShapeProtoList(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_OperationDescription *arg1 = (TF_OperationDescription *) 0 ;
+  char *arg2 = (char *) 0 ;
+  void **arg3 = (void **) 0 ;
+  size_t *arg4 = (size_t *) 0 ;
+  int arg5 ;
+  TF_Status *arg6 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  int val5 ;
+  int ecode5 = 0 ;
+  void *argp6 = 0 ;
+  int res6 = 0 ;
+  
+  if(args.Length() != 6) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_SetAttrTensorShapeProtoList.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_OperationDescription, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_SetAttrTensorShapeProtoList" "', argument " "1"" of type '" "TF_OperationDescription *""'"); 
+  }
+  arg1 = (TF_OperationDescription *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_SetAttrTensorShapeProtoList" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_p_void, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_SetAttrTensorShapeProtoList" "', argument " "3"" of type '" "void const *const *""'"); 
+  }
+  arg3 = (void **)(argp3);
+  res4 = SWIG_ConvertPtr(args[3], &argp4,SWIGTYPE_p_size_t, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TF_SetAttrTensorShapeProtoList" "', argument " "4"" of type '" "size_t const *""'"); 
+  }
+  arg4 = (size_t *)(argp4);
+  ecode5 = SWIG_AsVal_int(args[4], &val5);
+  if (!SWIG_IsOK(ecode5)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "TF_SetAttrTensorShapeProtoList" "', argument " "5"" of type '" "int""'");
+  } 
+  arg5 = (int)(val5);
+  res6 = SWIG_ConvertPtr(args[5], &argp6,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res6)) {
+    SWIG_exception_fail(SWIG_ArgError(res6), "in method '" "TF_SetAttrTensorShapeProtoList" "', argument " "6"" of type '" "TF_Status *""'"); 
+  }
+  arg6 = (TF_Status *)(argp6);
+  TF_SetAttrTensorShapeProtoList(arg1,(char const *)arg2,(void const *const *)arg3,(size_t const *)arg4,arg5,arg6);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_SetAttrTensor(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_OperationDescription *arg1 = (TF_OperationDescription *) 0 ;
+  char *arg2 = (char *) 0 ;
+  TF_Tensor *arg3 = (TF_Tensor *) 0 ;
+  TF_Status *arg4 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  
+  if(args.Length() != 4) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_SetAttrTensor.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_OperationDescription, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_SetAttrTensor" "', argument " "1"" of type '" "TF_OperationDescription *""'"); 
+  }
+  arg1 = (TF_OperationDescription *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_SetAttrTensor" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_TF_Tensor, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_SetAttrTensor" "', argument " "3"" of type '" "TF_Tensor *""'"); 
+  }
+  arg3 = (TF_Tensor *)(argp3);
+  res4 = SWIG_ConvertPtr(args[3], &argp4,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TF_SetAttrTensor" "', argument " "4"" of type '" "TF_Status *""'"); 
+  }
+  arg4 = (TF_Status *)(argp4);
+  TF_SetAttrTensor(arg1,(char const *)arg2,arg3,arg4);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_SetAttrTensorList(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_OperationDescription *arg1 = (TF_OperationDescription *) 0 ;
+  char *arg2 = (char *) 0 ;
+  TF_Tensor **arg3 = (TF_Tensor **) 0 ;
+  int arg4 ;
+  TF_Status *arg5 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  void *argp5 = 0 ;
+  int res5 = 0 ;
+  
+  if(args.Length() != 5) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_SetAttrTensorList.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_OperationDescription, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_SetAttrTensorList" "', argument " "1"" of type '" "TF_OperationDescription *""'"); 
+  }
+  arg1 = (TF_OperationDescription *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_SetAttrTensorList" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_p_TF_Tensor, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_SetAttrTensorList" "', argument " "3"" of type '" "TF_Tensor *const *""'"); 
+  }
+  arg3 = (TF_Tensor **)(argp3);
+  ecode4 = SWIG_AsVal_int(args[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TF_SetAttrTensorList" "', argument " "4"" of type '" "int""'");
+  } 
+  arg4 = (int)(val4);
+  res5 = SWIG_ConvertPtr(args[4], &argp5,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res5)) {
+    SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "TF_SetAttrTensorList" "', argument " "5"" of type '" "TF_Status *""'"); 
+  }
+  arg5 = (TF_Status *)(argp5);
+  TF_SetAttrTensorList(arg1,(char const *)arg2,(TF_Tensor *const *)arg3,arg4,arg5);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_SetAttrValueProto(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_OperationDescription *arg1 = (TF_OperationDescription *) 0 ;
+  char *arg2 = (char *) 0 ;
+  void *arg3 = (void *) 0 ;
+  size_t arg4 ;
+  TF_Status *arg5 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  int res3 ;
+  size_t val4 ;
+  int ecode4 = 0 ;
+  void *argp5 = 0 ;
+  int res5 = 0 ;
+  
+  if(args.Length() != 5) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_SetAttrValueProto.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_OperationDescription, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_SetAttrValueProto" "', argument " "1"" of type '" "TF_OperationDescription *""'"); 
+  }
+  arg1 = (TF_OperationDescription *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_SetAttrValueProto" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2],SWIG_as_voidptrptr(&arg3), SWIGTYPE_p_void, 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_SetAttrValueProto" "', argument " "3"" of type '" "void const *""'"); 
+  }
+  ecode4 = SWIG_AsVal_size_t(args[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TF_SetAttrValueProto" "', argument " "4"" of type '" "size_t""'");
+  } 
+  arg4 = (size_t)(val4);
+  res5 = SWIG_ConvertPtr(args[4], &argp5,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res5)) {
+    SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "TF_SetAttrValueProto" "', argument " "5"" of type '" "TF_Status *""'"); 
+  }
+  arg5 = (TF_Status *)(argp5);
+  TF_SetAttrValueProto(arg1,(char const *)arg2,(void const *)arg3,arg4,arg5);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_FinishOperation(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_OperationDescription *arg1 = (TF_OperationDescription *) 0 ;
+  TF_Status *arg2 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  TF_Operation *result = 0 ;
+  
+  if(args.Length() != 2) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_FinishOperation.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_OperationDescription, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_FinishOperation" "', argument " "1"" of type '" "TF_OperationDescription *""'"); 
+  }
+  arg1 = (TF_OperationDescription *)(argp1);
+  res2 = SWIG_ConvertPtr(args[1], &argp2,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_FinishOperation" "', argument " "2"" of type '" "TF_Status *""'"); 
+  }
+  arg2 = (TF_Status *)(argp2);
+  result = (TF_Operation *)TF_FinishOperation(arg1,arg2);
+  jsresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_TF_Operation, 0 |  0 );
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationName(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  char *result = 0 ;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationName.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationName" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  result = (char *)TF_OperationName(arg1);
+  jsresult = SWIG_FromCharPtr((const char *)result);
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationOpType(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  char *result = 0 ;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationOpType.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationOpType" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  result = (char *)TF_OperationOpType(arg1);
+  jsresult = SWIG_FromCharPtr((const char *)result);
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationDevice(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  char *result = 0 ;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationDevice.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationDevice" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  result = (char *)TF_OperationDevice(arg1);
+  jsresult = SWIG_FromCharPtr((const char *)result);
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationNumOutputs(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationNumOutputs.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationNumOutputs" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  result = (int)TF_OperationNumOutputs(arg1);
+  jsresult = SWIG_From_int((int)(result));
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationOutputType(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Output arg1 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  TF_DataType result;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationOutputType.");
+  
+  {
+    res1 = SWIG_ConvertPtr(args[0], &argp1, SWIGTYPE_p_TF_Output,  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationOutputType" "', argument " "1"" of type '" "TF_Output""'"); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TF_OperationOutputType" "', argument " "1"" of type '" "TF_Output""'");
+    } else {
+      arg1 = *((TF_Output *)(argp1));
+    }
+  }
+  result = (TF_DataType)TF_OperationOutputType(arg1);
+  jsresult = SWIG_From_int((int)(result));
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationOutputListLength(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  char *arg2 = (char *) 0 ;
+  TF_Status *arg3 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  int result;
+  
+  if(args.Length() != 3) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationOutputListLength.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationOutputListLength" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_OperationOutputListLength" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_OperationOutputListLength" "', argument " "3"" of type '" "TF_Status *""'"); 
+  }
+  arg3 = (TF_Status *)(argp3);
+  result = (int)TF_OperationOutputListLength(arg1,(char const *)arg2,arg3);
+  jsresult = SWIG_From_int((int)(result));
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationNumInputs(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationNumInputs.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationNumInputs" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  result = (int)TF_OperationNumInputs(arg1);
+  jsresult = SWIG_From_int((int)(result));
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationInputType(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Input arg1 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  TF_DataType result;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationInputType.");
+  
+  {
+    res1 = SWIG_ConvertPtr(args[0], &argp1, SWIGTYPE_p_TF_Input,  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationInputType" "', argument " "1"" of type '" "TF_Input""'"); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TF_OperationInputType" "', argument " "1"" of type '" "TF_Input""'");
+    } else {
+      arg1 = *((TF_Input *)(argp1));
+    }
+  }
+  result = (TF_DataType)TF_OperationInputType(arg1);
+  jsresult = SWIG_From_int((int)(result));
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationInputListLength(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  char *arg2 = (char *) 0 ;
+  TF_Status *arg3 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  int result;
+  
+  if(args.Length() != 3) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationInputListLength.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationInputListLength" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_OperationInputListLength" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_OperationInputListLength" "', argument " "3"" of type '" "TF_Status *""'"); 
+  }
+  arg3 = (TF_Status *)(argp3);
+  result = (int)TF_OperationInputListLength(arg1,(char const *)arg2,arg3);
+  jsresult = SWIG_From_int((int)(result));
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationInput(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Input arg1 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  TF_Output result;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationInput.");
+  
+  {
+    res1 = SWIG_ConvertPtr(args[0], &argp1, SWIGTYPE_p_TF_Input,  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationInput" "', argument " "1"" of type '" "TF_Input""'"); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TF_OperationInput" "', argument " "1"" of type '" "TF_Input""'");
+    } else {
+      arg1 = *((TF_Input *)(argp1));
+    }
+  }
+  result = TF_OperationInput(arg1);
+  jsresult = SWIG_NewPointerObj((new TF_Output((const TF_Output&)(result))), SWIGTYPE_p_TF_Output, SWIG_POINTER_OWN |  0 );
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationOutputNumConsumers(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Output arg1 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  int result;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationOutputNumConsumers.");
+  
+  {
+    res1 = SWIG_ConvertPtr(args[0], &argp1, SWIGTYPE_p_TF_Output,  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationOutputNumConsumers" "', argument " "1"" of type '" "TF_Output""'"); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TF_OperationOutputNumConsumers" "', argument " "1"" of type '" "TF_Output""'");
+    } else {
+      arg1 = *((TF_Output *)(argp1));
+    }
+  }
+  result = (int)TF_OperationOutputNumConsumers(arg1);
+  jsresult = SWIG_From_int((int)(result));
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationOutputConsumers(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Output arg1 ;
+  TF_Input *arg2 = (TF_Input *) 0 ;
+  int arg3 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  int result;
+  
+  if(args.Length() != 3) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationOutputConsumers.");
+  
+  {
+    res1 = SWIG_ConvertPtr(args[0], &argp1, SWIGTYPE_p_TF_Output,  0 );
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationOutputConsumers" "', argument " "1"" of type '" "TF_Output""'"); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TF_OperationOutputConsumers" "', argument " "1"" of type '" "TF_Output""'");
+    } else {
+      arg1 = *((TF_Output *)(argp1));
+    }
+  }
+  res2 = SWIG_ConvertPtr(args[1], &argp2,SWIGTYPE_p_TF_Input, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_OperationOutputConsumers" "', argument " "2"" of type '" "TF_Input *""'"); 
+  }
+  arg2 = (TF_Input *)(argp2);
+  ecode3 = SWIG_AsVal_int(args[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "TF_OperationOutputConsumers" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = (int)(val3);
+  result = (int)TF_OperationOutputConsumers(arg1,arg2,arg3);
+  jsresult = SWIG_From_int((int)(result));
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationNumControlInputs(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationNumControlInputs.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationNumControlInputs" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  result = (int)TF_OperationNumControlInputs(arg1);
+  jsresult = SWIG_From_int((int)(result));
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationGetControlInputs(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  TF_Operation **arg2 = (TF_Operation **) 0 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  int result;
+  
+  if(args.Length() != 3) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationGetControlInputs.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationGetControlInputs" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  res2 = SWIG_ConvertPtr(args[1], &argp2,SWIGTYPE_p_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_OperationGetControlInputs" "', argument " "2"" of type '" "TF_Operation **""'"); 
+  }
+  arg2 = (TF_Operation **)(argp2);
+  ecode3 = SWIG_AsVal_int(args[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "TF_OperationGetControlInputs" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = (int)(val3);
+  result = (int)TF_OperationGetControlInputs(arg1,arg2,arg3);
+  jsresult = SWIG_From_int((int)(result));
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationNumControlOutputs(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int result;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationNumControlOutputs.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationNumControlOutputs" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  result = (int)TF_OperationNumControlOutputs(arg1);
+  jsresult = SWIG_From_int((int)(result));
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationGetControlOutputs(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  TF_Operation **arg2 = (TF_Operation **) 0 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  int result;
+  
+  if(args.Length() != 3) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationGetControlOutputs.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationGetControlOutputs" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  res2 = SWIG_ConvertPtr(args[1], &argp2,SWIGTYPE_p_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_OperationGetControlOutputs" "', argument " "2"" of type '" "TF_Operation **""'"); 
+  }
+  arg2 = (TF_Operation **)(argp2);
+  ecode3 = SWIG_AsVal_int(args[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "TF_OperationGetControlOutputs" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = (int)(val3);
+  result = (int)TF_OperationGetControlOutputs(arg1,arg2,arg3);
+  jsresult = SWIG_From_int((int)(result));
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_ATTR_STRING(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_ATTR_STRING));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_ATTR_INT(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_ATTR_INT));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_ATTR_FLOAT(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_ATTR_FLOAT));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_ATTR_BOOL(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_ATTR_BOOL));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_ATTR_TYPE(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_ATTR_TYPE));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_ATTR_SHAPE(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_ATTR_SHAPE));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_ATTR_TENSOR(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_ATTR_TENSOR));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_ATTR_PLACEHOLDER(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_ATTR_PLACEHOLDER));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_TF_ATTR_FUNC(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  
+  jsresult = SWIG_From_int((int)(TF_ATTR_FUNC));
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static void _wrap_TF_AttrMetadata_is_list_set(v8::Local<v8::String> property, v8::Local<v8::Value> value,
+  const SwigV8PropertyCallbackInfoVoid &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  TF_AttrMetadata *arg1 = (TF_AttrMetadata *) 0 ;
+  unsigned char arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned char val2 ;
+  int ecode2 = 0 ;
+  
+  res1 = SWIG_ConvertPtr(info.Holder(), &argp1,SWIGTYPE_p_TF_AttrMetadata, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_AttrMetadata_is_list_set" "', argument " "1"" of type '" "TF_AttrMetadata *""'"); 
+  }
+  arg1 = (TF_AttrMetadata *)(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_char(value, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TF_AttrMetadata_is_list_set" "', argument " "2"" of type '" "unsigned char""'");
+  } 
+  arg2 = (unsigned char)(val2);
+  if (arg1) (arg1)->is_list = arg2;
+  
+  
+  
+  goto fail;
+fail:
+  return;
+}
+
+
+static SwigV8ReturnValue _wrap_TF_AttrMetadata_is_list_get(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_AttrMetadata *arg1 = (TF_AttrMetadata *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned char result;
+  
+  res1 = SWIG_ConvertPtr(info.Holder(), &argp1,SWIGTYPE_p_TF_AttrMetadata, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_AttrMetadata_is_list_get" "', argument " "1"" of type '" "TF_AttrMetadata *""'"); 
+  }
+  arg1 = (TF_AttrMetadata *)(argp1);
+  result = (unsigned char) ((arg1)->is_list);
+  jsresult = SWIG_From_unsigned_SS_char((unsigned char)(result));
+  
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static void _wrap_TF_AttrMetadata_list_size_set(v8::Local<v8::String> property, v8::Local<v8::Value> value,
+  const SwigV8PropertyCallbackInfoVoid &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  TF_AttrMetadata *arg1 = (TF_AttrMetadata *) 0 ;
+  int64_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  
+  res1 = SWIG_ConvertPtr(info.Holder(), &argp1,SWIGTYPE_p_TF_AttrMetadata, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_AttrMetadata_list_size_set" "', argument " "1"" of type '" "TF_AttrMetadata *""'"); 
+  }
+  arg1 = (TF_AttrMetadata *)(argp1);
+  {
+    res2 = SWIG_ConvertPtr(value, &argp2, SWIGTYPE_p_int64_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_AttrMetadata_list_size_set" "', argument " "2"" of type '" "int64_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TF_AttrMetadata_list_size_set" "', argument " "2"" of type '" "int64_t""'");
+    } else {
+      arg2 = *((int64_t *)(argp2));
+    }
+  }
+  if (arg1) (arg1)->list_size = arg2;
+  
+  
+  goto fail;
+fail:
+  return;
+}
+
+
+static SwigV8ReturnValue _wrap_TF_AttrMetadata_list_size_get(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_AttrMetadata *arg1 = (TF_AttrMetadata *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int64_t result;
+  
+  res1 = SWIG_ConvertPtr(info.Holder(), &argp1,SWIGTYPE_p_TF_AttrMetadata, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_AttrMetadata_list_size_get" "', argument " "1"" of type '" "TF_AttrMetadata *""'"); 
+  }
+  arg1 = (TF_AttrMetadata *)(argp1);
+  result =  ((arg1)->list_size);
+  jsresult = SWIG_NewPointerObj((new int64_t((const int64_t&)(result))), SWIGTYPE_p_int64_t, SWIG_POINTER_OWN |  0 );
+  
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static void _wrap_TF_AttrMetadata_type_set(v8::Local<v8::String> property, v8::Local<v8::Value> value,
+  const SwigV8PropertyCallbackInfoVoid &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  TF_AttrMetadata *arg1 = (TF_AttrMetadata *) 0 ;
+  TF_AttrType arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  
+  res1 = SWIG_ConvertPtr(info.Holder(), &argp1,SWIGTYPE_p_TF_AttrMetadata, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_AttrMetadata_type_set" "', argument " "1"" of type '" "TF_AttrMetadata *""'"); 
+  }
+  arg1 = (TF_AttrMetadata *)(argp1);
+  ecode2 = SWIG_AsVal_int(value, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "TF_AttrMetadata_type_set" "', argument " "2"" of type '" "TF_AttrType""'");
+  } 
+  arg2 = (TF_AttrType)(val2);
+  if (arg1) (arg1)->type = arg2;
+  
+  
+  
+  goto fail;
+fail:
+  return;
+}
+
+
+static SwigV8ReturnValue _wrap_TF_AttrMetadata_type_get(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_AttrMetadata *arg1 = (TF_AttrMetadata *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  TF_AttrType result;
+  
+  res1 = SWIG_ConvertPtr(info.Holder(), &argp1,SWIGTYPE_p_TF_AttrMetadata, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_AttrMetadata_type_get" "', argument " "1"" of type '" "TF_AttrMetadata *""'"); 
+  }
+  arg1 = (TF_AttrMetadata *)(argp1);
+  result = (TF_AttrType) ((arg1)->type);
+  jsresult = SWIG_From_int((int)(result));
+  
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static void _wrap_TF_AttrMetadata_total_size_set(v8::Local<v8::String> property, v8::Local<v8::Value> value,
+  const SwigV8PropertyCallbackInfoVoid &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  TF_AttrMetadata *arg1 = (TF_AttrMetadata *) 0 ;
+  int64_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  
+  res1 = SWIG_ConvertPtr(info.Holder(), &argp1,SWIGTYPE_p_TF_AttrMetadata, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_AttrMetadata_total_size_set" "', argument " "1"" of type '" "TF_AttrMetadata *""'"); 
+  }
+  arg1 = (TF_AttrMetadata *)(argp1);
+  {
+    res2 = SWIG_ConvertPtr(value, &argp2, SWIGTYPE_p_int64_t,  0 );
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_AttrMetadata_total_size_set" "', argument " "2"" of type '" "int64_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TF_AttrMetadata_total_size_set" "', argument " "2"" of type '" "int64_t""'");
+    } else {
+      arg2 = *((int64_t *)(argp2));
+    }
+  }
+  if (arg1) (arg1)->total_size = arg2;
+  
+  
+  goto fail;
+fail:
+  return;
+}
+
+
+static SwigV8ReturnValue _wrap_TF_AttrMetadata_total_size_get(v8::Local<v8::String> property, const SwigV8PropertyCallbackInfo &info) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_AttrMetadata *arg1 = (TF_AttrMetadata *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int64_t result;
+  
+  res1 = SWIG_ConvertPtr(info.Holder(), &argp1,SWIGTYPE_p_TF_AttrMetadata, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_AttrMetadata_total_size_get" "', argument " "1"" of type '" "TF_AttrMetadata *""'"); 
+  }
+  arg1 = (TF_AttrMetadata *)(argp1);
+  result =  ((arg1)->total_size);
+  jsresult = SWIG_NewPointerObj((new int64_t((const int64_t&)(result))), SWIGTYPE_p_int64_t, SWIG_POINTER_OWN |  0 );
+  
+  
+  SWIGV8_RETURN_INFO(jsresult, info);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN_INFO(SWIGV8_UNDEFINED(), info);
+}
+
+
+static SwigV8ReturnValue _wrap_new_TF_AttrMetadata(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Object> self = args.Holder();
+  TF_AttrMetadata *result;
+  if(args.Length() != 0) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_new_TF_AttrMetadata.");
+  result = (TF_AttrMetadata *)new TF_AttrMetadata();
+  
+  
+  
+  SWIGV8_SetPrivateData(self, result, SWIGTYPE_p_TF_AttrMetadata, SWIG_POINTER_OWN);
+  SWIGV8_RETURN(self);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+#if (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < 0x031710)
+static void _wrap_delete_TF_AttrMetadata(v8::Persistent<v8::Value> object, void *parameter) {
+  SWIGV8_Proxy *proxy = static_cast<SWIGV8_Proxy *>(parameter);
+#elif (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < 0x031900)
+  static void _wrap_delete_TF_AttrMetadata(v8::Isolate *isolate, v8::Persistent<v8::Value> object, void *parameter) {
+    SWIGV8_Proxy *proxy = static_cast<SWIGV8_Proxy *>(parameter);
+#elif (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < SWIGV8_SETWEAK_VERSION)
+    static void _wrap_delete_TF_AttrMetadata(v8::Isolate *isolate, v8::Persistent< v8::Object> *object, SWIGV8_Proxy *proxy) {
+#else
+      static void _wrap_delete_TF_AttrMetadata(const v8::WeakCallbackData<v8::Object, SWIGV8_Proxy> &data) {
+        v8::Local<v8::Object> object = data.GetValue();
+        SWIGV8_Proxy *proxy = data.GetParameter();
+#endif
+        
+        if(proxy->swigCMemOwn && proxy->swigCObject) {
+          TF_AttrMetadata * arg1 = (TF_AttrMetadata *)proxy->swigCObject;
+          delete arg1;
+        }
+        delete proxy;
+        
+#if (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < 0x031710)
+        object.Dispose();
+#elif (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < 0x031900)
+        object.Dispose(isolate);
+#elif (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < 0x032100)
+        object->Dispose(isolate);
+#elif (V8_MAJOR_VERSION-0) < 4 && (SWIG_V8_VERSION < SWIGV8_SETWEAK_VERSION)
+        object->Dispose();
+#else
+        object.Clear();
+#endif
+      }
+
+
+static SwigV8ReturnValue _wrap_TF_OperationGetAttrMetadata(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  char *arg2 = (char *) 0 ;
+  TF_Status *arg3 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  TF_AttrMetadata result;
+  
+  if(args.Length() != 3) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationGetAttrMetadata.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationGetAttrMetadata" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_OperationGetAttrMetadata" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_OperationGetAttrMetadata" "', argument " "3"" of type '" "TF_Status *""'"); 
+  }
+  arg3 = (TF_Status *)(argp3);
+  result = TF_OperationGetAttrMetadata(arg1,(char const *)arg2,arg3);
+  jsresult = SWIG_NewPointerObj((new TF_AttrMetadata((const TF_AttrMetadata&)(result))), SWIGTYPE_p_TF_AttrMetadata, SWIG_POINTER_OWN |  0 );
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationGetAttrString(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  char *arg2 = (char *) 0 ;
+  void *arg3 = (void *) 0 ;
+  size_t arg4 ;
+  TF_Status *arg5 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  int res3 ;
+  size_t val4 ;
+  int ecode4 = 0 ;
+  void *argp5 = 0 ;
+  int res5 = 0 ;
+  
+  if(args.Length() != 5) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationGetAttrString.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationGetAttrString" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_OperationGetAttrString" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2],SWIG_as_voidptrptr(&arg3), SWIGTYPE_p_void, 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_OperationGetAttrString" "', argument " "3"" of type '" "void *""'"); 
+  }
+  ecode4 = SWIG_AsVal_size_t(args[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TF_OperationGetAttrString" "', argument " "4"" of type '" "size_t""'");
+  } 
+  arg4 = (size_t)(val4);
+  res5 = SWIG_ConvertPtr(args[4], &argp5,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res5)) {
+    SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "TF_OperationGetAttrString" "', argument " "5"" of type '" "TF_Status *""'"); 
+  }
+  arg5 = (TF_Status *)(argp5);
+  TF_OperationGetAttrString(arg1,(char const *)arg2,arg3,arg4,arg5);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationGetAttrStringList(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  char *arg2 = (char *) 0 ;
+  void **arg3 = (void **) 0 ;
+  size_t *arg4 = (size_t *) 0 ;
+  int arg5 ;
+  void *arg6 = (void *) 0 ;
+  size_t arg7 ;
+  TF_Status *arg8 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  int val5 ;
+  int ecode5 = 0 ;
+  int res6 ;
+  size_t val7 ;
+  int ecode7 = 0 ;
+  void *argp8 = 0 ;
+  int res8 = 0 ;
+  
+  if(args.Length() != 8) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationGetAttrStringList.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationGetAttrStringList" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_OperationGetAttrStringList" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_p_void, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_OperationGetAttrStringList" "', argument " "3"" of type '" "void **""'"); 
+  }
+  arg3 = (void **)(argp3);
+  res4 = SWIG_ConvertPtr(args[3], &argp4,SWIGTYPE_p_size_t, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TF_OperationGetAttrStringList" "', argument " "4"" of type '" "size_t *""'"); 
+  }
+  arg4 = (size_t *)(argp4);
+  ecode5 = SWIG_AsVal_int(args[4], &val5);
+  if (!SWIG_IsOK(ecode5)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "TF_OperationGetAttrStringList" "', argument " "5"" of type '" "int""'");
+  } 
+  arg5 = (int)(val5);
+  res6 = SWIG_ConvertPtr(args[5],SWIG_as_voidptrptr(&arg6), SWIGTYPE_p_void, 0);
+  if (!SWIG_IsOK(res6)) {
+    SWIG_exception_fail(SWIG_ArgError(res6), "in method '" "TF_OperationGetAttrStringList" "', argument " "6"" of type '" "void *""'"); 
+  }
+  ecode7 = SWIG_AsVal_size_t(args[6], &val7);
+  if (!SWIG_IsOK(ecode7)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode7), "in method '" "TF_OperationGetAttrStringList" "', argument " "7"" of type '" "size_t""'");
+  } 
+  arg7 = (size_t)(val7);
+  res8 = SWIG_ConvertPtr(args[7], &argp8,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res8)) {
+    SWIG_exception_fail(SWIG_ArgError(res8), "in method '" "TF_OperationGetAttrStringList" "', argument " "8"" of type '" "TF_Status *""'"); 
+  }
+  arg8 = (TF_Status *)(argp8);
+  TF_OperationGetAttrStringList(arg1,(char const *)arg2,arg3,arg4,arg5,arg6,arg7,arg8);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationGetAttrInt(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  char *arg2 = (char *) 0 ;
+  int64_t *arg3 = (int64_t *) 0 ;
+  TF_Status *arg4 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  
+  if(args.Length() != 4) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationGetAttrInt.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationGetAttrInt" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_OperationGetAttrInt" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_int64_t, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_OperationGetAttrInt" "', argument " "3"" of type '" "int64_t *""'"); 
+  }
+  arg3 = (int64_t *)(argp3);
+  res4 = SWIG_ConvertPtr(args[3], &argp4,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TF_OperationGetAttrInt" "', argument " "4"" of type '" "TF_Status *""'"); 
+  }
+  arg4 = (TF_Status *)(argp4);
+  TF_OperationGetAttrInt(arg1,(char const *)arg2,arg3,arg4);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationGetAttrIntList(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  char *arg2 = (char *) 0 ;
+  int64_t *arg3 = (int64_t *) 0 ;
+  int arg4 ;
+  TF_Status *arg5 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  void *argp5 = 0 ;
+  int res5 = 0 ;
+  
+  if(args.Length() != 5) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationGetAttrIntList.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationGetAttrIntList" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_OperationGetAttrIntList" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_int64_t, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_OperationGetAttrIntList" "', argument " "3"" of type '" "int64_t *""'"); 
+  }
+  arg3 = (int64_t *)(argp3);
+  ecode4 = SWIG_AsVal_int(args[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TF_OperationGetAttrIntList" "', argument " "4"" of type '" "int""'");
+  } 
+  arg4 = (int)(val4);
+  res5 = SWIG_ConvertPtr(args[4], &argp5,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res5)) {
+    SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "TF_OperationGetAttrIntList" "', argument " "5"" of type '" "TF_Status *""'"); 
+  }
+  arg5 = (TF_Status *)(argp5);
+  TF_OperationGetAttrIntList(arg1,(char const *)arg2,arg3,arg4,arg5);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationGetAttrFloat(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  char *arg2 = (char *) 0 ;
+  float *arg3 = (float *) 0 ;
+  TF_Status *arg4 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  
+  if(args.Length() != 4) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationGetAttrFloat.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationGetAttrFloat" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_OperationGetAttrFloat" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_float, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_OperationGetAttrFloat" "', argument " "3"" of type '" "float *""'"); 
+  }
+  arg3 = (float *)(argp3);
+  res4 = SWIG_ConvertPtr(args[3], &argp4,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TF_OperationGetAttrFloat" "', argument " "4"" of type '" "TF_Status *""'"); 
+  }
+  arg4 = (TF_Status *)(argp4);
+  TF_OperationGetAttrFloat(arg1,(char const *)arg2,arg3,arg4);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationGetAttrFloatList(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  char *arg2 = (char *) 0 ;
+  float *arg3 = (float *) 0 ;
+  int arg4 ;
+  TF_Status *arg5 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  void *argp5 = 0 ;
+  int res5 = 0 ;
+  
+  if(args.Length() != 5) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationGetAttrFloatList.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationGetAttrFloatList" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_OperationGetAttrFloatList" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_float, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_OperationGetAttrFloatList" "', argument " "3"" of type '" "float *""'"); 
+  }
+  arg3 = (float *)(argp3);
+  ecode4 = SWIG_AsVal_int(args[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TF_OperationGetAttrFloatList" "', argument " "4"" of type '" "int""'");
+  } 
+  arg4 = (int)(val4);
+  res5 = SWIG_ConvertPtr(args[4], &argp5,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res5)) {
+    SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "TF_OperationGetAttrFloatList" "', argument " "5"" of type '" "TF_Status *""'"); 
+  }
+  arg5 = (TF_Status *)(argp5);
+  TF_OperationGetAttrFloatList(arg1,(char const *)arg2,arg3,arg4,arg5);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationGetAttrBool(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  char *arg2 = (char *) 0 ;
+  unsigned char *arg3 = (unsigned char *) 0 ;
+  TF_Status *arg4 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  
+  if(args.Length() != 4) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationGetAttrBool.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationGetAttrBool" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_OperationGetAttrBool" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_unsigned_char, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_OperationGetAttrBool" "', argument " "3"" of type '" "unsigned char *""'"); 
+  }
+  arg3 = (unsigned char *)(argp3);
+  res4 = SWIG_ConvertPtr(args[3], &argp4,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TF_OperationGetAttrBool" "', argument " "4"" of type '" "TF_Status *""'"); 
+  }
+  arg4 = (TF_Status *)(argp4);
+  TF_OperationGetAttrBool(arg1,(char const *)arg2,arg3,arg4);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationGetAttrBoolList(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  char *arg2 = (char *) 0 ;
+  unsigned char *arg3 = (unsigned char *) 0 ;
+  int arg4 ;
+  TF_Status *arg5 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  void *argp5 = 0 ;
+  int res5 = 0 ;
+  
+  if(args.Length() != 5) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationGetAttrBoolList.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationGetAttrBoolList" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_OperationGetAttrBoolList" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_unsigned_char, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_OperationGetAttrBoolList" "', argument " "3"" of type '" "unsigned char *""'"); 
+  }
+  arg3 = (unsigned char *)(argp3);
+  ecode4 = SWIG_AsVal_int(args[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TF_OperationGetAttrBoolList" "', argument " "4"" of type '" "int""'");
+  } 
+  arg4 = (int)(val4);
+  res5 = SWIG_ConvertPtr(args[4], &argp5,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res5)) {
+    SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "TF_OperationGetAttrBoolList" "', argument " "5"" of type '" "TF_Status *""'"); 
+  }
+  arg5 = (TF_Status *)(argp5);
+  TF_OperationGetAttrBoolList(arg1,(char const *)arg2,arg3,arg4,arg5);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationGetAttrType(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  char *arg2 = (char *) 0 ;
+  TF_DataType *arg3 = (TF_DataType *) 0 ;
+  TF_Status *arg4 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  
+  if(args.Length() != 4) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationGetAttrType.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationGetAttrType" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_OperationGetAttrType" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_TF_DataType, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_OperationGetAttrType" "', argument " "3"" of type '" "TF_DataType *""'"); 
+  }
+  arg3 = (TF_DataType *)(argp3);
+  res4 = SWIG_ConvertPtr(args[3], &argp4,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TF_OperationGetAttrType" "', argument " "4"" of type '" "TF_Status *""'"); 
+  }
+  arg4 = (TF_Status *)(argp4);
+  TF_OperationGetAttrType(arg1,(char const *)arg2,arg3,arg4);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationGetAttrTypeList(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  char *arg2 = (char *) 0 ;
+  TF_DataType *arg3 = (TF_DataType *) 0 ;
+  int arg4 ;
+  TF_Status *arg5 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  void *argp5 = 0 ;
+  int res5 = 0 ;
+  
+  if(args.Length() != 5) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationGetAttrTypeList.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationGetAttrTypeList" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_OperationGetAttrTypeList" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_TF_DataType, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_OperationGetAttrTypeList" "', argument " "3"" of type '" "TF_DataType *""'"); 
+  }
+  arg3 = (TF_DataType *)(argp3);
+  ecode4 = SWIG_AsVal_int(args[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TF_OperationGetAttrTypeList" "', argument " "4"" of type '" "int""'");
+  } 
+  arg4 = (int)(val4);
+  res5 = SWIG_ConvertPtr(args[4], &argp5,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res5)) {
+    SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "TF_OperationGetAttrTypeList" "', argument " "5"" of type '" "TF_Status *""'"); 
+  }
+  arg5 = (TF_Status *)(argp5);
+  TF_OperationGetAttrTypeList(arg1,(char const *)arg2,arg3,arg4,arg5);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationGetAttrShape(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  char *arg2 = (char *) 0 ;
+  int64_t *arg3 = (int64_t *) 0 ;
+  int arg4 ;
+  TF_Status *arg5 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  void *argp5 = 0 ;
+  int res5 = 0 ;
+  
+  if(args.Length() != 5) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationGetAttrShape.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationGetAttrShape" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_OperationGetAttrShape" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_int64_t, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_OperationGetAttrShape" "', argument " "3"" of type '" "int64_t *""'"); 
+  }
+  arg3 = (int64_t *)(argp3);
+  ecode4 = SWIG_AsVal_int(args[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TF_OperationGetAttrShape" "', argument " "4"" of type '" "int""'");
+  } 
+  arg4 = (int)(val4);
+  res5 = SWIG_ConvertPtr(args[4], &argp5,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res5)) {
+    SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "TF_OperationGetAttrShape" "', argument " "5"" of type '" "TF_Status *""'"); 
+  }
+  arg5 = (TF_Status *)(argp5);
+  TF_OperationGetAttrShape(arg1,(char const *)arg2,arg3,arg4,arg5);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationGetAttrShapeList(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  char *arg2 = (char *) 0 ;
+  int64_t **arg3 = (int64_t **) 0 ;
+  int *arg4 = (int *) 0 ;
+  int arg5 ;
+  int64_t *arg6 = (int64_t *) 0 ;
+  int arg7 ;
+  TF_Status *arg8 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  int val5 ;
+  int ecode5 = 0 ;
+  void *argp6 = 0 ;
+  int res6 = 0 ;
+  int val7 ;
+  int ecode7 = 0 ;
+  void *argp8 = 0 ;
+  int res8 = 0 ;
+  
+  if(args.Length() != 8) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationGetAttrShapeList.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationGetAttrShapeList" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_OperationGetAttrShapeList" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_p_int64_t, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_OperationGetAttrShapeList" "', argument " "3"" of type '" "int64_t **""'"); 
+  }
+  arg3 = (int64_t **)(argp3);
+  res4 = SWIG_ConvertPtr(args[3], &argp4,SWIGTYPE_p_int, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TF_OperationGetAttrShapeList" "', argument " "4"" of type '" "int *""'"); 
+  }
+  arg4 = (int *)(argp4);
+  ecode5 = SWIG_AsVal_int(args[4], &val5);
+  if (!SWIG_IsOK(ecode5)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "TF_OperationGetAttrShapeList" "', argument " "5"" of type '" "int""'");
+  } 
+  arg5 = (int)(val5);
+  res6 = SWIG_ConvertPtr(args[5], &argp6,SWIGTYPE_p_int64_t, 0 |  0 );
+  if (!SWIG_IsOK(res6)) {
+    SWIG_exception_fail(SWIG_ArgError(res6), "in method '" "TF_OperationGetAttrShapeList" "', argument " "6"" of type '" "int64_t *""'"); 
+  }
+  arg6 = (int64_t *)(argp6);
+  ecode7 = SWIG_AsVal_int(args[6], &val7);
+  if (!SWIG_IsOK(ecode7)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode7), "in method '" "TF_OperationGetAttrShapeList" "', argument " "7"" of type '" "int""'");
+  } 
+  arg7 = (int)(val7);
+  res8 = SWIG_ConvertPtr(args[7], &argp8,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res8)) {
+    SWIG_exception_fail(SWIG_ArgError(res8), "in method '" "TF_OperationGetAttrShapeList" "', argument " "8"" of type '" "TF_Status *""'"); 
+  }
+  arg8 = (TF_Status *)(argp8);
+  TF_OperationGetAttrShapeList(arg1,(char const *)arg2,arg3,arg4,arg5,arg6,arg7,arg8);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationGetAttrTensorShapeProto(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  char *arg2 = (char *) 0 ;
+  TF_Buffer *arg3 = (TF_Buffer *) 0 ;
+  TF_Status *arg4 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  
+  if(args.Length() != 4) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationGetAttrTensorShapeProto.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationGetAttrTensorShapeProto" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_OperationGetAttrTensorShapeProto" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_TF_Buffer, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_OperationGetAttrTensorShapeProto" "', argument " "3"" of type '" "TF_Buffer *""'"); 
+  }
+  arg3 = (TF_Buffer *)(argp3);
+  res4 = SWIG_ConvertPtr(args[3], &argp4,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TF_OperationGetAttrTensorShapeProto" "', argument " "4"" of type '" "TF_Status *""'"); 
+  }
+  arg4 = (TF_Status *)(argp4);
+  TF_OperationGetAttrTensorShapeProto(arg1,(char const *)arg2,arg3,arg4);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationGetAttrTensorShapeProtoList(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  char *arg2 = (char *) 0 ;
+  TF_Buffer **arg3 = (TF_Buffer **) 0 ;
+  int arg4 ;
+  TF_Status *arg5 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  void *argp5 = 0 ;
+  int res5 = 0 ;
+  
+  if(args.Length() != 5) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationGetAttrTensorShapeProtoList.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationGetAttrTensorShapeProtoList" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_OperationGetAttrTensorShapeProtoList" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_p_TF_Buffer, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_OperationGetAttrTensorShapeProtoList" "', argument " "3"" of type '" "TF_Buffer **""'"); 
+  }
+  arg3 = (TF_Buffer **)(argp3);
+  ecode4 = SWIG_AsVal_int(args[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TF_OperationGetAttrTensorShapeProtoList" "', argument " "4"" of type '" "int""'");
+  } 
+  arg4 = (int)(val4);
+  res5 = SWIG_ConvertPtr(args[4], &argp5,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res5)) {
+    SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "TF_OperationGetAttrTensorShapeProtoList" "', argument " "5"" of type '" "TF_Status *""'"); 
+  }
+  arg5 = (TF_Status *)(argp5);
+  TF_OperationGetAttrTensorShapeProtoList(arg1,(char const *)arg2,arg3,arg4,arg5);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationGetAttrTensor(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  char *arg2 = (char *) 0 ;
+  TF_Tensor **arg3 = (TF_Tensor **) 0 ;
+  TF_Status *arg4 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  
+  if(args.Length() != 4) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationGetAttrTensor.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationGetAttrTensor" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_OperationGetAttrTensor" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_p_TF_Tensor, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_OperationGetAttrTensor" "', argument " "3"" of type '" "TF_Tensor **""'"); 
+  }
+  arg3 = (TF_Tensor **)(argp3);
+  res4 = SWIG_ConvertPtr(args[3], &argp4,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TF_OperationGetAttrTensor" "', argument " "4"" of type '" "TF_Status *""'"); 
+  }
+  arg4 = (TF_Status *)(argp4);
+  TF_OperationGetAttrTensor(arg1,(char const *)arg2,arg3,arg4);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationGetAttrTensorList(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  char *arg2 = (char *) 0 ;
+  TF_Tensor **arg3 = (TF_Tensor **) 0 ;
+  int arg4 ;
+  TF_Status *arg5 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  void *argp5 = 0 ;
+  int res5 = 0 ;
+  
+  if(args.Length() != 5) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationGetAttrTensorList.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationGetAttrTensorList" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_OperationGetAttrTensorList" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_p_TF_Tensor, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_OperationGetAttrTensorList" "', argument " "3"" of type '" "TF_Tensor **""'"); 
+  }
+  arg3 = (TF_Tensor **)(argp3);
+  ecode4 = SWIG_AsVal_int(args[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "TF_OperationGetAttrTensorList" "', argument " "4"" of type '" "int""'");
+  } 
+  arg4 = (int)(val4);
+  res5 = SWIG_ConvertPtr(args[4], &argp5,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res5)) {
+    SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "TF_OperationGetAttrTensorList" "', argument " "5"" of type '" "TF_Status *""'"); 
+  }
+  arg5 = (TF_Status *)(argp5);
+  TF_OperationGetAttrTensorList(arg1,(char const *)arg2,arg3,arg4,arg5);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationGetAttrValueProto(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  char *arg2 = (char *) 0 ;
+  TF_Buffer *arg3 = (TF_Buffer *) 0 ;
+  TF_Status *arg4 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  
+  if(args.Length() != 4) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationGetAttrValueProto.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationGetAttrValueProto" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_OperationGetAttrValueProto" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_TF_Buffer, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_OperationGetAttrValueProto" "', argument " "3"" of type '" "TF_Buffer *""'"); 
+  }
+  arg3 = (TF_Buffer *)(argp3);
+  res4 = SWIG_ConvertPtr(args[3], &argp4,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TF_OperationGetAttrValueProto" "', argument " "4"" of type '" "TF_Status *""'"); 
+  }
+  arg4 = (TF_Status *)(argp4);
+  TF_OperationGetAttrValueProto(arg1,(char const *)arg2,arg3,arg4);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_GraphOperationByName(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Graph *arg1 = (TF_Graph *) 0 ;
+  char *arg2 = (char *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  TF_Operation *result = 0 ;
+  
+  if(args.Length() != 2) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_GraphOperationByName.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Graph, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_GraphOperationByName" "', argument " "1"" of type '" "TF_Graph *""'"); 
+  }
+  arg1 = (TF_Graph *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_GraphOperationByName" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  result = (TF_Operation *)TF_GraphOperationByName(arg1,(char const *)arg2);
+  jsresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_TF_Operation, 0 |  0 );
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_GraphNextOperation(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Graph *arg1 = (TF_Graph *) 0 ;
+  size_t *arg2 = (size_t *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  TF_Operation *result = 0 ;
+  
+  if(args.Length() != 2) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_GraphNextOperation.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Graph, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_GraphNextOperation" "', argument " "1"" of type '" "TF_Graph *""'"); 
+  }
+  arg1 = (TF_Graph *)(argp1);
+  res2 = SWIG_ConvertPtr(args[1], &argp2,SWIGTYPE_p_size_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_GraphNextOperation" "', argument " "2"" of type '" "size_t *""'"); 
+  }
+  arg2 = (size_t *)(argp2);
+  result = (TF_Operation *)TF_GraphNextOperation(arg1,arg2);
+  jsresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_TF_Operation, 0 |  0 );
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_GraphToGraphDef(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Graph *arg1 = (TF_Graph *) 0 ;
+  TF_Buffer *arg2 = (TF_Buffer *) 0 ;
+  TF_Status *arg3 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  
+  if(args.Length() != 3) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_GraphToGraphDef.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Graph, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_GraphToGraphDef" "', argument " "1"" of type '" "TF_Graph *""'"); 
+  }
+  arg1 = (TF_Graph *)(argp1);
+  res2 = SWIG_ConvertPtr(args[1], &argp2,SWIGTYPE_p_TF_Buffer, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_GraphToGraphDef" "', argument " "2"" of type '" "TF_Buffer *""'"); 
+  }
+  arg2 = (TF_Buffer *)(argp2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_GraphToGraphDef" "', argument " "3"" of type '" "TF_Status *""'"); 
+  }
+  arg3 = (TF_Status *)(argp3);
+  TF_GraphToGraphDef(arg1,arg2,arg3);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_NewImportGraphDefOptions(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_ImportGraphDefOptions *result = 0 ;
+  
+  if(args.Length() != 0) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_NewImportGraphDefOptions.");
+  
+  result = (TF_ImportGraphDefOptions *)TF_NewImportGraphDefOptions();
+  jsresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_TF_ImportGraphDefOptions, 0 |  0 );
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_DeleteImportGraphDefOptions(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_ImportGraphDefOptions *arg1 = (TF_ImportGraphDefOptions *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_DeleteImportGraphDefOptions.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_ImportGraphDefOptions, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_DeleteImportGraphDefOptions" "', argument " "1"" of type '" "TF_ImportGraphDefOptions *""'"); 
+  }
+  arg1 = (TF_ImportGraphDefOptions *)(argp1);
+  TF_DeleteImportGraphDefOptions(arg1);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_ImportGraphDefOptionsSetPrefix(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_ImportGraphDefOptions *arg1 = (TF_ImportGraphDefOptions *) 0 ;
+  char *arg2 = (char *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  
+  if(args.Length() != 2) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_ImportGraphDefOptionsSetPrefix.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_ImportGraphDefOptions, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_ImportGraphDefOptionsSetPrefix" "', argument " "1"" of type '" "TF_ImportGraphDefOptions *""'"); 
+  }
+  arg1 = (TF_ImportGraphDefOptions *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_ImportGraphDefOptionsSetPrefix" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  TF_ImportGraphDefOptionsSetPrefix(arg1,(char const *)arg2);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_GraphImportGraphDef(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Graph *arg1 = (TF_Graph *) 0 ;
+  TF_Buffer *arg2 = (TF_Buffer *) 0 ;
+  TF_ImportGraphDefOptions *arg3 = (TF_ImportGraphDefOptions *) 0 ;
+  TF_Status *arg4 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  
+  if(args.Length() != 4) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_GraphImportGraphDef.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Graph, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_GraphImportGraphDef" "', argument " "1"" of type '" "TF_Graph *""'"); 
+  }
+  arg1 = (TF_Graph *)(argp1);
+  res2 = SWIG_ConvertPtr(args[1], &argp2,SWIGTYPE_p_TF_Buffer, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_GraphImportGraphDef" "', argument " "2"" of type '" "TF_Buffer const *""'"); 
+  }
+  arg2 = (TF_Buffer *)(argp2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_TF_ImportGraphDefOptions, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_GraphImportGraphDef" "', argument " "3"" of type '" "TF_ImportGraphDefOptions const *""'"); 
+  }
+  arg3 = (TF_ImportGraphDefOptions *)(argp3);
+  res4 = SWIG_ConvertPtr(args[3], &argp4,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TF_GraphImportGraphDef" "', argument " "4"" of type '" "TF_Status *""'"); 
+  }
+  arg4 = (TF_Status *)(argp4);
+  TF_GraphImportGraphDef(arg1,(TF_Buffer const *)arg2,(TF_ImportGraphDefOptions const *)arg3,arg4);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_OperationToNodeDef(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Operation *arg1 = (TF_Operation *) 0 ;
+  TF_Buffer *arg2 = (TF_Buffer *) 0 ;
+  TF_Status *arg3 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  
+  if(args.Length() != 3) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_OperationToNodeDef.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_OperationToNodeDef" "', argument " "1"" of type '" "TF_Operation *""'"); 
+  }
+  arg1 = (TF_Operation *)(argp1);
+  res2 = SWIG_ConvertPtr(args[1], &argp2,SWIGTYPE_p_TF_Buffer, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_OperationToNodeDef" "', argument " "2"" of type '" "TF_Buffer *""'"); 
+  }
+  arg2 = (TF_Buffer *)(argp2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_OperationToNodeDef" "', argument " "3"" of type '" "TF_Status *""'"); 
+  }
+  arg3 = (TF_Status *)(argp3);
+  TF_OperationToNodeDef(arg1,arg2,arg3);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_NewSession(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Graph *arg1 = (TF_Graph *) 0 ;
+  TF_SessionOptions *arg2 = (TF_SessionOptions *) 0 ;
+  TF_Status *arg3 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  TF_Session *result = 0 ;
+  
+  if(args.Length() != 3) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_NewSession.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Graph, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_NewSession" "', argument " "1"" of type '" "TF_Graph *""'"); 
+  }
+  arg1 = (TF_Graph *)(argp1);
+  res2 = SWIG_ConvertPtr(args[1], &argp2,SWIGTYPE_p_TF_SessionOptions, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_NewSession" "', argument " "2"" of type '" "TF_SessionOptions const *""'"); 
+  }
+  arg2 = (TF_SessionOptions *)(argp2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_NewSession" "', argument " "3"" of type '" "TF_Status *""'"); 
+  }
+  arg3 = (TF_Status *)(argp3);
+  result = (TF_Session *)TF_NewSession(arg1,(TF_SessionOptions const *)arg2,arg3);
+  jsresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_TF_Session, 0 |  0 );
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_LoadSessionFromSavedModel(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_SessionOptions *arg1 = (TF_SessionOptions *) 0 ;
+  TF_Buffer *arg2 = (TF_Buffer *) 0 ;
+  char *arg3 = (char *) 0 ;
+  char **arg4 = (char **) 0 ;
+  int arg5 ;
+  TF_Graph *arg6 = (TF_Graph *) 0 ;
+  TF_Buffer *arg7 = (TF_Buffer *) 0 ;
+  TF_Status *arg8 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int res3 ;
+  char *buf3 = 0 ;
+  int alloc3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  int val5 ;
+  int ecode5 = 0 ;
+  void *argp6 = 0 ;
+  int res6 = 0 ;
+  void *argp7 = 0 ;
+  int res7 = 0 ;
+  void *argp8 = 0 ;
+  int res8 = 0 ;
+  TF_Session *result = 0 ;
+  
+  if(args.Length() != 8) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_LoadSessionFromSavedModel.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_SessionOptions, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_LoadSessionFromSavedModel" "', argument " "1"" of type '" "TF_SessionOptions const *""'"); 
+  }
+  arg1 = (TF_SessionOptions *)(argp1);
+  res2 = SWIG_ConvertPtr(args[1], &argp2,SWIGTYPE_p_TF_Buffer, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_LoadSessionFromSavedModel" "', argument " "2"" of type '" "TF_Buffer const *""'"); 
+  }
+  arg2 = (TF_Buffer *)(argp2);
+  res3 = SWIG_AsCharPtrAndSize(args[2], &buf3, NULL, &alloc3);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_LoadSessionFromSavedModel" "', argument " "3"" of type '" "char const *""'");
+  }
+  arg3 = (char *)(buf3);
+  res4 = SWIG_ConvertPtr(args[3], &argp4,SWIGTYPE_p_p_char, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TF_LoadSessionFromSavedModel" "', argument " "4"" of type '" "char const *const *""'"); 
+  }
+  arg4 = (char **)(argp4);
+  ecode5 = SWIG_AsVal_int(args[4], &val5);
+  if (!SWIG_IsOK(ecode5)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "TF_LoadSessionFromSavedModel" "', argument " "5"" of type '" "int""'");
+  } 
+  arg5 = (int)(val5);
+  res6 = SWIG_ConvertPtr(args[5], &argp6,SWIGTYPE_p_TF_Graph, 0 |  0 );
+  if (!SWIG_IsOK(res6)) {
+    SWIG_exception_fail(SWIG_ArgError(res6), "in method '" "TF_LoadSessionFromSavedModel" "', argument " "6"" of type '" "TF_Graph *""'"); 
+  }
+  arg6 = (TF_Graph *)(argp6);
+  res7 = SWIG_ConvertPtr(args[6], &argp7,SWIGTYPE_p_TF_Buffer, 0 |  0 );
+  if (!SWIG_IsOK(res7)) {
+    SWIG_exception_fail(SWIG_ArgError(res7), "in method '" "TF_LoadSessionFromSavedModel" "', argument " "7"" of type '" "TF_Buffer *""'"); 
+  }
+  arg7 = (TF_Buffer *)(argp7);
+  res8 = SWIG_ConvertPtr(args[7], &argp8,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res8)) {
+    SWIG_exception_fail(SWIG_ArgError(res8), "in method '" "TF_LoadSessionFromSavedModel" "', argument " "8"" of type '" "TF_Status *""'"); 
+  }
+  arg8 = (TF_Status *)(argp8);
+  result = (TF_Session *)TF_LoadSessionFromSavedModel((TF_SessionOptions const *)arg1,(TF_Buffer const *)arg2,(char const *)arg3,(char const *const *)arg4,arg5,arg6,arg7,arg8);
+  jsresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_TF_Session, 0 |  0 );
+  
+  
+  if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
+  
+  
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_CloseSession(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Session *arg1 = (TF_Session *) 0 ;
+  TF_Status *arg2 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if(args.Length() != 2) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_CloseSession.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Session, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_CloseSession" "', argument " "1"" of type '" "TF_Session *""'"); 
+  }
+  arg1 = (TF_Session *)(argp1);
+  res2 = SWIG_ConvertPtr(args[1], &argp2,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_CloseSession" "', argument " "2"" of type '" "TF_Status *""'"); 
+  }
+  arg2 = (TF_Status *)(argp2);
+  TF_CloseSession(arg1,arg2);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_DeleteSession(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Session *arg1 = (TF_Session *) 0 ;
+  TF_Status *arg2 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if(args.Length() != 2) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_DeleteSession.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Session, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_DeleteSession" "', argument " "1"" of type '" "TF_Session *""'"); 
+  }
+  arg1 = (TF_Session *)(argp1);
+  res2 = SWIG_ConvertPtr(args[1], &argp2,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_DeleteSession" "', argument " "2"" of type '" "TF_Status *""'"); 
+  }
+  arg2 = (TF_Status *)(argp2);
+  TF_DeleteSession(arg1,arg2);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_SessionRun(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Session *arg1 = (TF_Session *) 0 ;
+  TF_Buffer *arg2 = (TF_Buffer *) 0 ;
+  TF_Output *arg3 = (TF_Output *) 0 ;
+  TF_Tensor **arg4 = (TF_Tensor **) 0 ;
+  int arg5 ;
+  TF_Output *arg6 = (TF_Output *) 0 ;
+  TF_Tensor **arg7 = (TF_Tensor **) 0 ;
+  int arg8 ;
+  TF_Operation **arg9 = (TF_Operation **) 0 ;
+  int arg10 ;
+  TF_Buffer *arg11 = (TF_Buffer *) 0 ;
+  TF_Status *arg12 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  int val5 ;
+  int ecode5 = 0 ;
+  void *argp6 = 0 ;
+  int res6 = 0 ;
+  void *argp7 = 0 ;
+  int res7 = 0 ;
+  int val8 ;
+  int ecode8 = 0 ;
+  void *argp9 = 0 ;
+  int res9 = 0 ;
+  int val10 ;
+  int ecode10 = 0 ;
+  void *argp11 = 0 ;
+  int res11 = 0 ;
+  void *argp12 = 0 ;
+  int res12 = 0 ;
+  
+  if(args.Length() != 12) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_SessionRun.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Session, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_SessionRun" "', argument " "1"" of type '" "TF_Session *""'"); 
+  }
+  arg1 = (TF_Session *)(argp1);
+  res2 = SWIG_ConvertPtr(args[1], &argp2,SWIGTYPE_p_TF_Buffer, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_SessionRun" "', argument " "2"" of type '" "TF_Buffer const *""'"); 
+  }
+  arg2 = (TF_Buffer *)(argp2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_TF_Output, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_SessionRun" "', argument " "3"" of type '" "TF_Output const *""'"); 
+  }
+  arg3 = (TF_Output *)(argp3);
+  res4 = SWIG_ConvertPtr(args[3], &argp4,SWIGTYPE_p_p_TF_Tensor, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TF_SessionRun" "', argument " "4"" of type '" "TF_Tensor *const *""'"); 
+  }
+  arg4 = (TF_Tensor **)(argp4);
+  ecode5 = SWIG_AsVal_int(args[4], &val5);
+  if (!SWIG_IsOK(ecode5)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "TF_SessionRun" "', argument " "5"" of type '" "int""'");
+  } 
+  arg5 = (int)(val5);
+  res6 = SWIG_ConvertPtr(args[5], &argp6,SWIGTYPE_p_TF_Output, 0 |  0 );
+  if (!SWIG_IsOK(res6)) {
+    SWIG_exception_fail(SWIG_ArgError(res6), "in method '" "TF_SessionRun" "', argument " "6"" of type '" "TF_Output const *""'"); 
+  }
+  arg6 = (TF_Output *)(argp6);
+  res7 = SWIG_ConvertPtr(args[6], &argp7,SWIGTYPE_p_p_TF_Tensor, 0 |  0 );
+  if (!SWIG_IsOK(res7)) {
+    SWIG_exception_fail(SWIG_ArgError(res7), "in method '" "TF_SessionRun" "', argument " "7"" of type '" "TF_Tensor **""'"); 
+  }
+  arg7 = (TF_Tensor **)(argp7);
+  ecode8 = SWIG_AsVal_int(args[7], &val8);
+  if (!SWIG_IsOK(ecode8)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode8), "in method '" "TF_SessionRun" "', argument " "8"" of type '" "int""'");
+  } 
+  arg8 = (int)(val8);
+  res9 = SWIG_ConvertPtr(args[8], &argp9,SWIGTYPE_p_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res9)) {
+    SWIG_exception_fail(SWIG_ArgError(res9), "in method '" "TF_SessionRun" "', argument " "9"" of type '" "TF_Operation const *const *""'"); 
+  }
+  arg9 = (TF_Operation **)(argp9);
+  ecode10 = SWIG_AsVal_int(args[9], &val10);
+  if (!SWIG_IsOK(ecode10)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode10), "in method '" "TF_SessionRun" "', argument " "10"" of type '" "int""'");
+  } 
+  arg10 = (int)(val10);
+  res11 = SWIG_ConvertPtr(args[10], &argp11,SWIGTYPE_p_TF_Buffer, 0 |  0 );
+  if (!SWIG_IsOK(res11)) {
+    SWIG_exception_fail(SWIG_ArgError(res11), "in method '" "TF_SessionRun" "', argument " "11"" of type '" "TF_Buffer *""'"); 
+  }
+  arg11 = (TF_Buffer *)(argp11);
+  res12 = SWIG_ConvertPtr(args[11], &argp12,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res12)) {
+    SWIG_exception_fail(SWIG_ArgError(res12), "in method '" "TF_SessionRun" "', argument " "12"" of type '" "TF_Status *""'"); 
+  }
+  arg12 = (TF_Status *)(argp12);
+  TF_SessionRun(arg1,(TF_Buffer const *)arg2,(TF_Output const *)arg3,(TF_Tensor *const *)arg4,arg5,(TF_Output const *)arg6,arg7,arg8,(TF_Operation const *const *)arg9,arg10,arg11,arg12);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_SessionPRunSetup(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Session *arg1 = (TF_Session *) 0 ;
+  TF_Output *arg2 = (TF_Output *) 0 ;
+  int arg3 ;
+  TF_Output *arg4 = (TF_Output *) 0 ;
+  int arg5 ;
+  TF_Operation **arg6 = (TF_Operation **) 0 ;
+  int arg7 ;
+  char **arg8 = (char **) 0 ;
+  TF_Status *arg9 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  int val5 ;
+  int ecode5 = 0 ;
+  void *argp6 = 0 ;
+  int res6 = 0 ;
+  int val7 ;
+  int ecode7 = 0 ;
+  void *argp8 = 0 ;
+  int res8 = 0 ;
+  void *argp9 = 0 ;
+  int res9 = 0 ;
+  
+  if(args.Length() != 9) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_SessionPRunSetup.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Session, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_SessionPRunSetup" "', argument " "1"" of type '" "TF_Session *""'"); 
+  }
+  arg1 = (TF_Session *)(argp1);
+  res2 = SWIG_ConvertPtr(args[1], &argp2,SWIGTYPE_p_TF_Output, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_SessionPRunSetup" "', argument " "2"" of type '" "TF_Output const *""'"); 
+  }
+  arg2 = (TF_Output *)(argp2);
+  ecode3 = SWIG_AsVal_int(args[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "TF_SessionPRunSetup" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = (int)(val3);
+  res4 = SWIG_ConvertPtr(args[3], &argp4,SWIGTYPE_p_TF_Output, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TF_SessionPRunSetup" "', argument " "4"" of type '" "TF_Output const *""'"); 
+  }
+  arg4 = (TF_Output *)(argp4);
+  ecode5 = SWIG_AsVal_int(args[4], &val5);
+  if (!SWIG_IsOK(ecode5)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "TF_SessionPRunSetup" "', argument " "5"" of type '" "int""'");
+  } 
+  arg5 = (int)(val5);
+  res6 = SWIG_ConvertPtr(args[5], &argp6,SWIGTYPE_p_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res6)) {
+    SWIG_exception_fail(SWIG_ArgError(res6), "in method '" "TF_SessionPRunSetup" "', argument " "6"" of type '" "TF_Operation const *const *""'"); 
+  }
+  arg6 = (TF_Operation **)(argp6);
+  ecode7 = SWIG_AsVal_int(args[6], &val7);
+  if (!SWIG_IsOK(ecode7)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode7), "in method '" "TF_SessionPRunSetup" "', argument " "7"" of type '" "int""'");
+  } 
+  arg7 = (int)(val7);
+  res8 = SWIG_ConvertPtr(args[7], &argp8,SWIGTYPE_p_p_char, 0 |  0 );
+  if (!SWIG_IsOK(res8)) {
+    SWIG_exception_fail(SWIG_ArgError(res8), "in method '" "TF_SessionPRunSetup" "', argument " "8"" of type '" "char const **""'"); 
+  }
+  arg8 = (char **)(argp8);
+  res9 = SWIG_ConvertPtr(args[8], &argp9,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res9)) {
+    SWIG_exception_fail(SWIG_ArgError(res9), "in method '" "TF_SessionPRunSetup" "', argument " "9"" of type '" "TF_Status *""'"); 
+  }
+  arg9 = (TF_Status *)(argp9);
+  TF_SessionPRunSetup(arg1,(TF_Output const *)arg2,arg3,(TF_Output const *)arg4,arg5,(TF_Operation const *const *)arg6,arg7,(char const **)arg8,arg9);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_SessionPRun(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Session *arg1 = (TF_Session *) 0 ;
+  char *arg2 = (char *) 0 ;
+  TF_Output *arg3 = (TF_Output *) 0 ;
+  TF_Tensor **arg4 = (TF_Tensor **) 0 ;
+  int arg5 ;
+  TF_Output *arg6 = (TF_Output *) 0 ;
+  TF_Tensor **arg7 = (TF_Tensor **) 0 ;
+  int arg8 ;
+  TF_Operation **arg9 = (TF_Operation **) 0 ;
+  int arg10 ;
+  TF_Status *arg11 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  int val5 ;
+  int ecode5 = 0 ;
+  void *argp6 = 0 ;
+  int res6 = 0 ;
+  void *argp7 = 0 ;
+  int res7 = 0 ;
+  int val8 ;
+  int ecode8 = 0 ;
+  void *argp9 = 0 ;
+  int res9 = 0 ;
+  int val10 ;
+  int ecode10 = 0 ;
+  void *argp11 = 0 ;
+  int res11 = 0 ;
+  
+  if(args.Length() != 11) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_SessionPRun.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Session, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_SessionPRun" "', argument " "1"" of type '" "TF_Session *""'"); 
+  }
+  arg1 = (TF_Session *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_SessionPRun" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_TF_Output, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_SessionPRun" "', argument " "3"" of type '" "TF_Output const *""'"); 
+  }
+  arg3 = (TF_Output *)(argp3);
+  res4 = SWIG_ConvertPtr(args[3], &argp4,SWIGTYPE_p_p_TF_Tensor, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TF_SessionPRun" "', argument " "4"" of type '" "TF_Tensor *const *""'"); 
+  }
+  arg4 = (TF_Tensor **)(argp4);
+  ecode5 = SWIG_AsVal_int(args[4], &val5);
+  if (!SWIG_IsOK(ecode5)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "TF_SessionPRun" "', argument " "5"" of type '" "int""'");
+  } 
+  arg5 = (int)(val5);
+  res6 = SWIG_ConvertPtr(args[5], &argp6,SWIGTYPE_p_TF_Output, 0 |  0 );
+  if (!SWIG_IsOK(res6)) {
+    SWIG_exception_fail(SWIG_ArgError(res6), "in method '" "TF_SessionPRun" "', argument " "6"" of type '" "TF_Output const *""'"); 
+  }
+  arg6 = (TF_Output *)(argp6);
+  res7 = SWIG_ConvertPtr(args[6], &argp7,SWIGTYPE_p_p_TF_Tensor, 0 |  0 );
+  if (!SWIG_IsOK(res7)) {
+    SWIG_exception_fail(SWIG_ArgError(res7), "in method '" "TF_SessionPRun" "', argument " "7"" of type '" "TF_Tensor **""'"); 
+  }
+  arg7 = (TF_Tensor **)(argp7);
+  ecode8 = SWIG_AsVal_int(args[7], &val8);
+  if (!SWIG_IsOK(ecode8)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode8), "in method '" "TF_SessionPRun" "', argument " "8"" of type '" "int""'");
+  } 
+  arg8 = (int)(val8);
+  res9 = SWIG_ConvertPtr(args[8], &argp9,SWIGTYPE_p_p_TF_Operation, 0 |  0 );
+  if (!SWIG_IsOK(res9)) {
+    SWIG_exception_fail(SWIG_ArgError(res9), "in method '" "TF_SessionPRun" "', argument " "9"" of type '" "TF_Operation const *const *""'"); 
+  }
+  arg9 = (TF_Operation **)(argp9);
+  ecode10 = SWIG_AsVal_int(args[9], &val10);
+  if (!SWIG_IsOK(ecode10)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode10), "in method '" "TF_SessionPRun" "', argument " "10"" of type '" "int""'");
+  } 
+  arg10 = (int)(val10);
+  res11 = SWIG_ConvertPtr(args[10], &argp11,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res11)) {
+    SWIG_exception_fail(SWIG_ArgError(res11), "in method '" "TF_SessionPRun" "', argument " "11"" of type '" "TF_Status *""'"); 
+  }
+  arg11 = (TF_Status *)(argp11);
+  TF_SessionPRun(arg1,(char const *)arg2,(TF_Output const *)arg3,(TF_Tensor *const *)arg4,arg5,(TF_Output const *)arg6,arg7,arg8,(TF_Operation const *const *)arg9,arg10,arg11);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_NewDeprecatedSession(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_SessionOptions *arg1 = (TF_SessionOptions *) 0 ;
+  TF_Status *arg2 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  TF_DeprecatedSession *result = 0 ;
+  
+  if(args.Length() != 2) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_NewDeprecatedSession.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_SessionOptions, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_NewDeprecatedSession" "', argument " "1"" of type '" "TF_SessionOptions const *""'"); 
+  }
+  arg1 = (TF_SessionOptions *)(argp1);
+  res2 = SWIG_ConvertPtr(args[1], &argp2,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_NewDeprecatedSession" "', argument " "2"" of type '" "TF_Status *""'"); 
+  }
+  arg2 = (TF_Status *)(argp2);
+  result = (TF_DeprecatedSession *)TF_NewDeprecatedSession((TF_SessionOptions const *)arg1,arg2);
+  jsresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_TF_DeprecatedSession, 0 |  0 );
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_CloseDeprecatedSession(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_DeprecatedSession *arg1 = (TF_DeprecatedSession *) 0 ;
+  TF_Status *arg2 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if(args.Length() != 2) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_CloseDeprecatedSession.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_DeprecatedSession, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_CloseDeprecatedSession" "', argument " "1"" of type '" "TF_DeprecatedSession *""'"); 
+  }
+  arg1 = (TF_DeprecatedSession *)(argp1);
+  res2 = SWIG_ConvertPtr(args[1], &argp2,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_CloseDeprecatedSession" "', argument " "2"" of type '" "TF_Status *""'"); 
+  }
+  arg2 = (TF_Status *)(argp2);
+  TF_CloseDeprecatedSession(arg1,arg2);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_DeleteDeprecatedSession(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_DeprecatedSession *arg1 = (TF_DeprecatedSession *) 0 ;
+  TF_Status *arg2 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  
+  if(args.Length() != 2) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_DeleteDeprecatedSession.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_DeprecatedSession, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_DeleteDeprecatedSession" "', argument " "1"" of type '" "TF_DeprecatedSession *""'"); 
+  }
+  arg1 = (TF_DeprecatedSession *)(argp1);
+  res2 = SWIG_ConvertPtr(args[1], &argp2,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_DeleteDeprecatedSession" "', argument " "2"" of type '" "TF_Status *""'"); 
+  }
+  arg2 = (TF_Status *)(argp2);
+  TF_DeleteDeprecatedSession(arg1,arg2);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_Reset(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_SessionOptions *arg1 = (TF_SessionOptions *) 0 ;
+  char **arg2 = (char **) 0 ;
+  int arg3 ;
+  TF_Status *arg4 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  
+  if(args.Length() != 4) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_Reset.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_SessionOptions, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_Reset" "', argument " "1"" of type '" "TF_SessionOptions const *""'"); 
+  }
+  arg1 = (TF_SessionOptions *)(argp1);
+  res2 = SWIG_ConvertPtr(args[1], &argp2,SWIGTYPE_p_p_char, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_Reset" "', argument " "2"" of type '" "char const **""'"); 
+  }
+  arg2 = (char **)(argp2);
+  ecode3 = SWIG_AsVal_int(args[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "TF_Reset" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = (int)(val3);
+  res4 = SWIG_ConvertPtr(args[3], &argp4,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TF_Reset" "', argument " "4"" of type '" "TF_Status *""'"); 
+  }
+  arg4 = (TF_Status *)(argp4);
+  TF_Reset((TF_SessionOptions const *)arg1,(char const **)arg2,arg3,arg4);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_ExtendGraph(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_DeprecatedSession *arg1 = (TF_DeprecatedSession *) 0 ;
+  void *arg2 = (void *) 0 ;
+  size_t arg3 ;
+  TF_Status *arg4 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  size_t val3 ;
+  int ecode3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  
+  if(args.Length() != 4) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_ExtendGraph.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_DeprecatedSession, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_ExtendGraph" "', argument " "1"" of type '" "TF_DeprecatedSession *""'"); 
+  }
+  arg1 = (TF_DeprecatedSession *)(argp1);
+  res2 = SWIG_ConvertPtr(args[1],SWIG_as_voidptrptr(&arg2), SWIGTYPE_p_void, 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_ExtendGraph" "', argument " "2"" of type '" "void const *""'"); 
+  }
+  ecode3 = SWIG_AsVal_size_t(args[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "TF_ExtendGraph" "', argument " "3"" of type '" "size_t""'");
+  } 
+  arg3 = (size_t)(val3);
+  res4 = SWIG_ConvertPtr(args[3], &argp4,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TF_ExtendGraph" "', argument " "4"" of type '" "TF_Status *""'"); 
+  }
+  arg4 = (TF_Status *)(argp4);
+  TF_ExtendGraph(arg1,(void const *)arg2,arg3,arg4);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_Run(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_DeprecatedSession *arg1 = (TF_DeprecatedSession *) 0 ;
+  TF_Buffer *arg2 = (TF_Buffer *) 0 ;
+  char **arg3 = (char **) 0 ;
+  TF_Tensor **arg4 = (TF_Tensor **) 0 ;
+  int arg5 ;
+  char **arg6 = (char **) 0 ;
+  TF_Tensor **arg7 = (TF_Tensor **) 0 ;
+  int arg8 ;
+  char **arg9 = (char **) 0 ;
+  int arg10 ;
+  TF_Buffer *arg11 = (TF_Buffer *) 0 ;
+  TF_Status *arg12 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  int val5 ;
+  int ecode5 = 0 ;
+  void *argp6 = 0 ;
+  int res6 = 0 ;
+  void *argp7 = 0 ;
+  int res7 = 0 ;
+  int val8 ;
+  int ecode8 = 0 ;
+  void *argp9 = 0 ;
+  int res9 = 0 ;
+  int val10 ;
+  int ecode10 = 0 ;
+  void *argp11 = 0 ;
+  int res11 = 0 ;
+  void *argp12 = 0 ;
+  int res12 = 0 ;
+  
+  if(args.Length() != 12) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_Run.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_DeprecatedSession, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_Run" "', argument " "1"" of type '" "TF_DeprecatedSession *""'"); 
+  }
+  arg1 = (TF_DeprecatedSession *)(argp1);
+  res2 = SWIG_ConvertPtr(args[1], &argp2,SWIGTYPE_p_TF_Buffer, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_Run" "', argument " "2"" of type '" "TF_Buffer const *""'"); 
+  }
+  arg2 = (TF_Buffer *)(argp2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_p_char, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_Run" "', argument " "3"" of type '" "char const **""'"); 
+  }
+  arg3 = (char **)(argp3);
+  res4 = SWIG_ConvertPtr(args[3], &argp4,SWIGTYPE_p_p_TF_Tensor, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TF_Run" "', argument " "4"" of type '" "TF_Tensor **""'"); 
+  }
+  arg4 = (TF_Tensor **)(argp4);
+  ecode5 = SWIG_AsVal_int(args[4], &val5);
+  if (!SWIG_IsOK(ecode5)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "TF_Run" "', argument " "5"" of type '" "int""'");
+  } 
+  arg5 = (int)(val5);
+  res6 = SWIG_ConvertPtr(args[5], &argp6,SWIGTYPE_p_p_char, 0 |  0 );
+  if (!SWIG_IsOK(res6)) {
+    SWIG_exception_fail(SWIG_ArgError(res6), "in method '" "TF_Run" "', argument " "6"" of type '" "char const **""'"); 
+  }
+  arg6 = (char **)(argp6);
+  res7 = SWIG_ConvertPtr(args[6], &argp7,SWIGTYPE_p_p_TF_Tensor, 0 |  0 );
+  if (!SWIG_IsOK(res7)) {
+    SWIG_exception_fail(SWIG_ArgError(res7), "in method '" "TF_Run" "', argument " "7"" of type '" "TF_Tensor **""'"); 
+  }
+  arg7 = (TF_Tensor **)(argp7);
+  ecode8 = SWIG_AsVal_int(args[7], &val8);
+  if (!SWIG_IsOK(ecode8)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode8), "in method '" "TF_Run" "', argument " "8"" of type '" "int""'");
+  } 
+  arg8 = (int)(val8);
+  res9 = SWIG_ConvertPtr(args[8], &argp9,SWIGTYPE_p_p_char, 0 |  0 );
+  if (!SWIG_IsOK(res9)) {
+    SWIG_exception_fail(SWIG_ArgError(res9), "in method '" "TF_Run" "', argument " "9"" of type '" "char const **""'"); 
+  }
+  arg9 = (char **)(argp9);
+  ecode10 = SWIG_AsVal_int(args[9], &val10);
+  if (!SWIG_IsOK(ecode10)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode10), "in method '" "TF_Run" "', argument " "10"" of type '" "int""'");
+  } 
+  arg10 = (int)(val10);
+  res11 = SWIG_ConvertPtr(args[10], &argp11,SWIGTYPE_p_TF_Buffer, 0 |  0 );
+  if (!SWIG_IsOK(res11)) {
+    SWIG_exception_fail(SWIG_ArgError(res11), "in method '" "TF_Run" "', argument " "11"" of type '" "TF_Buffer *""'"); 
+  }
+  arg11 = (TF_Buffer *)(argp11);
+  res12 = SWIG_ConvertPtr(args[11], &argp12,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res12)) {
+    SWIG_exception_fail(SWIG_ArgError(res12), "in method '" "TF_Run" "', argument " "12"" of type '" "TF_Status *""'"); 
+  }
+  arg12 = (TF_Status *)(argp12);
+  TF_Run(arg1,(TF_Buffer const *)arg2,(char const **)arg3,arg4,arg5,(char const **)arg6,arg7,arg8,(char const **)arg9,arg10,arg11,arg12);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_PRunSetup(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_DeprecatedSession *arg1 = (TF_DeprecatedSession *) 0 ;
+  char **arg2 = (char **) 0 ;
+  int arg3 ;
+  char **arg4 = (char **) 0 ;
+  int arg5 ;
+  char **arg6 = (char **) 0 ;
+  int arg7 ;
+  char **arg8 = (char **) 0 ;
+  TF_Status *arg9 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  int val5 ;
+  int ecode5 = 0 ;
+  void *argp6 = 0 ;
+  int res6 = 0 ;
+  int val7 ;
+  int ecode7 = 0 ;
+  void *argp8 = 0 ;
+  int res8 = 0 ;
+  void *argp9 = 0 ;
+  int res9 = 0 ;
+  
+  if(args.Length() != 9) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_PRunSetup.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_DeprecatedSession, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_PRunSetup" "', argument " "1"" of type '" "TF_DeprecatedSession *""'"); 
+  }
+  arg1 = (TF_DeprecatedSession *)(argp1);
+  res2 = SWIG_ConvertPtr(args[1], &argp2,SWIGTYPE_p_p_char, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_PRunSetup" "', argument " "2"" of type '" "char const **""'"); 
+  }
+  arg2 = (char **)(argp2);
+  ecode3 = SWIG_AsVal_int(args[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "TF_PRunSetup" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = (int)(val3);
+  res4 = SWIG_ConvertPtr(args[3], &argp4,SWIGTYPE_p_p_char, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TF_PRunSetup" "', argument " "4"" of type '" "char const **""'"); 
+  }
+  arg4 = (char **)(argp4);
+  ecode5 = SWIG_AsVal_int(args[4], &val5);
+  if (!SWIG_IsOK(ecode5)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "TF_PRunSetup" "', argument " "5"" of type '" "int""'");
+  } 
+  arg5 = (int)(val5);
+  res6 = SWIG_ConvertPtr(args[5], &argp6,SWIGTYPE_p_p_char, 0 |  0 );
+  if (!SWIG_IsOK(res6)) {
+    SWIG_exception_fail(SWIG_ArgError(res6), "in method '" "TF_PRunSetup" "', argument " "6"" of type '" "char const **""'"); 
+  }
+  arg6 = (char **)(argp6);
+  ecode7 = SWIG_AsVal_int(args[6], &val7);
+  if (!SWIG_IsOK(ecode7)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode7), "in method '" "TF_PRunSetup" "', argument " "7"" of type '" "int""'");
+  } 
+  arg7 = (int)(val7);
+  res8 = SWIG_ConvertPtr(args[7], &argp8,SWIGTYPE_p_p_char, 0 |  0 );
+  if (!SWIG_IsOK(res8)) {
+    SWIG_exception_fail(SWIG_ArgError(res8), "in method '" "TF_PRunSetup" "', argument " "8"" of type '" "char const **""'"); 
+  }
+  arg8 = (char **)(argp8);
+  res9 = SWIG_ConvertPtr(args[8], &argp9,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res9)) {
+    SWIG_exception_fail(SWIG_ArgError(res9), "in method '" "TF_PRunSetup" "', argument " "9"" of type '" "TF_Status *""'"); 
+  }
+  arg9 = (TF_Status *)(argp9);
+  TF_PRunSetup(arg1,(char const **)arg2,arg3,(char const **)arg4,arg5,(char const **)arg6,arg7,(char const **)arg8,arg9);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_PRun(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_DeprecatedSession *arg1 = (TF_DeprecatedSession *) 0 ;
+  char *arg2 = (char *) 0 ;
+  char **arg3 = (char **) 0 ;
+  TF_Tensor **arg4 = (TF_Tensor **) 0 ;
+  int arg5 ;
+  char **arg6 = (char **) 0 ;
+  TF_Tensor **arg7 = (TF_Tensor **) 0 ;
+  int arg8 ;
+  char **arg9 = (char **) 0 ;
+  int arg10 ;
+  TF_Status *arg11 = (TF_Status *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  int val5 ;
+  int ecode5 = 0 ;
+  void *argp6 = 0 ;
+  int res6 = 0 ;
+  void *argp7 = 0 ;
+  int res7 = 0 ;
+  int val8 ;
+  int ecode8 = 0 ;
+  void *argp9 = 0 ;
+  int res9 = 0 ;
+  int val10 ;
+  int ecode10 = 0 ;
+  void *argp11 = 0 ;
+  int res11 = 0 ;
+  
+  if(args.Length() != 11) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_PRun.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_DeprecatedSession, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_PRun" "', argument " "1"" of type '" "TF_DeprecatedSession *""'"); 
+  }
+  arg1 = (TF_DeprecatedSession *)(argp1);
+  res2 = SWIG_AsCharPtrAndSize(args[1], &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_PRun" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = (char *)(buf2);
+  res3 = SWIG_ConvertPtr(args[2], &argp3,SWIGTYPE_p_p_char, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "TF_PRun" "', argument " "3"" of type '" "char const **""'"); 
+  }
+  arg3 = (char **)(argp3);
+  res4 = SWIG_ConvertPtr(args[3], &argp4,SWIGTYPE_p_p_TF_Tensor, 0 |  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TF_PRun" "', argument " "4"" of type '" "TF_Tensor **""'"); 
+  }
+  arg4 = (TF_Tensor **)(argp4);
+  ecode5 = SWIG_AsVal_int(args[4], &val5);
+  if (!SWIG_IsOK(ecode5)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "TF_PRun" "', argument " "5"" of type '" "int""'");
+  } 
+  arg5 = (int)(val5);
+  res6 = SWIG_ConvertPtr(args[5], &argp6,SWIGTYPE_p_p_char, 0 |  0 );
+  if (!SWIG_IsOK(res6)) {
+    SWIG_exception_fail(SWIG_ArgError(res6), "in method '" "TF_PRun" "', argument " "6"" of type '" "char const **""'"); 
+  }
+  arg6 = (char **)(argp6);
+  res7 = SWIG_ConvertPtr(args[6], &argp7,SWIGTYPE_p_p_TF_Tensor, 0 |  0 );
+  if (!SWIG_IsOK(res7)) {
+    SWIG_exception_fail(SWIG_ArgError(res7), "in method '" "TF_PRun" "', argument " "7"" of type '" "TF_Tensor **""'"); 
+  }
+  arg7 = (TF_Tensor **)(argp7);
+  ecode8 = SWIG_AsVal_int(args[7], &val8);
+  if (!SWIG_IsOK(ecode8)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode8), "in method '" "TF_PRun" "', argument " "8"" of type '" "int""'");
+  } 
+  arg8 = (int)(val8);
+  res9 = SWIG_ConvertPtr(args[8], &argp9,SWIGTYPE_p_p_char, 0 |  0 );
+  if (!SWIG_IsOK(res9)) {
+    SWIG_exception_fail(SWIG_ArgError(res9), "in method '" "TF_PRun" "', argument " "9"" of type '" "char const **""'"); 
+  }
+  arg9 = (char **)(argp9);
+  ecode10 = SWIG_AsVal_int(args[9], &val10);
+  if (!SWIG_IsOK(ecode10)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode10), "in method '" "TF_PRun" "', argument " "10"" of type '" "int""'");
+  } 
+  arg10 = (int)(val10);
+  res11 = SWIG_ConvertPtr(args[10], &argp11,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res11)) {
+    SWIG_exception_fail(SWIG_ArgError(res11), "in method '" "TF_PRun" "', argument " "11"" of type '" "TF_Status *""'"); 
+  }
+  arg11 = (TF_Status *)(argp11);
+  TF_PRun(arg1,(char const *)arg2,(char const **)arg3,arg4,arg5,(char const **)arg6,arg7,arg8,(char const **)arg9,arg10,arg11);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_LoadLibrary(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  char *arg1 = (char *) 0 ;
+  TF_Status *arg2 = (TF_Status *) 0 ;
+  int res1 ;
+  char *buf1 = 0 ;
+  int alloc1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  TF_Library *result = 0 ;
+  
+  if(args.Length() != 2) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_LoadLibrary.");
+  
+  res1 = SWIG_AsCharPtrAndSize(args[0], &buf1, NULL, &alloc1);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_LoadLibrary" "', argument " "1"" of type '" "char const *""'");
+  }
+  arg1 = (char *)(buf1);
+  res2 = SWIG_ConvertPtr(args[1], &argp2,SWIGTYPE_p_TF_Status, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TF_LoadLibrary" "', argument " "2"" of type '" "TF_Status *""'"); 
+  }
+  arg2 = (TF_Status *)(argp2);
+  result = (TF_Library *)TF_LoadLibrary((char const *)arg1,arg2);
+  jsresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_TF_Library, 0 |  0 );
+  if (alloc1 == SWIG_NEWOBJ) delete[] buf1;
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_GetOpList(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Library *arg1 = (TF_Library *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  TF_Buffer result;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_GetOpList.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Library, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_GetOpList" "', argument " "1"" of type '" "TF_Library *""'"); 
+  }
+  arg1 = (TF_Library *)(argp1);
+  result = TF_GetOpList(arg1);
+  jsresult = SWIG_NewPointerObj((new TF_Buffer((const TF_Buffer&)(result))), SWIGTYPE_p_TF_Buffer, SWIG_POINTER_OWN |  0 );
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_DeleteLibraryHandle(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Library *arg1 = (TF_Library *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if(args.Length() != 1) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_DeleteLibraryHandle.");
+  
+  res1 = SWIG_ConvertPtr(args[0], &argp1,SWIGTYPE_p_TF_Library, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TF_DeleteLibraryHandle" "', argument " "1"" of type '" "TF_Library *""'"); 
+  }
+  arg1 = (TF_Library *)(argp1);
+  TF_DeleteLibraryHandle(arg1);
+  jsresult = SWIGV8_UNDEFINED();
+  
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
+fail:
+  SWIGV8_RETURN(SWIGV8_UNDEFINED());
+}
+
+
+static SwigV8ReturnValue _wrap_TF_GetAllOpList(const SwigV8Arguments &args) {
+  SWIGV8_HANDLESCOPE();
+  
+  v8::Handle<v8::Value> jsresult;
+  TF_Buffer *result = 0 ;
+  
+  if(args.Length() != 0) SWIG_exception_fail(SWIG_ERROR, "Illegal number of arguments for _wrap_TF_GetAllOpList.");
+  
+  result = (TF_Buffer *)TF_GetAllOpList();
+  jsresult = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_TF_Buffer, 0 |  0 );
+  
+  SWIGV8_RETURN(jsresult);
+  
+  goto fail;
 fail:
   SWIGV8_RETURN(SWIGV8_UNDEFINED());
 }
@@ -23978,8 +31177,28 @@ static void *_p_google__protobuf__MessageTo_p_google__protobuf__MessageLite(void
 static swig_type_info _swigt__p_ArgDef = {"_p_ArgDef", "ArgDef *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_AttrDef = {"_p_AttrDef", "AttrDef *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Reflection = {"_p_Reflection", "Reflection *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_TF_AttrMetadata = {"_p_TF_AttrMetadata", "TF_AttrMetadata *|p_TF_AttrMetadata", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_TF_AttrType = {"_p_TF_AttrType", "enum TF_AttrType *|TF_AttrType *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_TF_Buffer = {"_p_TF_Buffer", "TF_Buffer *|p_TF_Buffer", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_TF_Code = {"_p_TF_Code", "enum TF_Code *|TF_Code *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_TF_DataType = {"_p_TF_DataType", "TF_DataType *|TF_DataType *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_TF_DeprecatedSession = {"_p_TF_DeprecatedSession", "TF_DeprecatedSession *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_TF_Graph = {"_p_TF_Graph", "TF_Graph *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_TF_ImportGraphDefOptions = {"_p_TF_ImportGraphDefOptions", "TF_ImportGraphDefOptions *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_TF_Input = {"_p_TF_Input", "TF_Input *|p_TF_Input", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_TF_Library = {"_p_TF_Library", "TF_Library *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_TF_Operation = {"_p_TF_Operation", "TF_Operation *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_TF_OperationDescription = {"_p_TF_OperationDescription", "TF_OperationDescription *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_TF_Output = {"_p_TF_Output", "p_TF_Output|TF_Output *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_TF_Session = {"_p_TF_Session", "TF_Session *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_TF_SessionOptions = {"_p_TF_SessionOptions", "TF_SessionOptions *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_TF_Status = {"_p_TF_Status", "TF_Status *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_TF_Tensor = {"_p_TF_Tensor", "TF_Tensor *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_char = {"_p_char", "char *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_f_p_void_size_t__void = {"_p_f_p_void_size_t__void", "void (*)(void *,size_t)", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_f_p_void_size_t_p_void__void = {"_p_f_p_void_size_t_p_void__void", "void (*)(void *,size_t,void *)", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_f_r_q_const__string__void = {"_p_f_r_q_const__string__void", "void (*)(string const &)", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_float = {"_p_float", "float *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_google__protobuf__Arena = {"_p_google__protobuf__Arena", "::google::protobuf::Arena *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_google__protobuf__Descriptor = {"_p_google__protobuf__Descriptor", "google::protobuf::Descriptor *|::google::protobuf::Descriptor *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_google__protobuf__EnumValueDescriptor = {"_p_google__protobuf__EnumValueDescriptor", "google::protobuf::EnumValueDescriptor *", 0, 0, (void*)0, 0};
@@ -24003,10 +31222,18 @@ static swig_type_info _swigt__p_google__protobuf__io__CodedInputStream = {"_p_go
 static swig_type_info _swigt__p_google__protobuf__io__CodedOutputStream = {"_p_google__protobuf__io__CodedOutputStream", "google::protobuf::io::CodedOutputStream *|::google::protobuf::io::CodedOutputStream *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_google__protobuf__io__ZeroCopyInputStream = {"_p_google__protobuf__io__ZeroCopyInputStream", "google::protobuf::io::ZeroCopyInputStream *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_google__protobuf__io__ZeroCopyOutputStream = {"_p_google__protobuf__io__ZeroCopyOutputStream", "google::protobuf::io::ZeroCopyOutputStream *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_int = {"_p_int", "int *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_int16_t = {"_p_int16_t", "google::protobuf::int16 *|int16_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_int32_t = {"_p_int32_t", "int32_t *|google::protobuf::int32 *|::google::protobuf::int32 *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_int64_t = {"_p_int64_t", "int64_t *|google::protobuf::int64 *|::google::protobuf::int64 *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_int8_t = {"_p_int8_t", "google::protobuf::int8 *|int8_t *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_p_TF_Buffer = {"_p_p_TF_Buffer", "TF_Buffer **", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_p_TF_Operation = {"_p_p_TF_Operation", "TF_Operation **", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_p_TF_Tensor = {"_p_p_TF_Tensor", "TF_Tensor **", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_p_char = {"_p_p_char", "char **", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_p_int64_t = {"_p_p_int64_t", "int64_t **", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_p_void = {"_p_p_void", "void **", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_size_t = {"_p_size_t", "size_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_size_type = {"_p_size_type", "size_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__istream = {"_p_std__istream", "std::istream *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__ostream = {"_p_std__ostream", "std::ostream *", 0, 0, (void*)0, 0};
@@ -24026,6 +31253,7 @@ static swig_type_info _swigt__p_uint16_t = {"_p_uint16_t", "google::protobuf::ui
 static swig_type_info _swigt__p_uint32_t = {"_p_uint32_t", "uint32_t *|google::protobuf::uint32 *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_uint64_t = {"_p_uint64_t", "uint64_t *|google::protobuf::uint64 *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_uint8_t = {"_p_uint8_t", "google::protobuf::uint8 *|::google::protobuf::uint8 *|uint8_t *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_unsigned_char = {"_p_unsigned_char", "unsigned char *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_unsigned_int = {"_p_unsigned_int", "unsigned int *|google::protobuf::uint *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_void = {"_p_void", "void *", 0, 0, (void*)0, 0};
 
@@ -24033,8 +31261,28 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_ArgDef,
   &_swigt__p_AttrDef,
   &_swigt__p_Reflection,
+  &_swigt__p_TF_AttrMetadata,
+  &_swigt__p_TF_AttrType,
+  &_swigt__p_TF_Buffer,
+  &_swigt__p_TF_Code,
+  &_swigt__p_TF_DataType,
+  &_swigt__p_TF_DeprecatedSession,
+  &_swigt__p_TF_Graph,
+  &_swigt__p_TF_ImportGraphDefOptions,
+  &_swigt__p_TF_Input,
+  &_swigt__p_TF_Library,
+  &_swigt__p_TF_Operation,
+  &_swigt__p_TF_OperationDescription,
+  &_swigt__p_TF_Output,
+  &_swigt__p_TF_Session,
+  &_swigt__p_TF_SessionOptions,
+  &_swigt__p_TF_Status,
+  &_swigt__p_TF_Tensor,
   &_swigt__p_char,
+  &_swigt__p_f_p_void_size_t__void,
+  &_swigt__p_f_p_void_size_t_p_void__void,
   &_swigt__p_f_r_q_const__string__void,
+  &_swigt__p_float,
   &_swigt__p_google__protobuf__Arena,
   &_swigt__p_google__protobuf__Descriptor,
   &_swigt__p_google__protobuf__EnumValueDescriptor,
@@ -24058,10 +31306,18 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_google__protobuf__io__CodedOutputStream,
   &_swigt__p_google__protobuf__io__ZeroCopyInputStream,
   &_swigt__p_google__protobuf__io__ZeroCopyOutputStream,
+  &_swigt__p_int,
   &_swigt__p_int16_t,
   &_swigt__p_int32_t,
   &_swigt__p_int64_t,
   &_swigt__p_int8_t,
+  &_swigt__p_p_TF_Buffer,
+  &_swigt__p_p_TF_Operation,
+  &_swigt__p_p_TF_Tensor,
+  &_swigt__p_p_char,
+  &_swigt__p_p_int64_t,
+  &_swigt__p_p_void,
+  &_swigt__p_size_t,
   &_swigt__p_size_type,
   &_swigt__p_std__istream,
   &_swigt__p_std__ostream,
@@ -24081,6 +31337,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_uint32_t,
   &_swigt__p_uint64_t,
   &_swigt__p_uint8_t,
+  &_swigt__p_unsigned_char,
   &_swigt__p_unsigned_int,
   &_swigt__p_void,
 };
@@ -24088,8 +31345,28 @@ static swig_type_info *swig_type_initial[] = {
 static swig_cast_info _swigc__p_ArgDef[] = {  {&_swigt__p_ArgDef, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_AttrDef[] = {  {&_swigt__p_AttrDef, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Reflection[] = {  {&_swigt__p_Reflection, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_TF_AttrMetadata[] = {  {&_swigt__p_TF_AttrMetadata, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_TF_AttrType[] = {  {&_swigt__p_TF_AttrType, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_TF_Buffer[] = {  {&_swigt__p_TF_Buffer, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_TF_Code[] = {  {&_swigt__p_TF_Code, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_TF_DataType[] = {  {&_swigt__p_TF_DataType, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_TF_DeprecatedSession[] = {  {&_swigt__p_TF_DeprecatedSession, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_TF_Graph[] = {  {&_swigt__p_TF_Graph, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_TF_ImportGraphDefOptions[] = {  {&_swigt__p_TF_ImportGraphDefOptions, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_TF_Input[] = {  {&_swigt__p_TF_Input, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_TF_Library[] = {  {&_swigt__p_TF_Library, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_TF_Operation[] = {  {&_swigt__p_TF_Operation, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_TF_OperationDescription[] = {  {&_swigt__p_TF_OperationDescription, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_TF_Output[] = {  {&_swigt__p_TF_Output, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_TF_Session[] = {  {&_swigt__p_TF_Session, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_TF_SessionOptions[] = {  {&_swigt__p_TF_SessionOptions, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_TF_Status[] = {  {&_swigt__p_TF_Status, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_TF_Tensor[] = {  {&_swigt__p_TF_Tensor, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_char[] = {  {&_swigt__p_char, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_f_p_void_size_t__void[] = {  {&_swigt__p_f_p_void_size_t__void, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_f_p_void_size_t_p_void__void[] = {  {&_swigt__p_f_p_void_size_t_p_void__void, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_f_r_q_const__string__void[] = {  {&_swigt__p_f_r_q_const__string__void, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_float[] = {  {&_swigt__p_float, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_google__protobuf__Arena[] = {  {&_swigt__p_google__protobuf__Arena, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_google__protobuf__Descriptor[] = {  {&_swigt__p_google__protobuf__Descriptor, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_google__protobuf__EnumValueDescriptor[] = {  {&_swigt__p_google__protobuf__EnumValueDescriptor, 0, 0, 0},{0, 0, 0, 0}};
@@ -24113,10 +31390,18 @@ static swig_cast_info _swigc__p_google__protobuf__io__CodedInputStream[] = {  {&
 static swig_cast_info _swigc__p_google__protobuf__io__CodedOutputStream[] = {  {&_swigt__p_google__protobuf__io__CodedOutputStream, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_google__protobuf__io__ZeroCopyInputStream[] = {  {&_swigt__p_google__protobuf__io__ZeroCopyInputStream, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_google__protobuf__io__ZeroCopyOutputStream[] = {  {&_swigt__p_google__protobuf__io__ZeroCopyOutputStream, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_int[] = {  {&_swigt__p_int, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_int16_t[] = {  {&_swigt__p_int16_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_int32_t[] = {  {&_swigt__p_int32_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_int64_t[] = {  {&_swigt__p_int64_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_int8_t[] = {  {&_swigt__p_int8_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_p_TF_Buffer[] = {  {&_swigt__p_p_TF_Buffer, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_p_TF_Operation[] = {  {&_swigt__p_p_TF_Operation, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_p_TF_Tensor[] = {  {&_swigt__p_p_TF_Tensor, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_p_char[] = {  {&_swigt__p_p_char, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_p_int64_t[] = {  {&_swigt__p_p_int64_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_p_void[] = {  {&_swigt__p_p_void, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_size_t[] = {  {&_swigt__p_size_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_size_type[] = {  {&_swigt__p_size_type, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__istream[] = {  {&_swigt__p_std__istream, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__ostream[] = {  {&_swigt__p_std__ostream, 0, 0, 0},{0, 0, 0, 0}};
@@ -24136,6 +31421,7 @@ static swig_cast_info _swigc__p_uint16_t[] = {  {&_swigt__p_uint16_t, 0, 0, 0},{
 static swig_cast_info _swigc__p_uint32_t[] = {  {&_swigt__p_uint32_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_uint64_t[] = {  {&_swigt__p_uint64_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_uint8_t[] = {  {&_swigt__p_uint8_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_unsigned_char[] = {  {&_swigt__p_unsigned_char, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_unsigned_int[] = {  {&_swigt__p_unsigned_int, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_void[] = {  {&_swigt__p_void, 0, 0, 0},{0, 0, 0, 0}};
 
@@ -24143,8 +31429,28 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_ArgDef,
   _swigc__p_AttrDef,
   _swigc__p_Reflection,
+  _swigc__p_TF_AttrMetadata,
+  _swigc__p_TF_AttrType,
+  _swigc__p_TF_Buffer,
+  _swigc__p_TF_Code,
+  _swigc__p_TF_DataType,
+  _swigc__p_TF_DeprecatedSession,
+  _swigc__p_TF_Graph,
+  _swigc__p_TF_ImportGraphDefOptions,
+  _swigc__p_TF_Input,
+  _swigc__p_TF_Library,
+  _swigc__p_TF_Operation,
+  _swigc__p_TF_OperationDescription,
+  _swigc__p_TF_Output,
+  _swigc__p_TF_Session,
+  _swigc__p_TF_SessionOptions,
+  _swigc__p_TF_Status,
+  _swigc__p_TF_Tensor,
   _swigc__p_char,
+  _swigc__p_f_p_void_size_t__void,
+  _swigc__p_f_p_void_size_t_p_void__void,
   _swigc__p_f_r_q_const__string__void,
+  _swigc__p_float,
   _swigc__p_google__protobuf__Arena,
   _swigc__p_google__protobuf__Descriptor,
   _swigc__p_google__protobuf__EnumValueDescriptor,
@@ -24168,10 +31474,18 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_google__protobuf__io__CodedOutputStream,
   _swigc__p_google__protobuf__io__ZeroCopyInputStream,
   _swigc__p_google__protobuf__io__ZeroCopyOutputStream,
+  _swigc__p_int,
   _swigc__p_int16_t,
   _swigc__p_int32_t,
   _swigc__p_int64_t,
   _swigc__p_int8_t,
+  _swigc__p_p_TF_Buffer,
+  _swigc__p_p_TF_Operation,
+  _swigc__p_p_TF_Tensor,
+  _swigc__p_p_char,
+  _swigc__p_p_int64_t,
+  _swigc__p_p_void,
+  _swigc__p_size_t,
   _swigc__p_size_type,
   _swigc__p_std__istream,
   _swigc__p_std__ostream,
@@ -24191,6 +31505,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_uint32_t,
   _swigc__p_uint64_t,
   _swigc__p_uint8_t,
+  _swigc__p_unsigned_char,
   _swigc__p_unsigned_int,
   _swigc__p_void,
 };
@@ -24531,6 +31846,34 @@ _exports_MessageFactory_clientData.dtor = _wrap_delete_MessageFactory;
 if (SWIGTYPE_p_google__protobuf__MessageFactory->clientdata == 0) {
   SWIGTYPE_p_google__protobuf__MessageFactory->clientdata = &_exports_MessageFactory_clientData;
 }
+/* Name: _exports_TF_Buffer, Type: p_TF_Buffer, Dtor: _wrap_delete_TF_Buffer */
+v8::Handle<v8::FunctionTemplate> _exports_TF_Buffer_class = SWIGV8_CreateClassTemplate("_exports_TF_Buffer");
+SWIGV8_SET_CLASS_TEMPL(_exports_TF_Buffer_clientData.class_templ, _exports_TF_Buffer_class);
+_exports_TF_Buffer_clientData.dtor = _wrap_delete_TF_Buffer;
+if (SWIGTYPE_p_TF_Buffer->clientdata == 0) {
+  SWIGTYPE_p_TF_Buffer->clientdata = &_exports_TF_Buffer_clientData;
+}
+/* Name: _exports_TF_Input, Type: p_TF_Input, Dtor: _wrap_delete_TF_Input */
+v8::Handle<v8::FunctionTemplate> _exports_TF_Input_class = SWIGV8_CreateClassTemplate("_exports_TF_Input");
+SWIGV8_SET_CLASS_TEMPL(_exports_TF_Input_clientData.class_templ, _exports_TF_Input_class);
+_exports_TF_Input_clientData.dtor = _wrap_delete_TF_Input;
+if (SWIGTYPE_p_TF_Input->clientdata == 0) {
+  SWIGTYPE_p_TF_Input->clientdata = &_exports_TF_Input_clientData;
+}
+/* Name: _exports_TF_Output, Type: p_TF_Output, Dtor: _wrap_delete_TF_Output */
+v8::Handle<v8::FunctionTemplate> _exports_TF_Output_class = SWIGV8_CreateClassTemplate("_exports_TF_Output");
+SWIGV8_SET_CLASS_TEMPL(_exports_TF_Output_clientData.class_templ, _exports_TF_Output_class);
+_exports_TF_Output_clientData.dtor = _wrap_delete_TF_Output;
+if (SWIGTYPE_p_TF_Output->clientdata == 0) {
+  SWIGTYPE_p_TF_Output->clientdata = &_exports_TF_Output_clientData;
+}
+/* Name: _exports_TF_AttrMetadata, Type: p_TF_AttrMetadata, Dtor: _wrap_delete_TF_AttrMetadata */
+v8::Handle<v8::FunctionTemplate> _exports_TF_AttrMetadata_class = SWIGV8_CreateClassTemplate("_exports_TF_AttrMetadata");
+SWIGV8_SET_CLASS_TEMPL(_exports_TF_AttrMetadata_clientData.class_templ, _exports_TF_AttrMetadata_class);
+_exports_TF_AttrMetadata_clientData.dtor = _wrap_delete_TF_AttrMetadata;
+if (SWIGTYPE_p_TF_AttrMetadata->clientdata == 0) {
+  SWIGTYPE_p_TF_AttrMetadata->clientdata = &_exports_TF_AttrMetadata_clientData;
+}
 /* Name: _exports_OpDef_ArgDef, Type: p_tensorflow__OpDef_ArgDef, Dtor: _wrap_delete_OpDef_ArgDef */
 v8::Handle<v8::FunctionTemplate> _exports_OpDef_ArgDef_class = SWIGV8_CreateClassTemplate("_exports_OpDef_ArgDef");
 SWIGV8_SET_CLASS_TEMPL(_exports_OpDef_ArgDef_clientData.class_templ, _exports_OpDef_ArgDef_class);
@@ -24725,6 +32068,64 @@ SWIGV8_AddMemberFunction(_exports_Reflection_class, "FindKnownExtensionByNumber"
 SWIGV8_AddMemberFunction(_exports_Reflection_class, "SupportsUnknownEnumValues", _wrap_Reflection_SupportsUnknownEnumValues);
 SWIGV8_AddMemberFunction(_exports_Reflection_class, "GetMessageFactory", _wrap_Reflection_GetMessageFactory);
 SWIGV8_AddMemberFunction(_exports_MessageFactory_class, "GetPrototype", _wrap_MessageFactory_GetPrototype);
+SWIGV8_AddStaticVariable(exports_obj, "TF_FLOAT", _wrap_TF_FLOAT, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_DOUBLE", _wrap_TF_DOUBLE, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_INT32", _wrap_TF_INT32, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_UINT8", _wrap_TF_UINT8, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_INT16", _wrap_TF_INT16, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_INT8", _wrap_TF_INT8, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_STRING", _wrap_TF_STRING, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_COMPLEX64", _wrap_TF_COMPLEX64, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_COMPLEX", _wrap_TF_COMPLEX, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_INT64", _wrap_TF_INT64, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_BOOL", _wrap_TF_BOOL, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_QINT8", _wrap_TF_QINT8, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_QUINT8", _wrap_TF_QUINT8, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_QINT32", _wrap_TF_QINT32, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_BFLOAT16", _wrap_TF_BFLOAT16, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_QINT16", _wrap_TF_QINT16, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_QUINT16", _wrap_TF_QUINT16, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_UINT16", _wrap_TF_UINT16, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_COMPLEX128", _wrap_TF_COMPLEX128, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_HALF", _wrap_TF_HALF, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_RESOURCE", _wrap_TF_RESOURCE, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_OK", _wrap_TF_OK, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_CANCELLED", _wrap_TF_CANCELLED, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_UNKNOWN", _wrap_TF_UNKNOWN, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_INVALID_ARGUMENT", _wrap_TF_INVALID_ARGUMENT, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_DEADLINE_EXCEEDED", _wrap_TF_DEADLINE_EXCEEDED, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_NOT_FOUND", _wrap_TF_NOT_FOUND, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_ALREADY_EXISTS", _wrap_TF_ALREADY_EXISTS, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_PERMISSION_DENIED", _wrap_TF_PERMISSION_DENIED, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_UNAUTHENTICATED", _wrap_TF_UNAUTHENTICATED, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_RESOURCE_EXHAUSTED", _wrap_TF_RESOURCE_EXHAUSTED, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_FAILED_PRECONDITION", _wrap_TF_FAILED_PRECONDITION, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_ABORTED", _wrap_TF_ABORTED, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_OUT_OF_RANGE", _wrap_TF_OUT_OF_RANGE, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_UNIMPLEMENTED", _wrap_TF_UNIMPLEMENTED, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_INTERNAL", _wrap_TF_INTERNAL, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_UNAVAILABLE", _wrap_TF_UNAVAILABLE, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_DATA_LOSS", _wrap_TF_DATA_LOSS, JS_veto_set_variable);
+SWIGV8_AddMemberVariable(_exports_TF_Buffer_class, "data", _wrap_TF_Buffer_data_get, _wrap_TF_Buffer_data_set);
+SWIGV8_AddMemberVariable(_exports_TF_Buffer_class, "length", _wrap_TF_Buffer_length_get, _wrap_TF_Buffer_length_set);
+SWIGV8_AddMemberVariable(_exports_TF_Buffer_class, "data_deallocator", _wrap_TF_Buffer_data_deallocator_get, _wrap_TF_Buffer_data_deallocator_set);
+SWIGV8_AddMemberVariable(_exports_TF_Input_class, "oper", _wrap_TF_Input_oper_get, _wrap_TF_Input_oper_set);
+SWIGV8_AddMemberVariable(_exports_TF_Input_class, "index", _wrap_TF_Input_index_get, _wrap_TF_Input_index_set);
+SWIGV8_AddMemberVariable(_exports_TF_Output_class, "oper", _wrap_TF_Output_oper_get, _wrap_TF_Output_oper_set);
+SWIGV8_AddMemberVariable(_exports_TF_Output_class, "index", _wrap_TF_Output_index_get, _wrap_TF_Output_index_set);
+SWIGV8_AddStaticVariable(exports_obj, "TF_ATTR_STRING", _wrap_TF_ATTR_STRING, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_ATTR_INT", _wrap_TF_ATTR_INT, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_ATTR_FLOAT", _wrap_TF_ATTR_FLOAT, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_ATTR_BOOL", _wrap_TF_ATTR_BOOL, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_ATTR_TYPE", _wrap_TF_ATTR_TYPE, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_ATTR_SHAPE", _wrap_TF_ATTR_SHAPE, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_ATTR_TENSOR", _wrap_TF_ATTR_TENSOR, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_ATTR_PLACEHOLDER", _wrap_TF_ATTR_PLACEHOLDER, JS_veto_set_variable);
+SWIGV8_AddStaticVariable(exports_obj, "TF_ATTR_FUNC", _wrap_TF_ATTR_FUNC, JS_veto_set_variable);
+SWIGV8_AddMemberVariable(_exports_TF_AttrMetadata_class, "is_list", _wrap_TF_AttrMetadata_is_list_get, _wrap_TF_AttrMetadata_is_list_set);
+SWIGV8_AddMemberVariable(_exports_TF_AttrMetadata_class, "list_size", _wrap_TF_AttrMetadata_list_size_get, _wrap_TF_AttrMetadata_list_size_set);
+SWIGV8_AddMemberVariable(_exports_TF_AttrMetadata_class, "type", _wrap_TF_AttrMetadata_type_get, _wrap_TF_AttrMetadata_type_set);
+SWIGV8_AddMemberVariable(_exports_TF_AttrMetadata_class, "total_size", _wrap_TF_AttrMetadata_total_size_get, _wrap_TF_AttrMetadata_total_size_set);
 SWIGV8_AddStaticVariable(exports_obj, "TF_MAJOR_VERSION", _wrap_TF_MAJOR_VERSION, JS_veto_set_variable);
 SWIGV8_AddStaticVariable(exports_obj, "TF_MINOR_VERSION", _wrap_TF_MINOR_VERSION, JS_veto_set_variable);
 SWIGV8_AddStaticVariable(exports_obj, "TF_PATCH_VERSION", _wrap_TF_PATCH_VERSION, JS_veto_set_variable);
@@ -25162,6 +32563,30 @@ _exports_MessageFactory_class_0->SetCallHandler(_wrap_new_veto_MessageFactory);
 _exports_MessageFactory_class_0->Inherit(_exports_MessageFactory_class);
 _exports_MessageFactory_class_0->SetHiddenPrototype(true);
 v8::Handle<v8::Object> _exports_MessageFactory_obj = _exports_MessageFactory_class_0->GetFunction();
+/* Class: TF_Buffer (_exports_TF_Buffer) */
+v8::Handle<v8::FunctionTemplate> _exports_TF_Buffer_class_0 = SWIGV8_CreateClassTemplate("TF_Buffer");
+_exports_TF_Buffer_class_0->SetCallHandler(_wrap_new_TF_Buffer);
+_exports_TF_Buffer_class_0->Inherit(_exports_TF_Buffer_class);
+_exports_TF_Buffer_class_0->SetHiddenPrototype(true);
+v8::Handle<v8::Object> _exports_TF_Buffer_obj = _exports_TF_Buffer_class_0->GetFunction();
+/* Class: TF_Input (_exports_TF_Input) */
+v8::Handle<v8::FunctionTemplate> _exports_TF_Input_class_0 = SWIGV8_CreateClassTemplate("TF_Input");
+_exports_TF_Input_class_0->SetCallHandler(_wrap_new_TF_Input);
+_exports_TF_Input_class_0->Inherit(_exports_TF_Input_class);
+_exports_TF_Input_class_0->SetHiddenPrototype(true);
+v8::Handle<v8::Object> _exports_TF_Input_obj = _exports_TF_Input_class_0->GetFunction();
+/* Class: TF_Output (_exports_TF_Output) */
+v8::Handle<v8::FunctionTemplate> _exports_TF_Output_class_0 = SWIGV8_CreateClassTemplate("TF_Output");
+_exports_TF_Output_class_0->SetCallHandler(_wrap_new_TF_Output);
+_exports_TF_Output_class_0->Inherit(_exports_TF_Output_class);
+_exports_TF_Output_class_0->SetHiddenPrototype(true);
+v8::Handle<v8::Object> _exports_TF_Output_obj = _exports_TF_Output_class_0->GetFunction();
+/* Class: TF_AttrMetadata (_exports_TF_AttrMetadata) */
+v8::Handle<v8::FunctionTemplate> _exports_TF_AttrMetadata_class_0 = SWIGV8_CreateClassTemplate("TF_AttrMetadata");
+_exports_TF_AttrMetadata_class_0->SetCallHandler(_wrap_new_TF_AttrMetadata);
+_exports_TF_AttrMetadata_class_0->Inherit(_exports_TF_AttrMetadata_class);
+_exports_TF_AttrMetadata_class_0->SetHiddenPrototype(true);
+v8::Handle<v8::Object> _exports_TF_AttrMetadata_obj = _exports_TF_AttrMetadata_class_0->GetFunction();
 /* Class: OpDef_ArgDef (_exports_OpDef_ArgDef) */
 v8::Handle<v8::FunctionTemplate> _exports_OpDef_ArgDef_class_0 = SWIGV8_CreateClassTemplate("OpDef_ArgDef");
 _exports_OpDef_ArgDef_class_0->SetCallHandler(_wrap_new_OpDef_ArgDef);
@@ -25204,6 +32629,122 @@ v8::Handle<v8::Object> _exports_StringPiece_obj = _exports_StringPiece_class_0->
   SWIGV8_AddStaticFunction(_exports_MessageFactory_obj, "generated_factory", _wrap_MessageFactory_generated_factory);
 SWIGV8_AddStaticFunction(_exports_MessageFactory_obj, "InternalRegisterGeneratedFile", _wrap_MessageFactory_InternalRegisterGeneratedFile);
 SWIGV8_AddStaticFunction(_exports_MessageFactory_obj, "InternalRegisterGeneratedMessage", _wrap_MessageFactory_InternalRegisterGeneratedMessage);
+SWIGV8_AddStaticFunction(exports_obj, "TF_Version", _wrap_TF_Version);
+SWIGV8_AddStaticFunction(exports_obj, "TF_DataTypeSize", _wrap_TF_DataTypeSize);
+SWIGV8_AddStaticFunction(exports_obj, "TF_NewStatus", _wrap_TF_NewStatus);
+SWIGV8_AddStaticFunction(exports_obj, "TF_DeleteStatus", _wrap_TF_DeleteStatus);
+SWIGV8_AddStaticFunction(exports_obj, "TF_SetStatus", _wrap_TF_SetStatus);
+SWIGV8_AddStaticFunction(exports_obj, "TF_GetCode", _wrap_TF_GetCode);
+SWIGV8_AddStaticFunction(exports_obj, "TF_Message", _wrap_TF_Message);
+SWIGV8_AddStaticFunction(exports_obj, "TF_NewBufferFromString", _wrap_TF_NewBufferFromString);
+SWIGV8_AddStaticFunction(exports_obj, "TF_NewBuffer", _wrap_TF_NewBuffer);
+SWIGV8_AddStaticFunction(exports_obj, "TF_DeleteBuffer", _wrap_TF_DeleteBuffer);
+SWIGV8_AddStaticFunction(exports_obj, "TF_GetBuffer", _wrap_TF_GetBuffer);
+SWIGV8_AddStaticFunction(exports_obj, "TF_NewTensor", _wrap_TF_NewTensor);
+SWIGV8_AddStaticFunction(exports_obj, "TF_AllocateTensor", _wrap_TF_AllocateTensor);
+SWIGV8_AddStaticFunction(exports_obj, "TF_DeleteTensor", _wrap_TF_DeleteTensor);
+SWIGV8_AddStaticFunction(exports_obj, "TF_TensorType", _wrap_TF_TensorType);
+SWIGV8_AddStaticFunction(exports_obj, "TF_NumDims", _wrap_TF_NumDims);
+SWIGV8_AddStaticFunction(exports_obj, "TF_Dim", _wrap_TF_Dim);
+SWIGV8_AddStaticFunction(exports_obj, "TF_TensorByteSize", _wrap_TF_TensorByteSize);
+SWIGV8_AddStaticFunction(exports_obj, "TF_TensorData", _wrap_TF_TensorData);
+SWIGV8_AddStaticFunction(exports_obj, "TF_StringEncode", _wrap_TF_StringEncode);
+SWIGV8_AddStaticFunction(exports_obj, "TF_StringDecode", _wrap_TF_StringDecode);
+SWIGV8_AddStaticFunction(exports_obj, "TF_StringEncodedSize", _wrap_TF_StringEncodedSize);
+SWIGV8_AddStaticFunction(exports_obj, "TF_NewSessionOptions", _wrap_TF_NewSessionOptions);
+SWIGV8_AddStaticFunction(exports_obj, "TF_SetTarget", _wrap_TF_SetTarget);
+SWIGV8_AddStaticFunction(exports_obj, "TF_SetConfig", _wrap_TF_SetConfig);
+SWIGV8_AddStaticFunction(exports_obj, "TF_DeleteSessionOptions", _wrap_TF_DeleteSessionOptions);
+SWIGV8_AddStaticFunction(exports_obj, "TF_NewGraph", _wrap_TF_NewGraph);
+SWIGV8_AddStaticFunction(exports_obj, "TF_DeleteGraph", _wrap_TF_DeleteGraph);
+SWIGV8_AddStaticFunction(exports_obj, "TF_GraphSetTensorShape", _wrap_TF_GraphSetTensorShape);
+SWIGV8_AddStaticFunction(exports_obj, "TF_GraphGetTensorNumDims", _wrap_TF_GraphGetTensorNumDims);
+SWIGV8_AddStaticFunction(exports_obj, "TF_GraphGetTensorShape", _wrap_TF_GraphGetTensorShape);
+SWIGV8_AddStaticFunction(exports_obj, "TF_NewOperation", _wrap_TF_NewOperation);
+SWIGV8_AddStaticFunction(exports_obj, "TF_SetDevice", _wrap_TF_SetDevice);
+SWIGV8_AddStaticFunction(exports_obj, "TF_AddInput", _wrap_TF_AddInput);
+SWIGV8_AddStaticFunction(exports_obj, "TF_AddInputList", _wrap_TF_AddInputList);
+SWIGV8_AddStaticFunction(exports_obj, "TF_AddControlInput", _wrap_TF_AddControlInput);
+SWIGV8_AddStaticFunction(exports_obj, "TF_ColocateWith", _wrap_TF_ColocateWith);
+SWIGV8_AddStaticFunction(exports_obj, "TF_SetAttrString", _wrap_TF_SetAttrString);
+SWIGV8_AddStaticFunction(exports_obj, "TF_SetAttrStringList", _wrap_TF_SetAttrStringList);
+SWIGV8_AddStaticFunction(exports_obj, "TF_SetAttrInt", _wrap_TF_SetAttrInt);
+SWIGV8_AddStaticFunction(exports_obj, "TF_SetAttrIntList", _wrap_TF_SetAttrIntList);
+SWIGV8_AddStaticFunction(exports_obj, "TF_SetAttrFloat", _wrap_TF_SetAttrFloat);
+SWIGV8_AddStaticFunction(exports_obj, "TF_SetAttrFloatList", _wrap_TF_SetAttrFloatList);
+SWIGV8_AddStaticFunction(exports_obj, "TF_SetAttrBool", _wrap_TF_SetAttrBool);
+SWIGV8_AddStaticFunction(exports_obj, "TF_SetAttrBoolList", _wrap_TF_SetAttrBoolList);
+SWIGV8_AddStaticFunction(exports_obj, "TF_SetAttrType", _wrap_TF_SetAttrType);
+SWIGV8_AddStaticFunction(exports_obj, "TF_SetAttrTypeList", _wrap_TF_SetAttrTypeList);
+SWIGV8_AddStaticFunction(exports_obj, "TF_SetAttrShape", _wrap_TF_SetAttrShape);
+SWIGV8_AddStaticFunction(exports_obj, "TF_SetAttrShapeList", _wrap_TF_SetAttrShapeList);
+SWIGV8_AddStaticFunction(exports_obj, "TF_SetAttrTensorShapeProto", _wrap_TF_SetAttrTensorShapeProto);
+SWIGV8_AddStaticFunction(exports_obj, "TF_SetAttrTensorShapeProtoList", _wrap_TF_SetAttrTensorShapeProtoList);
+SWIGV8_AddStaticFunction(exports_obj, "TF_SetAttrTensor", _wrap_TF_SetAttrTensor);
+SWIGV8_AddStaticFunction(exports_obj, "TF_SetAttrTensorList", _wrap_TF_SetAttrTensorList);
+SWIGV8_AddStaticFunction(exports_obj, "TF_SetAttrValueProto", _wrap_TF_SetAttrValueProto);
+SWIGV8_AddStaticFunction(exports_obj, "TF_FinishOperation", _wrap_TF_FinishOperation);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationName", _wrap_TF_OperationName);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationOpType", _wrap_TF_OperationOpType);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationDevice", _wrap_TF_OperationDevice);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationNumOutputs", _wrap_TF_OperationNumOutputs);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationOutputType", _wrap_TF_OperationOutputType);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationOutputListLength", _wrap_TF_OperationOutputListLength);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationNumInputs", _wrap_TF_OperationNumInputs);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationInputType", _wrap_TF_OperationInputType);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationInputListLength", _wrap_TF_OperationInputListLength);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationInput", _wrap_TF_OperationInput);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationOutputNumConsumers", _wrap_TF_OperationOutputNumConsumers);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationOutputConsumers", _wrap_TF_OperationOutputConsumers);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationNumControlInputs", _wrap_TF_OperationNumControlInputs);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationGetControlInputs", _wrap_TF_OperationGetControlInputs);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationNumControlOutputs", _wrap_TF_OperationNumControlOutputs);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationGetControlOutputs", _wrap_TF_OperationGetControlOutputs);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationGetAttrMetadata", _wrap_TF_OperationGetAttrMetadata);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationGetAttrString", _wrap_TF_OperationGetAttrString);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationGetAttrStringList", _wrap_TF_OperationGetAttrStringList);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationGetAttrInt", _wrap_TF_OperationGetAttrInt);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationGetAttrIntList", _wrap_TF_OperationGetAttrIntList);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationGetAttrFloat", _wrap_TF_OperationGetAttrFloat);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationGetAttrFloatList", _wrap_TF_OperationGetAttrFloatList);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationGetAttrBool", _wrap_TF_OperationGetAttrBool);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationGetAttrBoolList", _wrap_TF_OperationGetAttrBoolList);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationGetAttrType", _wrap_TF_OperationGetAttrType);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationGetAttrTypeList", _wrap_TF_OperationGetAttrTypeList);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationGetAttrShape", _wrap_TF_OperationGetAttrShape);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationGetAttrShapeList", _wrap_TF_OperationGetAttrShapeList);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationGetAttrTensorShapeProto", _wrap_TF_OperationGetAttrTensorShapeProto);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationGetAttrTensorShapeProtoList", _wrap_TF_OperationGetAttrTensorShapeProtoList);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationGetAttrTensor", _wrap_TF_OperationGetAttrTensor);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationGetAttrTensorList", _wrap_TF_OperationGetAttrTensorList);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationGetAttrValueProto", _wrap_TF_OperationGetAttrValueProto);
+SWIGV8_AddStaticFunction(exports_obj, "TF_GraphOperationByName", _wrap_TF_GraphOperationByName);
+SWIGV8_AddStaticFunction(exports_obj, "TF_GraphNextOperation", _wrap_TF_GraphNextOperation);
+SWIGV8_AddStaticFunction(exports_obj, "TF_GraphToGraphDef", _wrap_TF_GraphToGraphDef);
+SWIGV8_AddStaticFunction(exports_obj, "TF_NewImportGraphDefOptions", _wrap_TF_NewImportGraphDefOptions);
+SWIGV8_AddStaticFunction(exports_obj, "TF_DeleteImportGraphDefOptions", _wrap_TF_DeleteImportGraphDefOptions);
+SWIGV8_AddStaticFunction(exports_obj, "TF_ImportGraphDefOptionsSetPrefix", _wrap_TF_ImportGraphDefOptionsSetPrefix);
+SWIGV8_AddStaticFunction(exports_obj, "TF_GraphImportGraphDef", _wrap_TF_GraphImportGraphDef);
+SWIGV8_AddStaticFunction(exports_obj, "TF_OperationToNodeDef", _wrap_TF_OperationToNodeDef);
+SWIGV8_AddStaticFunction(exports_obj, "TF_NewSession", _wrap_TF_NewSession);
+SWIGV8_AddStaticFunction(exports_obj, "TF_LoadSessionFromSavedModel", _wrap_TF_LoadSessionFromSavedModel);
+SWIGV8_AddStaticFunction(exports_obj, "TF_CloseSession", _wrap_TF_CloseSession);
+SWIGV8_AddStaticFunction(exports_obj, "TF_DeleteSession", _wrap_TF_DeleteSession);
+SWIGV8_AddStaticFunction(exports_obj, "TF_SessionRun", _wrap_TF_SessionRun);
+SWIGV8_AddStaticFunction(exports_obj, "TF_SessionPRunSetup", _wrap_TF_SessionPRunSetup);
+SWIGV8_AddStaticFunction(exports_obj, "TF_SessionPRun", _wrap_TF_SessionPRun);
+SWIGV8_AddStaticFunction(exports_obj, "TF_NewDeprecatedSession", _wrap_TF_NewDeprecatedSession);
+SWIGV8_AddStaticFunction(exports_obj, "TF_CloseDeprecatedSession", _wrap_TF_CloseDeprecatedSession);
+SWIGV8_AddStaticFunction(exports_obj, "TF_DeleteDeprecatedSession", _wrap_TF_DeleteDeprecatedSession);
+SWIGV8_AddStaticFunction(exports_obj, "TF_Reset", _wrap_TF_Reset);
+SWIGV8_AddStaticFunction(exports_obj, "TF_ExtendGraph", _wrap_TF_ExtendGraph);
+SWIGV8_AddStaticFunction(exports_obj, "TF_Run", _wrap_TF_Run);
+SWIGV8_AddStaticFunction(exports_obj, "TF_PRunSetup", _wrap_TF_PRunSetup);
+SWIGV8_AddStaticFunction(exports_obj, "TF_PRun", _wrap_TF_PRun);
+SWIGV8_AddStaticFunction(exports_obj, "TF_LoadLibrary", _wrap_TF_LoadLibrary);
+SWIGV8_AddStaticFunction(exports_obj, "TF_GetOpList", _wrap_TF_GetOpList);
+SWIGV8_AddStaticFunction(exports_obj, "TF_DeleteLibraryHandle", _wrap_TF_DeleteLibraryHandle);
+SWIGV8_AddStaticFunction(exports_obj, "TF_GetAllOpList", _wrap_TF_GetAllOpList);
 SWIGV8_AddStaticFunction(exports_obj, "IsGoogleCudaEnabled", _wrap_IsGoogleCudaEnabled);
 SWIGV8_AddStaticFunction(exports_obj, "CudaSupportsHalfMatMulAndConv", _wrap_CudaSupportsHalfMatMulAndConv);
 SWIGV8_AddStaticFunction(exports_obj, "tf_compiler_version", _wrap_tf_compiler_version);
@@ -25292,6 +32833,10 @@ exports_obj->Set(SWIGV8_SYMBOL_NEW("Metadata"), _exports_Metadata_obj);
 exports_obj->Set(SWIGV8_SYMBOL_NEW("Message"), _exports_Message_obj);
 exports_obj->Set(SWIGV8_SYMBOL_NEW("Reflection"), _exports_Reflection_obj);
 exports_obj->Set(SWIGV8_SYMBOL_NEW("MessageFactory"), _exports_MessageFactory_obj);
+exports_obj->Set(SWIGV8_SYMBOL_NEW("TF_Buffer"), _exports_TF_Buffer_obj);
+exports_obj->Set(SWIGV8_SYMBOL_NEW("TF_Input"), _exports_TF_Input_obj);
+exports_obj->Set(SWIGV8_SYMBOL_NEW("TF_Output"), _exports_TF_Output_obj);
+exports_obj->Set(SWIGV8_SYMBOL_NEW("TF_AttrMetadata"), _exports_TF_AttrMetadata_obj);
 exports_obj->Set(SWIGV8_SYMBOL_NEW("OpDef_ArgDef"), _exports_OpDef_ArgDef_obj);
 exports_obj->Set(SWIGV8_SYMBOL_NEW("OpDef_AttrDef"), _exports_OpDef_AttrDef_obj);
 exports_obj->Set(SWIGV8_SYMBOL_NEW("OpDef"), _exports_OpDef_obj);

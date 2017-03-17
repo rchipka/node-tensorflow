@@ -18,3 +18,4 @@ jspm_packages
 !/vendor/WORKSPACE
 !/vendor/workspace.bzl
 /.vscode
+.npmignore

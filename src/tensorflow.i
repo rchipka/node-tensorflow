@@ -17,6 +17,7 @@ using namespace std;
 %include "google/protobuf/message_lite.h"
 %include "google/protobuf/message.h"
 
+%include "c_api.h"
 %include "tensorflow/core/util/port.h"
 %include "tensorflow/core/public/version.h"
 %include "tensorflow/core/framework/op_def.pb.h"
