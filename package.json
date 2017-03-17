@@ -1,0 +1,33 @@
+{
+  "name": "tensorflow",
+  "version": "0.0.1",
+  "description": "Tensorflow for node.js",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "node scripts/install.js",
+    "postinstall": "node-gyp build",
+    "build": "node-gyp build",
+    "swig": "scripts/swig.sh",
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rchipka/node-tensorflow.git"
+  },
+  "keywords": [
+    "tensorflow", "tf",
+    "machinelearning", "ml",
+    "deeplearning", "dl",
+    "neuralnetworks", "nn",
+    "math", "matrix"
+  ],
+  "author": "Robbie Chipka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rchipka/node-tensorflow/issues"
+  },
+  "dependencies": {
+    "nan": "^2.5.1",
+    "node-gyp": "^3.4.0"
+  }
+}
