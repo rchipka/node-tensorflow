@@ -6,9 +6,10 @@
   "scripts": {
     "preinstall": "node scripts/install.js",
     "postinstall": "node-gyp build",
-    "build": "node-gyp build",
+    "build": "node-gyp rebuild",
     "swig": "scripts/swig.sh",
-    "test": "mocha --recursive"
+    "test": "mocha --recursive",
+    "debug": "lldb -n node -w -s scripts/lldbinit"
   },
   "repository": {
     "type": "git",

@@ -1,5 +1,66 @@
 'use strict';
 
+// TODO:
+//   OpDef_ArgDef_default_instance_: SwigProxy {},
+//   OpDef_AttrDef_default_instance_: SwigProxy {},
+//   OpDef_default_instance_: SwigProxy {},
+//   OpDeprecation_default_instance_: SwigProxy {},
+//   OpList_default_instance_: SwigProxy {},
+//   OpDef_ArgDef:
+//    { [Function: OpDef_ArgDef]
+//      descriptor: [Function],
+//      default_instance: [Function],
+//      internal_default_instance: [Function],
+//      kNameFieldNumber: 1,
+//      kDescriptionFieldNumber: 2,
+//      kTypeFieldNumber: 3,
+//      kTypeAttrFieldNumber: 4,
+//      kNumberAttrFieldNumber: 5,
+//      kTypeListAttrFieldNumber: 6,
+//      kIsRefFieldNumber: 16 },
+//   OpDef_AttrDef:
+//    { [Function: OpDef_AttrDef]
+//      descriptor: [Function],
+//      default_instance: [Function],
+//      internal_default_instance: [Function],
+//      kNameFieldNumber: 1,
+//      kTypeFieldNumber: 2,
+//      kDefaultValueFieldNumber: 3,
+//      kDescriptionFieldNumber: 4,
+//      kHasMinimumFieldNumber: 5,
+//      kMinimumFieldNumber: 6,
+//      kAllowedValuesFieldNumber: 7 },
+//   OpDef:
+//    { [Function: OpDef]
+//      descriptor: [Function],
+//      default_instance: [Function],
+//      internal_default_instance: [Function],
+//      kNameFieldNumber: 1,
+//      kInputArgFieldNumber: 2,
+//      kOutputArgFieldNumber: 3,
+//      kAttrFieldNumber: 4,
+//      kDeprecationFieldNumber: 8,
+//      kSummaryFieldNumber: 5,
+//      kDescriptionFieldNumber: 6,
+//      kIsCommutativeFieldNumber: 18,
+//      kIsAggregateFieldNumber: 16,
+//      kIsStatefulFieldNumber: 17,
+//      kAllowsUninitializedInputFieldNumber: 19 },
+//   OpDeprecation:
+//    { [Function: OpDeprecation]
+//      descriptor: [Function],
+//      default_instance: [Function],
+//      internal_default_instance: [Function],
+//      kVersionFieldNumber: 1,
+//      kExplanationFieldNumber: 2 },
+//   OpList:
+//    { [Function: OpList]
+//      descriptor: [Function],
+//      default_instance: [Function],
+//      internal_default_instance: [Function],
+//      kOpFieldNumber: 1 },
+//   StringPiece: { [Function: StringPiece] npos: 4294967295 }
+
 var tf     = require('../'),
     assert = require('assert'),
     constants = {

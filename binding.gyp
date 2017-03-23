@@ -3,16 +3,16 @@
     'target_name': 'tensorflow',
     'product_extension': 'node',
     'sources': [
-      'src/c_api.cc',
       'src/tensorflow.cc'
     ],
     'libraries' : [
       '-lpython',
       '../bazel-out/local-opt/bin/tensorflow/python/_pywrap_tensorflow.so',
-      '../bazel-out/local-opt/bin/external/protobuf/pyext/_message.so'
+      '../bazel-out/local-opt/bin/external/protobuf/pyext/_message.so',
+      '/Users/administrator/Downloads/tensorflow-1.0.1/tensorflow/contrib/cmake/build/protobuf/src/protobuf/libprotobuf.a'
     ],
     'include_dirs' : [
-      'src/swig',
+      'src/',
       'src/include',
       'bazel-out/local-opt/bin/tensorflow/include',
       "<!(node -e \"require('nan')\")"
@@ -30,7 +30,7 @@
             '-v'
           ],
           "OTHER_CPLUSPLUSFLAGS": [
-            '-std=c++11',
+            '-std=c++14',
             '-stdlib=libc++',
             '-v'
           ],
